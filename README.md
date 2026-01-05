@@ -2,9 +2,9 @@
 
 A curated list of awesome Claude Code skills to enhance your Claude Code experience.
 
-Total Skills: 1568
+Total Skills: 1569
 
-Last updated: 2026-01-04 02:11 UTC
+Last updated: 2026-01-05 00:54 UTC
 
 ## Installation
 
@@ -578,10 +578,10 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
 
 | Skill | Description | Version | Author | Directory |
 | --- | --- | --- | --- | --- |
-| [infographic-creation](https://github.com/antvis/Infographic/tree/master/.) | Create beautiful infographics based on the given text content. Use this when users request creating infographics. | None | antvis | Infographic |
-| [infographic-item-generator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-item-generator) | Generate or update infographic Item components for this repo (TypeScript/TSX in src/designs/items). Use when asked to... | None | antvis | infographic-item-generator |
-| [infographic-structure-generator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-structure-generator) | Generate or update infographic Structure components for this repo (TypeScript/TSX in src/designs/structures). Use whe... | None | antvis | infographic-structure-generator |
-| [infographic-syntax-generator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-syntax-generator) | Generate AntV Infographic syntax outputs. Use when asked to turn user content into the Infographic DSL (template sele... | None | antvis | infographic-syntax-generator |
+| [infographic-creator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-creator) | Create beautiful infographics based on the given text content. Use this when users request creating infographics. | None | antvis | infographic-creator |
+| [infographic-item-creator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-item-creator) | Generate or update infographic Item components for this repo (TypeScript/TSX in src/designs/items). Use when asked to... | None | antvis | infographic-item-creator |
+| [infographic-structure-creator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-structure-creator) | Generate or update infographic Structure components for this repo (TypeScript/TSX in src/designs/structures). Use whe... | None | antvis | infographic-structure-creator |
+| [infographic-syntax-creator](https://github.com/antvis/Infographic/tree/master/.skills/infographic-syntax-creator) | Generate AntV Infographic syntax outputs. Use when asked to turn user content into the Infographic DSL (template sele... | None | antvis | infographic-syntax-creator |
 
 ### claude-night-market
 
@@ -1763,6 +1763,7 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
 | Skill | Description | Version | Author | Directory |
 | --- | --- | --- | --- | --- |
 | [analyzing-text-with-nlp](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/nlp-text-analyzer/skills/analyzing-text-with-nlp) | This skill enables AI assistant to perform natural language processing and text analysis using the nlp-text-analyzer ... | 1.0.0 | jeremylongshore | analyzing-text-with-nlp |
+| [claude-reflect](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/claude-reflect) | Self-learning system that captures corrections during sessions and syncs them to CLAUDE.md. Use when discussing learn... | 1.4.1 | jeremylongshore | claude-reflect |
 | [creating-data-visualizations](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/data-visualization-creator/skills/creating-data-visualizations) | Generate plots, charts, and graphs from data with automatic visualization type selection. Use when requesting "visual... | 1.0.0 | jeremylongshore | creating-data-visualizations |
 | [generating-compliance-reports](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/compliance-report-generator/skills/generating-compliance-reports) | Generate comprehensive compliance reports for security standards. Use when creating compliance documentation. Trigger... | 1.0.0 | jeremylongshore | generating-compliance-reports |
 | [scanning-for-gdpr-compliance](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/security/gdpr-compliance-scanner/skills/scanning-for-gdpr-compliance) | Scan for GDPR compliance issues in data handling and privacy practices. Use when ensuring EU data protection complian... | 1.0.0 | jeremylongshore | scanning-for-gdpr-compliance |
