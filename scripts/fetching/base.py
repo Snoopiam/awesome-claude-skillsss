@@ -135,6 +135,8 @@ class BaseEntityFetcher(ABC, Generic[T]):
         try:
             # Clone/download repository
             with git_repo.clone() as (temp_dir, actual_branch):
+                # Update repo config with the actual branch used
+                repo.branch = actual_branch
                 # Get scan directories (support multiple paths separated by '|')
                 scan_dirs = self._get_scan_dirs(temp_dir, repo)
 
