@@ -28,7 +28,7 @@ def setup_logging(level: str = "INFO") -> None:
         format='%(asctime)s - %(levelname)s - %(message)s'
     )
 
-def generate_readme(marketplaces: list, skills: list, output_file: str) -> bool:
+def generate_readme(marketplaces: list, skills: list, output_file: str, args=None) -> bool:
     """Generate README from marketplace and skill data."""
     generator = SkillReadmeGenerator()
     # Handle both dict and object formats
@@ -42,7 +42,7 @@ def generate_readme(marketplaces: list, skills: list, output_file: str) -> bool:
 
     # Check if content has actually changed (excluding timestamp)
     output_path = Path(output_file)
-    if output_path.exists():
+    if output_path.exists() and not args.force:
         try:
             with open(output_file, 'r', encoding='utf-8') as f:
                 existing_content = f.read()
@@ -157,12 +157,12 @@ def cmd_generate_readme(args, config, logger):
 
     logger.info("Removed %d duplicate skills, keeping %d unique skills", duplicates_removed, len(unique_skills))
 
-    if args.dry_run:
+    if hasattr(args, 'dry_run') and args.dry_run:
         print(f"Dry run: Would generate README with {len(all_repos)} repositories and {len(unique_skills)} skills")
         return 0
 
     # Generate README
-    if generate_readme(all_repos, unique_skills, args.output):
+    if generate_readme(all_repos, unique_skills, args.output, args):
         print(f"Successfully generated README with {len(all_repos)} repositories and {len(unique_skills)} skills!")
         return 0
     else:
@@ -260,9 +260,9 @@ def main():
         help="Output file path"
     )
     generate_parser.add_argument(
-        "--dry-run",
+        "--force",
         action="store_true",
-        help="Validate configuration and sources without writing output"
+        help="Force regeneration even if content is unchanged"
     )
 
     # validate-config command

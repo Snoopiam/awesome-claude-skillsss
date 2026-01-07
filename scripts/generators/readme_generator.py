@@ -93,15 +93,17 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
 
             clean_category = category.strip()
 
-            # Clean category name for anchor
-            anchor = (
-                clean_category.lower()
-                .replace(" ", "-")
-                .replace("&", "")
-                .replace("/", "-")
-            )
-            # Remove any remaining non-alphanumeric characters except hyphens
-            anchor = re.sub(r"[^a-z0-9-]", "", anchor)
+            # Clean category name for anchor using GitHub's algorithm
+            # GitHub converts headers to anchors by:
+            # 1. Converting to lowercase
+            # 2. Replacing non-alphanumeric characters (except spaces) with hyphens
+            # 3. Replacing spaces with hyphens
+            # 4. Collapsing multiple hyphens into single hyphens
+            # 5. Removing leading/trailing hyphens
+            anchor = re.sub(r'[^a-zA-Z0-9\s-]', '', clean_category)  # Remove punctuation but keep spaces and hyphens
+            anchor = anchor.lower().replace(' ', '-')
+            anchor = re.sub(r'-+', '-', anchor)  # Collapse multiple hyphens
+            anchor = anchor.strip('-')  # Remove leading/trailing hyphens
             lines.append(f"- [{clean_category}](#{anchor})")
 
         lines.append("- [Contributing](#contributing)")
