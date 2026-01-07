@@ -8,7 +8,7 @@ A curated list of awesome Claude Code skills to enhance your Claude Code experie
 
 Total Skills: 3756
 
-Last updated: 2026-01-07 12:21 UTC
+Last updated: 2026-01-07 17:16 UTC
 
 
 ## What Are Claude Skills?
@@ -683,7 +683,7 @@ Skills can also be used programmatically via the Claude API for automation and i
 | [geo-database](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/geo-database) | Access NCBI GEO for gene expression/genomics data. Search/download microarray and RNA-seq datasets (GSE, GSM, GPL), r... | None | K-Dense-AI | geo-database |
 | [geopandas](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/geopandas) | Python library for working with geospatial vector data including shapefiles, GeoJSON, and GeoPackage files. Use when ... | None | K-Dense-AI | geopandas |
 | [get-available-resources](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/get-available-resources) | This skill should be used at the start of any computationally intensive scientific task to detect and report availabl... | None | K-Dense-AI | get-available-resources |
-| [gget](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/gget) |  | None | K-Dense-AI | gget |
+| [gget](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/gget) | Fast CLI/Python queries to 20+ bioinformatics databases. Use for quick lookups: gene info, BLAST searches, AlphaFold ... | None | K-Dense-AI | gget |
 | [gtars](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/gtars) | High-performance toolkit for genomic interval analysis in Rust with Python bindings. Use when working with genomic re... | None | K-Dense-AI | gtars |
 | [gwas-database](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/gwas-database) | Query NHGRI-EBI GWAS Catalog for SNP-trait associations. Search variants by rs ID, disease/trait, gene, retrieve p-va... | None | K-Dense-AI | gwas-database |
 | [histolab](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/histolab) | Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detection, tile extraction, ... | None | K-Dense-AI | histolab |
