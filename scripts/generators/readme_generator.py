@@ -29,11 +29,149 @@ class SkillReadmeGenerator:
         self.skills.extend(skills)
 
     def generate_title(self) -> str:
-        """Generate the README title."""
+        """Generate the README title with badges."""
         now = datetime.now(timezone.utc)
         timestamp = now.strftime("%Y-%m-%d %H:%M UTC")
         skill_count = len(self.skills)
-        return f"# Awesome Claude Skills\n\nA curated list of awesome Claude Code skills to enhance your Claude Code experience.\n\nTotal Skills: {skill_count}\n\nLast updated: {timestamp}\n\n"
+        return f"""# Awesome Claude Skills
+
+[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Chat2AnyLLM/awesome-claude-skills/pulls)
+[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+
+A curated list of awesome Claude Code skills to enhance your Claude Code experience.
+
+Total Skills: {skill_count}
+
+Last updated: {timestamp}
+
+"""
+
+    def generate_what_are_skills(self) -> str:
+        """Generate the 'What Are Claude Skills?' section."""
+        return """
+## What Are Claude Skills?
+
+Claude Skills are customizable workflows and tools that extend Claude's capabilities. They allow you to:
+
+- **Automate repetitive tasks** - Create reusable workflows for common development patterns
+- **Integrate with external tools** - Connect Claude with APIs, databases, and services
+- **Enhance productivity** - Leverage specialized expertise across different domains
+- **Customize behavior** - Adapt Claude's responses for specific use cases and requirements
+
+Skills can be used across Claude.ai, Claude Code, and the Claude API to provide domain-specific assistance and automation."""
+
+    def generate_getting_started(self) -> str:
+        """Generate the getting started section."""
+        return """
+## Getting Started
+
+### Installation
+
+To get started with Claude Code skills, install the Code Assistant Manager (CAM):
+
+```bash
+# Install CAM
+curl -fsSL https://raw.githubusercontent.com/Chat2AnyLLM/code-assistant-manager/main/install.sh | bash
+
+# List available skills
+cam skill list
+
+# Install a specific skill (example)
+cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model-merging -a codebuddy,claude
+```
+
+### Using Skills in Claude Code
+
+Once installed, skills are automatically available in your Claude Code environment. You can:
+
+- Use skills through natural language commands
+- Access specialized tools and workflows
+- Integrate with your development workflow
+
+### Using Skills with Claude API
+
+Skills can also be used programmatically via the Claude API for automation and integration purposes."""
+
+    def generate_creating_skills(self) -> str:
+        """Generate the creating skills section."""
+        return """
+## Creating Skills
+
+Want to contribute your own skills? Here's how to get started:
+
+### Skill Development
+
+1. **Choose a domain** - Identify a specific area where you have expertise
+2. **Define the workflow** - Map out the steps and logic for your skill
+3. **Implement the skill** - Use Claude Code's skill development framework
+4. **Test thoroughly** - Ensure your skill works reliably across different scenarios
+5. **Document clearly** - Provide comprehensive documentation and examples
+
+### Best Practices
+
+- **Keep it focused** - Each skill should solve one specific problem well
+- **Handle errors gracefully** - Include proper error handling and validation
+- **Provide examples** - Include usage examples and edge cases
+- **Follow conventions** - Use standard patterns and naming conventions
+
+### Resources
+
+- [Claude Code Documentation](https://docs.anthropic.com/claude/docs/claude-code)
+- [Skill Development Guide](https://github.com/anthropics/claude-code/tree/main/docs/skills)
+- [Community Examples](https://github.com/anthropics/claude-code/tree/main/examples)"""
+
+    def generate_resources(self) -> str:
+        """Generate the resources section."""
+        return """
+## Resources
+
+### Official Documentation
+- [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) - Official Claude Code documentation
+- [Claude API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) - API reference and guides
+- [Anthropic Console](https://console.anthropic.com/) - Manage your Claude API usage
+
+### Community Resources
+- [Claude Code GitHub](https://github.com/anthropics/claude-code) - Source code and issues
+- [Awesome Claude](https://github.com/sindresorhus/awesome-claude) - Curated list of Claude resources
+- [Claude Community](https://community.anthropic.com/) - Community discussions and support
+
+### Development Tools
+- [Code Assistant Manager](https://github.com/Chat2AnyLLM/code-assistant-manager) - Tool for managing Claude skills
+- [Claude CLI](https://github.com/anthropics/claude-code/tree/main/packages/cli) - Command-line interface for Claude"""
+
+    def generate_community(self) -> str:
+        """Generate the join the community section."""
+        return """
+## Join the Community
+
+Connect with other Claude developers and skill creators:
+
+### Social Media
+- **Twitter/X**: [@anthropic](https://twitter.com/anthropic)
+- **LinkedIn**: [Anthropic](https://www.linkedin.com/company/anthropic)
+- **Discord**: [Claude Community](https://discord.gg/anthropic)
+
+### Contribution
+- **GitHub Issues**: [Report bugs and request features](https://github.com/Chat2AnyLLM/awesome-claude-skills/issues)
+- **Pull Requests**: [Contribute skills and improvements](https://github.com/Chat2AnyLLM/awesome-claude-skills/pulls)
+- **Discussions**: [Share ideas and get help](https://github.com/Chat2AnyLLM/awesome-claude-skills/discussions)
+
+### Support
+- **Documentation**: [Claude Code Docs](https://docs.anthropic.com/claude/docs/claude-code)
+- **Community Forum**: [Anthropic Community](https://community.anthropic.com/)
+- **Stack Overflow**: [claude-code tag](https://stackoverflow.com/questions/tagged/claude-code)"""
+
+    def generate_license(self) -> str:
+        """Generate the license section."""
+        return """
+## License
+
+This repository is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
+
+---
+
+*Built with ❤️ by the Claude Code community. Empowering developers with AI-enhanced workflows.*"""
 
     def generate_installation(self) -> str:
         """Generate installation section with CAM instructions."""
@@ -125,6 +263,8 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
             lines.append("")
 
         lines.append("- [Contributing](#contributing)")
+        lines.append("- [Resources](#resources)")
+        lines.append("- [Join the Community](#join-the-community)")
         lines.append("")
         return "\n".join(lines)
 
@@ -286,13 +426,18 @@ To add a new skill or marketplace:
 """
 
     def generate_readme(self) -> str:
-        """Generate complete README content."""
+        """Generate complete README content with enhanced sections."""
         sections = [
             self.generate_title(),
-            self.generate_installation(),
+            self.generate_what_are_skills(),
+            self.generate_getting_started(),
             self.generate_table_of_contents(),
             self.generate_skills_by_category(),
+            self.generate_creating_skills(),
             self.generate_contributing(),
+            self.generate_resources(),
+            self.generate_community(),
+            self.generate_license(),
         ]
 
         content = "".join(sections)
