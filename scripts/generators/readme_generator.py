@@ -7,6 +7,7 @@ import logging
 from typing import List, Dict, Any
 from collections import defaultdict
 import re
+import unicodedata
 from datetime import datetime, timezone
 
 logger = logging.getLogger(__name__)
@@ -94,13 +95,11 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
             clean_category = category.strip()
 
             # Clean category name for anchor using GitHub's algorithm
-            # GitHub converts headers to anchors by:
-            # 1. Converting to lowercase
-            # 2. Replacing non-alphanumeric characters (except spaces) with hyphens
-            # 3. Replacing spaces with hyphens
-            # 4. Collapsing multiple hyphens into single hyphens
-            # 5. Removing leading/trailing hyphens
-            anchor = re.sub(r'[^a-zA-Z0-9\s-]', '', clean_category)  # Remove punctuation but keep spaces and hyphens
+            # GitHub normalizes Unicode characters and removes punctuation
+            normalized = unicodedata.normalize('NFKD', clean_category)
+            # Keep only ASCII letters, numbers, spaces, and hyphens
+            ascii_only = ''.join(c for c in normalized if ord(c) < 128 or c in ' -')
+            anchor = re.sub(r'[^a-zA-Z0-9\s-]', '', ascii_only)  # Remove punctuation but keep spaces and hyphens
             anchor = anchor.lower().replace(' ', '-')
             anchor = re.sub(r'-+', '-', anchor)  # Collapse multiple hyphens
             anchor = anchor.strip('-')  # Remove leading/trailing hyphens
