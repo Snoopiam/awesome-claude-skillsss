@@ -420,35 +420,29 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return True
 
     def generate_table_of_contents(self) -> str:
-        """Generate hierarchical table of contents following Uber Go guide principles."""
-        lines = ["## Contents\n"]
-
-        # Define the main sections that actually exist in the README
-        main_sections = [
-            "Core Development",
-            "AI & Machine Learning",
+        """Generate table of contents based on actual section titles."""
+        # Define the actual sections that appear in the README
+        toc_sections = [
+            "What Are Claude Skills?",
+            "Getting Started",
             "Automation & Workflow",
-            "Infrastructure & Operations",
             "Language & Framework Specific",
-            "DevOps & Deployment",
-            "Database & Data",
-            "Tools & Utilities",
-            "General Purpose"
+            "Creating Skills",
+            "Contributing",
+            "Resources",
+            "Join the Community"
         ]
 
-        # Generate TOC with proper anchors
-        for section in main_sections:
-            # Create anchor from section name: lowercase, replace spaces and special chars with hyphens
+        # Generate TOC
+        toc_lines = ["## Contents\n"]
+        for section in toc_sections:
+            # Create anchor from section title
             anchor = section.lower().replace(' ', '-').replace('&', 'and').replace('_', '-')
             anchor = re.sub(r'-+', '-', anchor).strip('-')
-            lines.append(f"- [{section}](#{anchor})")
+            toc_lines.append(f"- [{section}](#{anchor})")
 
-        lines.append("")
-        lines.append("- [Contributing](#contributing)")
-        lines.append("- [Resources](#resources)")
-        lines.append("- [Join the Community](#join-the-community)")
-        lines.append("")
-        return "\n".join(lines)
+        toc_lines.append("")
+        return "\n".join(toc_lines)
 
     def generate_marketplaces_table(self) -> str:
         """Generate repositories table."""
