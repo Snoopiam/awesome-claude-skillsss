@@ -68,6 +68,8 @@ Skills can be used across Claude.ai, Claude Code, and the Claude API to provide 
 
 ### Installation
 
+[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/Chat2AnyLLM/code-assistant-manager.git)
+
 To get started with Claude Code skills, install the Code Assistant Manager (CAM):
 
 ```bash
