@@ -420,7 +420,7 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return True
 
     def generate_table_of_contents(self) -> str:
-        """Generate hierarchical table of contents matching the README section structure."""
+        """Generate intelligent hierarchical table of contents based on skill content."""
         toc_lines = ["## Contents\n"]
 
         # Main sections with their subsections
@@ -430,29 +430,80 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
             "  - [Installation](#installation)",
             "  - [Using Skills in Claude Code](#using-skills-in-claude-code)",
             "  - [Using Skills with Claude API](#using-skills-with-claude-api)",
-            "- [Automation & Workflow](#automation-and-workflow)",
-            "  - [workflow](#workflow)",
-            "    - [claude-scientific-skills](#claude-scientific-skills)",
-            "    - [claude-skills](#claude-skills)",
-            "    - [planning-with-files](#planning-with-files)",
-            "    - [claude-night-market](#claude-night-market)",
-            "    - [n8n-skills](#n8n-skills)",
-            "    - [claude-code-templates](#claude-code-templates)",
-            "    - [claude-code-plugins-plus](#claude-code-plugins-plus)",
-            "    - [claude-code-plugins-plus-skills](#claude-code-plugins-plus-skills)",
-            "    - [agents](#agents)",
-            "- [Language & Framework Specific](#language-and-framework-specific)",
-            "  - [Uncategorized](#uncategorized)",
-            "    - [iothackbot](#iothackbot)",
-            "    - [awesome-claude-skills](#awesome-claude-skills)",
+        ])
+
+        # Add intelligent skill categories with counts
+        toc_lines.append("- **Skills by Domain:**")
+        
+        # Count skills by intelligent categories
+        skill_categories = self._get_intelligent_categories()
+        
+        # Sort categories by count (descending)
+        sorted_categories = sorted(skill_categories.items(), key=lambda x: len(x[1]), reverse=True)
+        
+        for category, skills in sorted_categories:
+            # Create anchor link (replace spaces and & with dashes)
+            anchor = category.lower().replace(" & ", "--").replace(" ", "-")
+            count = len(skills)
+            toc_lines.append(f"  - [{category}](#{anchor}) - {count} skills")
+
+        # Add remaining sections
+        toc_lines.extend([
             "- [Creating Skills](#creating-skills)",
+            "  - [Skill Development](#skill-development)",
+            "  - [Best Practices](#best-practices)",
+            "  - [Resources](#resources)",
             "- [Contributing](#contributing)",
             "- [Resources](#resources)",
+            "  - [Official Documentation](#official-documentation)",
+            "  - [Community Resources](#community-resources)",
+            "  - [Development Tools](#development-tools)",
             "- [Join the Community](#join-the-community)",
+            "  - [Social Media](#social-media)",
+            "  - [Contribution](#contribution)",
+            "  - [Support](#support)",
+            "- [License](#license)",
         ])
 
         toc_lines.append("")
         return "\n".join(toc_lines)
+
+    def _get_intelligent_categories(self) -> Dict[str, List[Dict]]:
+        """Categorize skills intelligently based on names and descriptions."""
+        categories = defaultdict(list)
+        
+        # Define category keywords for intelligent classification
+        category_keywords = {
+            'Frontend Development': ['react', 'vue', 'angular', 'nextjs', 'tailwind', 'component', 'frontend', 'css', 'styled', 'html', 'svelte', 'widget', 'layout', 'responsive', 'browser'],
+            'Backend Development': ['backend', 'fastapi', 'django', 'nodejs', 'spring', 'nestjs', 'express', 'server', 'middleware', 'handler', 'request', 'response', 'database', 'orm', 'api', 'rest'],
+            'DevOps & Infrastructure': ['devops', 'docker', 'kubernetes', 'terraform', 'jenkins', 'ci/cd', 'deployment', 'cloud', 'aws', 'gcp', 'azure', 'infrastructure', 'ssh', 'yaml', 'ansible', 'makefile', 'infrastructure-as-code'],
+            'Data & Analytics': ['data', 'analytics', 'pandas', 'polars', 'sql', 'dataframe', 'query', 'pipeline', 'etl', 'warehousing', 'spark', 'dbt', 'statistics', 'metrics', 'bigquery'],
+            'Machine Learning': ['ml', 'machine learning', 'pytorch', 'tensorflow', 'sklearn', 'model', 'training', 'inference', 'neural', 'dataset', 'optimization', 'clustering', 'regression', 'classification'],
+            'Testing & Quality': ['test', 'testing', 'pytest', 'jest', 'vitest', 'mock', 'assertion', 'benchmark', 'coverage', 'qa', 'validation', 'contract', 'snapshot', 'unit test'],
+            'Security': ['security', 'auth', 'encryption', 'jwt', 'password', 'vulnerability', 'xss', 'csrf', 'ssl', 'tls', 'firewall', 'compliance', 'soc2', 'policy', 'secret', 'oauth'],
+            'AI & LLM': ['ai', 'llm', 'gpt', 'claude', 'langchain', 'rag', 'agent', 'embedding', 'huggingface', 'transformer', 'alignment', 'safety', 'multimodal'],
+            'Documentation': ['documentation', 'readme', 'changelog', 'doc', 'guide', 'tutorial', 'comment', 'javadoc', 'swagger', 'openapi'],
+            'Version Control & Collaboration': ['git', 'github', 'pull request', 'pr', 'commit', 'branch', 'merge', 'code review', 'collaboration'],
+            'Tools & Utilities': ['tool', 'utility', 'mcp', 'helper', 'builder', 'generator', 'creator', 'optimizer', 'analyzer', 'converter'],
+            'Business & Productivity': ['business', 'crm', 'sales', 'marketing', 'slack', 'teams', 'notion', 'email', 'webhook', 'workflow', 'automation', 'zapier', 'linear'],
+        }
+        
+        for skill in self.skills:
+            name_lower = skill.get('name', '').lower()
+            desc_lower = skill.get('description', '').lower()
+            combined = f"{name_lower} {desc_lower}"
+            
+            categorized = False
+            for category, keywords in category_keywords.items():
+                if any(keyword in combined for keyword in keywords):
+                    categories[category].append(skill)
+                    categorized = True
+                    break
+            
+            if not categorized:
+                categories['Uncategorized'].append(skill)
+        
+        return categories
 
     def generate_marketplaces_table(self) -> str:
         """Generate repositories table."""
@@ -481,125 +532,59 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return "\n".join(lines)
 
     def generate_skills_by_category(self) -> str:
-        """Generate skills organized by logical categories following Uber Go guide structure."""
+        """Generate skills organized by intelligent domain-based categories."""
         if not self.skills:
             return ""
 
-        # Group skills by category
-        categories = defaultdict(list)
-        for skill in self.skills:
-            category = skill.get("category", "Uncategorized")
-            categories[category].append(skill)
-
         lines = [""]
 
-        # Get dynamic categories structure
-        skill_categories = self.get_dynamic_categories()
+        # Get intelligent categories
+        intelligent_categories = self._get_intelligent_categories()
+        
+        # Sort categories by count (descending) then alphabetically
+        sorted_categories = sorted(
+            intelligent_categories.items(), 
+            key=lambda x: (-len(x[1]), x[0])
+        )
 
-        # Create a mapping of skills to their dynamic categories
-        skill_to_dynamic_category = {}
-        category_mapping = self.get_category_mapping()
-
-        for skill in self.skills:
-            skill_id = skill.get("id", str(id(skill)))  # Use skill ID or memory address as key
-            original_category = skill.get("category", "Uncategorized")
-            # Check if category is in our mapping
-            if original_category in category_mapping:
-                dynamic_category = category_mapping[original_category]
-            else:
-                # Try to intelligently categorize unknown categories based on skill name/description
-                dynamic_category = self._categorize_skill(skill)
-            skill_to_dynamic_category[skill_id] = dynamic_category
-
-        # Re-group skills by dynamic categories
-        dynamic_categories = defaultdict(list)
-        for skill in self.skills:
-            skill_id = skill.get("id", str(id(skill)))
-            dynamic_cat = skill_to_dynamic_category[skill_id]
-            dynamic_categories[dynamic_cat].append(skill)
-
-        # Generate content for each main category
-        for main_section, subcategories in skill_categories.items():
-            section_has_content = False
-
-            for category in subcategories:
-                # Check if this subcategory has skills in our dynamic categorization
-                skills_in_category = [
-                    skill for skill in dynamic_categories.get(main_section, [])
-                    if skill_to_dynamic_category[skill.get("id", str(id(skill)))] == main_section
-                ]
-
-                if skills_in_category:
-                    if not section_has_content:
-                        # Add main section header
-                        lines.append(f"## {main_section}")
-                        lines.append("")
-                        section_has_content = True
-
-                    # Add category subsection
-                    clean_category = category.strip()
-                    lines.append(f"### {clean_category}")
-                    lines.append("")
-
-                    # Group skills by marketplace within category
-                    marketplace_skills = defaultdict(list)
-                    for skill in skills_in_category:
-                        marketplace_id = skill.get("marketplace_id", "unknown")
-                        marketplace_skills[marketplace_id].append(skill)
-
-                    # Generate content for each marketplace
-                    for marketplace_id in sorted(marketplace_skills.keys()):
-                        skills = marketplace_skills[marketplace_id]
-                        marketplace_name = self._get_marketplace_name(marketplace_id)
-                        if marketplace_name:
-                            lines.append(f"#### {marketplace_name}")
-                            lines.append("")
-
-                        # Table header
-                        lines.append("| Skill | Description | Version | Author | Directory |")
-                        lines.append("| --- | --- | --- | --- | --- |")
-
-                        # Sort skills alphabetically by directory name
-                        sorted_skills = sorted(skills, key=lambda s: s.get("directory", ""))
-
-                        for skill in sorted_skills:
-                            name = skill.get("name", "Unknown Skill")
-                            description = (
-                                skill.get("description", "").replace("\n", " ").strip()
-                            )
-                            version = skill.get("version", "")
-
-                            # Truncate description for table readability
-                            if len(description) > 120:
-                                description = description[:117] + "..."
-
-                            # For skills, we don't have author field in the same way as plugins
-                            # Use repo_owner as author
-                            author = skill.get("repo_owner", "Unknown")
-
-                            directory = skill.get("directory", "Unknown")
-                            readme_url = skill.get("readme_url", "")
-
-                            # Use skill name from metadata, fallback to directory if name is empty
-                            skill_name = name if name else directory
-
-                            # Make skill name a hyperlink if URL exists
-                            if readme_url:
-                                skill_name_cell = f"[{skill_name}]({readme_url})"
-                            else:
-                                skill_name_cell = skill_name
-
-                            # Escape pipe characters in description
-                            description = description.replace("|", "\\|")
-
-                            lines.append(
-                                f"| {skill_name_cell} | {description} | {version} | {author} | {directory} |"
-                            )
-
-                        lines.append("")
-
-            if section_has_content:
-                lines.append("")
+        # Generate content for each category
+        for category_name, skills_in_category in sorted_categories:
+            if not skills_in_category:
+                continue
+                
+            # Create section header
+            lines.append(f"## {category_name}")
+            lines.append("")
+            lines.append(f"*{len(skills_in_category)} skills*")
+            lines.append("")
+            
+            # Create skills table
+            lines.append("| Skill | Description | Author |")
+            lines.append("| --- | --- | --- |")
+            
+            # Sort skills by name within category
+            sorted_skills = sorted(skills_in_category, key=lambda x: x.get('name', '').lower())
+            
+            for skill in sorted_skills:
+                name = skill.get('name', 'Unknown')
+                url = skill.get('url', '') or skill.get('readme_url', '')
+                description = skill.get('description', '').replace('\n', ' ').strip()
+                # Truncate description to ~100 chars
+                if len(description) > 100:
+                    description = description[:97] + '...'
+                author = skill.get('author', '') or skill.get('repo_owner', 'Unknown')
+                
+                if url:
+                    skill_link = f"[{name}]({url})"
+                else:
+                    skill_link = name
+                
+                # Escape pipe characters in description
+                description = description.replace("|", "\\|")
+                
+                lines.append(f"| {skill_link} | {description} | {author} |")
+            
+            lines.append("")
 
         return "\n".join(lines)
 
