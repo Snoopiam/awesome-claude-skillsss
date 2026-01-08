@@ -911,7 +911,7 @@ To add a new skill or marketplace:
                 continue
 
             anchor = self._category_to_anchor(category_name)
-            lines.append(f"  - [{category_name}](FULL-SKILLS.md#{anchor})")
+            lines.append(f"  - [{category_name}](https://github.com/Chat2AnyLLM/awesome-claude-skills/blob/main/FULL-SKILLS.md#{anchor})")
 
             # Add subcategories to TOC if they exist (for large categories)
             subcategories = self._get_subcategories(category_name, skills_in_category) if len(skills_in_category) >= 50 else {}
@@ -923,7 +923,7 @@ To add a new skill or marketplace:
                 )
                 for subcat_name, _ in sorted_subcats:
                     sub_anchor = self._category_to_anchor(f"{category_name}-{subcat_name}")
-                    lines.append(f"    - [{subcat_name}](FULL-SKILLS.md#{sub_anchor})")
+                    lines.append(f"    - [{subcat_name}](https://github.com/Chat2AnyLLM/awesome-claude-skills/blob/main/FULL-SKILLS.md#{sub_anchor})")
 
         lines.append("")
 
