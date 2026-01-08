@@ -910,7 +910,7 @@ To add a new skill or marketplace:
             if not skills_in_category:
                 continue
 
-            anchor = self._category_to_anchor(category_name)
+            anchor = self._category_to_simple_anchor(category_name)
             lines.append(f"  - [{category_name}](https://github.com/Chat2AnyLLM/awesome-claude-skills/blob/main/FULL-SKILLS.md#{anchor})")
 
             # Add subcategories to TOC if they exist (for large categories)
@@ -922,12 +922,22 @@ To add a new skill or marketplace:
                     reverse=True
                 )
                 for subcat_name, _ in sorted_subcats:
-                    sub_anchor = self._category_to_anchor(f"{category_name}-{subcat_name}")
+                    sub_anchor = self._category_to_simple_anchor(subcat_name)
                     lines.append(f"    - [{subcat_name}](https://github.com/Chat2AnyLLM/awesome-claude-skills/blob/main/FULL-SKILLS.md#{sub_anchor})")
 
         lines.append("")
 
         return "\n".join(lines)
+
+    def _category_to_simple_anchor(self, category_name: str) -> str:
+        """Convert category name to a simple HTML anchor (just the category name)."""
+        anchor = category_name.lower()
+        anchor = anchor.replace(" ", "-")
+        anchor = anchor.replace("&", "and")
+        anchor = ''.join(c if c.isalnum() or c == '-' else '' for c in anchor)
+        while '--' in anchor:
+            anchor = anchor.replace('--', '-')
+        return anchor
 
     def _get_categories(self) -> Dict[str, List[Dict[str, Any]]]:
         """Get skills grouped by category."""
@@ -1033,13 +1043,13 @@ To add a new skill or marketplace:
                     reverse=True
                 )
                 for subcat_name, subcat_skills in sorted_subcats:
-                    sub_anchor = self._category_to_anchor(f"{category_name}-{subcat_name}")
+                    sub_anchor = self._category_to_simple_anchor(subcat_name)
                     lines.append(f"- [{subcat_name}](#{sub_anchor}) - {len(subcat_skills)} skills")
                 lines.append("")
 
                 # Display by subcategories
                 for subcat_name, subcat_skills in sorted_subcats:
-                    sub_anchor = self._category_to_anchor(f"{category_name}-{subcat_name}")
+                    sub_anchor = self._category_to_simple_anchor(subcat_name)
                     lines.append(f'<a name="{sub_anchor}"></a>')
                     lines.append(f"## {subcat_name}")
                     lines.append(f"*{len(subcat_skills)} skills*")
