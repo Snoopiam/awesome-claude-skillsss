@@ -8,7 +8,7 @@ A curated list of awesome Claude Code skills to enhance your Claude Code experie
 
 Total Skills: 3761
 
-Last updated: 2026-01-08 04:10 UTC
+Last updated: 2026-01-08 04:13 UTC
 
 
 ## What Are Claude Skills?
@@ -52,10 +52,11 @@ Once installed, skills are automatically available in your Claude Code environme
 
 Skills can also be used programmatically via the Claude API for automation and integration purposes.## Contents
 
-- [What Are Claude Skills?](#what-are-claude-skills?)
+- [What Are Claude Skills?](#what-are-claude-skills)
+- [Skills](#skills)
+  - [Automation & Workflow](#automation-and-workflow)
+  - [Language & Framework Specific](#language-and-framework-specific)
 - [Getting Started](#getting-started)
-- [Automation & Workflow](#automation-and-workflow)
-- [Language & Framework Specific](#language-and-framework-specific)
 - [Creating Skills](#creating-skills)
 - [Contributing](#contributing)
 - [Resources](#resources)

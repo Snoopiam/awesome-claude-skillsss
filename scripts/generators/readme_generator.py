@@ -420,26 +420,22 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return True
 
     def generate_table_of_contents(self) -> str:
-        """Generate table of contents based on actual section titles."""
-        # Define the actual sections that appear in the README
-        toc_sections = [
-            "What Are Claude Skills?",
-            "Getting Started",
-            "Automation & Workflow",
-            "Language & Framework Specific",
-            "Creating Skills",
-            "Contributing",
-            "Resources",
-            "Join the Community"
-        ]
-
-        # Generate TOC
+        """Generate hierarchical table of contents inspired by ComposioHQ's structure."""
+        # Define the hierarchical sections following ComposioHQ's organization
         toc_lines = ["## Contents\n"]
-        for section in toc_sections:
-            # Create anchor from section title
-            anchor = section.lower().replace(' ', '-').replace('&', 'and').replace('_', '-')
-            anchor = re.sub(r'-+', '-', anchor).strip('-')
-            toc_lines.append(f"- [{section}](#{anchor})")
+
+        # Main sections in order
+        toc_lines.extend([
+            "- [What Are Claude Skills?](#what-are-claude-skills)",
+            "- [Skills](#skills)",
+            "  - [Automation & Workflow](#automation-and-workflow)",
+            "  - [Language & Framework Specific](#language-and-framework-specific)",
+            "- [Getting Started](#getting-started)",
+            "- [Creating Skills](#creating-skills)",
+            "- [Contributing](#contributing)",
+            "- [Resources](#resources)",
+            "- [Join the Community](#join-the-community)",
+        ])
 
         toc_lines.append("")
         return "\n".join(toc_lines)
