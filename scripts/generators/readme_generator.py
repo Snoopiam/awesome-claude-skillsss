@@ -670,7 +670,16 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
                 sorted_subcats = sorted(subcategories.items(), key=lambda x: len(x[1]), reverse=True)
                 
                 for subcat_name, subcat_skills in sorted_subcats:
-                    # Subheader for subcategory
+                    # Create anchor for subcategory (matches TOC anchor format)
+                    # Format: category-name-subcategory-name (all lowercase, no special chars)
+                    anchor = f"{category_name}-{subcat_name}".lower()
+                    anchor = anchor.replace(" ", "-")
+                    anchor = ''.join(c if c.isalnum() or c == '-' else '' for c in anchor)
+                    while '--' in anchor:
+                        anchor = anchor.replace('--', '-')
+                    
+                    # Subheader for subcategory with HTML anchor
+                    lines.append(f'<a name="{anchor}"></a>')
                     lines.append(f"### {subcat_name}")
                     lines.append(f"*{len(subcat_skills)} skills*")
                     lines.append("")
