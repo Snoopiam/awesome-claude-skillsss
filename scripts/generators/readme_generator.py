@@ -420,17 +420,16 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return True
 
     def generate_table_of_contents(self) -> str:
-        """Generate hierarchical table of contents inspired by ComposioHQ's structure."""
-        # Define the hierarchical sections following ComposioHQ's organization
+        """Generate table of contents following the awesome repository pattern."""
+        # Define the sections in a clean, flat structure like awesome repos
         toc_lines = ["## Contents\n"]
 
         # Main sections in order
         toc_lines.extend([
             "- [What Are Claude Skills?](#what-are-claude-skills)",
-            "- [Skills](#skills)",
-            "  - [Automation & Workflow](#automation-and-workflow)",
-            "  - [Language & Framework Specific](#language-and-framework-specific)",
             "- [Getting Started](#getting-started)",
+            "- [Automation & Workflow](#automation-and-workflow)",
+            "- [Language & Framework Specific](#language-and-framework-specific)",
             "- [Creating Skills](#creating-skills)",
             "- [Contributing](#contributing)",
             "- [Resources](#resources)",
@@ -467,20 +466,11 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
         return "\n".join(lines)
 
     def generate_skills_by_category(self) -> str:
-        """Generate skills organized by logical categories following Uber Go guide structure."""
+        """Generate skills organized in a clean awesome-style format."""
         if not self.skills:
             return ""
 
-        # Group skills by category
-        categories = defaultdict(list)
-        for skill in self.skills:
-            category = skill.get("category", "Uncategorized")
-            categories[category].append(skill)
-
         lines = [""]
-
-        # Get dynamic categories structure
-        skill_categories = self.get_dynamic_categories()
 
         # Create a mapping of skills to their dynamic categories
         skill_to_dynamic_category = {}
@@ -497,94 +487,40 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
                 dynamic_category = self._categorize_skill(skill)
             skill_to_dynamic_category[skill_id] = dynamic_category
 
-        # Re-group skills by dynamic categories
-        dynamic_categories = defaultdict(list)
+        # Group skills by main category
+        categories = defaultdict(list)
         for skill in self.skills:
             skill_id = skill.get("id", str(id(skill)))
-            dynamic_cat = skill_to_dynamic_category[skill_id]
-            dynamic_categories[dynamic_cat].append(skill)
+            main_category = skill_to_dynamic_category[skill_id]
+            categories[main_category].append(skill)
 
-        # Generate content for each main category
-        for main_section, subcategories in skill_categories.items():
-            section_has_content = False
+        # Only generate sections for our main categories that we want to show
+        main_categories = ["Automation & Workflow", "Language & Framework Specific"]
 
-            for category in subcategories:
-                # Check if this subcategory has skills in our dynamic categorization
-                skills_in_category = [
-                    skill for skill in dynamic_categories.get(main_section, [])
-                    if skill_to_dynamic_category[skill.get("id", str(id(skill)))] == main_section
-                ]
+        for main_category in main_categories:
+            if main_category in categories and categories[main_category]:
+                lines.append(f"## {main_category}")
+                lines.append("")
 
-                if skills_in_category:
-                    if not section_has_content:
-                        # Add main section header
-                        lines.append(f"## {main_section}")
-                        lines.append("")
-                        section_has_content = True
+                # Sort skills alphabetically by name
+                sorted_skills = sorted(categories[main_category], key=lambda s: s.get("name", s.get("directory", "")))
 
-                    # Add category subsection
-                    clean_category = category.strip()
-                    lines.append(f"### {clean_category}")
-                    lines.append("")
+                # Generate simple list items for each skill
+                for skill in sorted_skills:
+                    name = skill.get("name", "Unknown Skill")
+                    description = skill.get("description", "").replace("\n", " ").strip()
+                    readme_url = skill.get("readme_url", "")
 
-                    # Group skills by marketplace within category
-                    marketplace_skills = defaultdict(list)
-                    for skill in skills_in_category:
-                        marketplace_id = skill.get("marketplace_id", "unknown")
-                        marketplace_skills[marketplace_id].append(skill)
+                    # Truncate description for readability
+                    if len(description) > 100:
+                        description = description[:97] + "..."
 
-                    # Generate content for each marketplace
-                    for marketplace_id in sorted(marketplace_skills.keys()):
-                        skills = marketplace_skills[marketplace_id]
-                        marketplace_name = self._get_marketplace_name(marketplace_id)
-                        if marketplace_name:
-                            lines.append(f"#### {marketplace_name}")
-                            lines.append("")
+                    # Create the list item
+                    if readme_url:
+                        lines.append(f"- [{name}]({readme_url}) - {description}")
+                    else:
+                        lines.append(f"- {name} - {description}")
 
-                        # Table header
-                        lines.append("| Skill | Description | Version | Author | Directory |")
-                        lines.append("| --- | --- | --- | --- | --- |")
-
-                        # Sort skills alphabetically by directory name
-                        sorted_skills = sorted(skills, key=lambda s: s.get("directory", ""))
-
-                        for skill in sorted_skills:
-                            name = skill.get("name", "Unknown Skill")
-                            description = (
-                                skill.get("description", "").replace("\n", " ").strip()
-                            )
-                            version = skill.get("version", "")
-
-                            # Truncate description for table readability
-                            if len(description) > 120:
-                                description = description[:117] + "..."
-
-                            # For skills, we don't have author field in the same way as plugins
-                            # Use repo_owner as author
-                            author = skill.get("repo_owner", "Unknown")
-
-                            directory = skill.get("directory", "Unknown")
-                            readme_url = skill.get("readme_url", "")
-
-                            # Use skill name from metadata, fallback to directory if name is empty
-                            skill_name = name if name else directory
-
-                            # Make skill name a hyperlink if URL exists
-                            if readme_url:
-                                skill_name_cell = f"[{skill_name}]({readme_url})"
-                            else:
-                                skill_name_cell = skill_name
-
-                            # Escape pipe characters in description
-                            description = description.replace("|", "\\|")
-
-                            lines.append(
-                                f"| {skill_name_cell} | {description} | {version} | {author} | {directory} |"
-                            )
-
-                        lines.append("")
-
-            if section_has_content:
                 lines.append("")
 
         return "\n".join(lines)
