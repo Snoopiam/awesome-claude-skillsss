@@ -8,56 +8,11 @@ A curated list of awesome Claude Code skills to enhance your Claude Code experie
 
 Total Skills: 3769
 
-Last updated: 2026-01-08 13:06 UTC
+Last updated: 2026-01-08 13:20 UTC
 
 **[📋 View Complete Skills List](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
-## What Are Claude Skills?
-
-Claude Skills are customizable workflows and tools that extend Claude's capabilities. They allow you to:
-
-- **Automate repetitive tasks** - Create reusable workflows for common development patterns
-- **Integrate with external tools** - Connect Claude with APIs, databases, and services
-- **Enhance productivity** - Leverage specialized expertise across different domains
-- **Customize behavior** - Adapt Claude's responses for specific use cases and requirements
-
-Skills can be used across Claude.ai, Claude Code, and the Claude API to provide domain-specific assistance and automation.
-## Getting Started
-
-### Installation
-
-[![GitHub](https://img.shields.io/badge/GitHub-Repository-blue.svg)](https://github.com/Chat2AnyLLM/code-assistant-manager.git)
-
-To get started with Claude Code skills, install the Code Assistant Manager (CAM):
-
-```bash
-# Install CAM
-curl -fsSL https://raw.githubusercontent.com/Chat2AnyLLM/code-assistant-manager/main/install.sh | bash
-
-# List available skills
-cam skill list
-
-# Install a specific skill (example)
-cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model-merging -a codebuddy,claude
-```
-
-### Using Skills in Claude Code
-
-Once installed, skills are automatically available in your Claude Code environment. You can:
-
-- Use skills through natural language commands
-- Access specialized tools and workflows
-- Integrate with your development workflow
-
-### Using Skills with Claude API
-
-Skills can also be used programmatically via the Claude API for automation and integration purposes.
 ## Table of Contents
 
-- [What Are Claude Skills?](#what-are-claude-skills)
-- [Getting Started](#getting-started)
-  - [Installation](#installation)
-  - [Using Skills in Claude Code](#using-skills-in-claude-code)
-  - [Using Skills with Claude API](#using-skills-with-claude-api)
 - **Skills by Domain:**
   - [Backend Development](./domains/backend-development.md) - 1475 skills
   - [DevOps & Infrastructure](./domains/devops-and-infrastructure.md) - 439 skills

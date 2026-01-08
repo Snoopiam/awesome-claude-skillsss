@@ -425,11 +425,6 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
 
         # Main sections with their subsections
         toc_lines.extend([
-            "- [What Are Claude Skills?](#what-are-claude-skills)",
-            "- [Getting Started](#getting-started)",
-            "  - [Installation](#installation)",
-            "  - [Using Skills in Claude Code](#using-skills-in-claude-code)",
-            "  - [Using Skills with Claude API](#using-skills-with-claude-api)",
         ])
 
         # Add intelligent skill categories with counts
@@ -474,11 +469,6 @@ cam skill install zechenzhangAGI/AI-research-SKILLs:19-emerging-techniques/model
 
         # Main sections with their subsections
         toc_lines.extend([
-            "- [What Are Claude Skills?](#what-are-claude-skills)",
-            "- [Getting Started](#getting-started)",
-            "  - [Installation](#installation)",
-            "  - [Using Skills in Claude Code](#using-skills-in-claude-code)",
-            "  - [Using Skills with Claude API](#using-skills-with-claude-api)",
         ])
 
         # Add intelligent skill categories with local anchors for full document
@@ -865,8 +855,6 @@ To add a new skill or marketplace:
         """Generate complete README content with enhanced sections (without domain skills)."""
         sections = [
             self.generate_title(),
-            self.generate_what_are_skills(),
-            self.generate_getting_started(),
             self.generate_table_of_contents(),
             self.generate_creating_skills(),
             self.generate_contributing(),
