@@ -123,48 +123,45 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 ## Complete Contents
 
 - [Backend Development](#backend-development) - 1737 skills
-  - [Database Design](#backend-development-database-design) - 761 skills
-  - [APIs & REST](#backend-development-apis-and-rest) - 698 skills
-  - [Request Handling](#backend-development-request-handling) - 179 skills
-  - [Web Frameworks](#backend-development-web-frameworks) - 69 skills
-  - [Microservices](#backend-development-microservices) - 10 skills
-  - [Message Queues](#backend-development-message-queues) - 7 skills
-  - [Authentication](#backend-development-authentication) - 7 skills
-  - [Caching](#backend-development-caching) - 6 skills
+  - [Database Design](#database-design) - 761 skills
+  - [APIs & REST](#apis-and-rest) - 698 skills
+  - [Request Handling](#request-handling) - 179 skills
+  - [Web Frameworks](#web-frameworks) - 69 skills
+  - [Microservices](#microservices) - 10 skills
+  - [Message Queues](#message-queues) - 7 skills
+  - [Authentication](#authentication) - 7 skills
+  - [Caching](#caching) - 6 skills
 - [DevOps & Infrastructure](#devops-and-infrastructure) - 494 skills
-  - [Cloud Platforms](#devops-and-infrastructure-cloud-platforms) - 286 skills
-  - [CI/CD](#devops-and-infrastructure-cicd) - 144 skills
-  - [Containers](#devops-and-infrastructure-containers) - 39 skills
-  - [Monitoring](#devops-and-infrastructure-monitoring) - 9 skills
-  - [Infrastructure as Code](#devops-and-infrastructure-infrastructure-as-code) - 6 skills
-  - [Networking](#devops-and-infrastructure-networking) - 4 skills
-  - [Service Mesh](#devops-and-infrastructure-service-mesh) - 4 skills
-  - [Security](#devops-and-infrastructure-security) - 2 skills
+  - [Cloud Platforms](#cloud-platforms) - 286 skills
+  - [CI/CD](#cicd) - 144 skills
+  - [Containers](#containers) - 39 skills
+  - [Monitoring](#monitoring) - 9 skills
+  - [Infrastructure as Code](#infrastructure-as-code) - 6 skills
+  - [Networking](#networking) - 4 skills
+  - [Service Mesh](#service-mesh) - 4 skills
+  - [Security](#security) - 2 skills
 - [Data & Analytics](#data-and-analytics) - 377 skills
-  - [Data Pipelines](#data-and-analytics-data-pipelines) - 234 skills
-  - [Analytics & Queries](#data-and-analytics-analytics-and-queries) - 135 skills
-  - [Data Science](#data-and-analytics-data-science) - 4 skills
-  - [Time Series](#data-and-analytics-time-series) - 2 skills
-  - [Data Warehousing](#data-and-analytics-data-warehousing) - 1 skills
-  - [Business Intelligence](#data-and-analytics-business-intelligence) - 1 skills
+  - [Data Pipelines](#data-pipelines) - 234 skills
+  - [Analytics & Queries](#analytics-and-queries) - 135 skills
+  - [Data Science](#data-science) - 4 skills
+  - [Time Series](#time-series) - 2 skills
+  - [Data Warehousing](#data-warehousing) - 1 skills
+  - [Business Intelligence](#business-intelligence) - 1 skills
 - [Version Control & Collaboration](#version-control-and-collaboration) - 330 skills
 - [AI & LLM](#ai-and-llm) - 304 skills
 - [Frontend Development](#frontend-development) - 225 skills
 - [Machine Learning](#machine-learning) - 206 skills
-  - [Model Training](#machine-learning-model-training) - 155 skills
-  - [Hyperparameter Tuning](#machine-learning-hyperparameter-tuning) - 33 skills
-  - [Feature Engineering](#machine-learning-feature-engineering) - 7 skills
-  - [Model Evaluation](#machine-learning-model-evaluation) - 6 skills
-  - [Model Deployment](#machine-learning-model-deployment) - 5 skills
+  - [Model Training](#model-training) - 155 skills
+  - [Hyperparameter Tuning](#hyperparameter-tuning) - 33 skills
+  - [Feature Engineering](#feature-engineering) - 7 skills
+  - [Model Evaluation](#model-evaluation) - 6 skills
+  - [Model Deployment](#model-deployment) - 5 skills
 - [Testing & Quality](#testing-and-quality) - 194 skills
 - [Security](#security) - 193 skills
 - [Uncategorized](#uncategorized) - 104 skills
 - [Documentation](#documentation) - 82 skills
 - [Tools & Utilities](#tools-and-utilities) - 65 skills
 - [Business & Productivity](#business-and-productivity) - 16 skills
-
-<a name="backend-development"></a>
-# Backend Development
 
 *1737 skills in this domain*
 

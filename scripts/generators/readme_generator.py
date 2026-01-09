@@ -1011,7 +1011,7 @@ To add a new skill or marketplace:
                     reverse=True
                 )
                 for subcat_name, subcat_skills in sorted_subcats:
-                    sub_anchor = self._category_to_anchor(f"{category_name}-{subcat_name}")
+                    sub_anchor = self._category_to_simple_anchor(subcat_name)
                     toc_entries.append(f"  - [{subcat_name}](#{sub_anchor}) - {len(subcat_skills)} skills")
 
         lines.extend(toc_entries)
