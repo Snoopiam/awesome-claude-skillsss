@@ -6,9 +6,9 @@
 
 A curated list of awesome Claude Code skills to enhance your Claude Code experience.
 
-Total Skills: 4327
+Total Skills: 4162
 
-Last updated: 2026-01-09 01:51 UTC
+Last updated: 2026-01-09 02:07 UTC
 
 **[📋 See full skill list](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
 
@@ -27,11 +27,11 @@ Last updated: 2026-01-09 01:51 UTC
   - [AI & LLM](./domains/ai-and-llm.md)
   - [Frontend Development](./domains/frontend-development.md)
   - [Machine Learning](./domains/machine-learning.md)
-  - [Testing & Quality](./domains/testing-and-quality.md)
   - [Security](./domains/security.md)
-  - [Uncategorized](./domains/uncategorized.md)
+  - [Testing & Quality](./domains/testing-and-quality.md)
   - [Documentation](./domains/documentation.md)
   - [Tools & Utilities](./domains/tools-and-utilities.md)
+  - [Uncategorized](./domains/uncategorized.md)
   - [Business & Productivity](./domains/business-and-productivity.md)
 
 ## Creating Skills

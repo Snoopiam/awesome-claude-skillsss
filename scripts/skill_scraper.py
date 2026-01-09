@@ -168,20 +168,25 @@ def cmd_generate_readme(args, config, logger):
     logger.info("Total repositories processed: %d", len(all_repos))
     logger.info("Total skills collected: %d", len(all_skills))
 
-    # Deduplicate skills based on ID
-    seen_ids = set()
+    # Deduplicate skills based on name and repository (keep skills with same name from different repos)
+    seen_keys = set()
     unique_skills = []
     duplicates_removed = 0
 
     for skill in all_skills:
-        skill_id = skill.get("id")
-        if skill_id not in seen_ids:
-            seen_ids.add(skill_id)
+        skill_name = skill.get("name", "").strip().lower()
+        repo_owner = skill.get("repo_owner", "")
+        repo_name = skill.get("repo_name", "")
+        # Create a unique key combining name and repository
+        skill_key = f"{skill_name}|{repo_owner}/{repo_name}"
+
+        if skill_name and skill_key not in seen_keys:
+            seen_keys.add(skill_key)
             unique_skills.append(skill)
         else:
             duplicates_removed += 1
 
-    logger.info("Removed %d duplicate skills, keeping %d unique skills", duplicates_removed, len(unique_skills))
+    logger.info("Removed %d duplicate skills (by name+repo), keeping %d unique skills", duplicates_removed, len(unique_skills))
 
     if hasattr(args, 'dry_run') and args.dry_run:
         print(f"Dry run: Would generate README with {len(all_repos)} repositories and {len(unique_skills)} skills")
