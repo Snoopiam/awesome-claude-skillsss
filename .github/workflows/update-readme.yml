@@ -32,7 +32,7 @@ jobs:
 
     - name: Run skill scraper
       run: |
-        python -m scripts.skill_scraper generate-readme
+        python -m scripts.skill_scraper generate-readme --force
 
     - name: Check for changes
       id: verify-changed-files
