@@ -1015,19 +1015,11 @@ To add a new skill or marketplace:
             subcategories = self._get_subcategories(category_name, skills_in_category) if len(skills_in_category) >= 50 else {}
 
             if subcategories:
-                # Add subcategory TOC
-                lines.append("## Table of Contents")
-                lines.append("")
                 sorted_subcats = sorted(
                     [(k, v) for k, v in subcategories.items() if v],
                     key=lambda x: len(x[1]),
                     reverse=True
                 )
-                for subcat_name, subcat_skills in sorted_subcats:
-                    sub_anchor = self._category_to_simple_anchor(subcat_name)
-                    lines.append(f"- [{subcat_name}](#{sub_anchor}) - {len(subcat_skills)} skills")
-                lines.append("")
-
                 # Display by subcategories
                 for subcat_name, subcat_skills in sorted_subcats:
                     sub_anchor = self._category_to_simple_anchor(subcat_name)
