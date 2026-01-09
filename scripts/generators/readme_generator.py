@@ -955,21 +955,8 @@ To add a new skill or marketplace:
         return marketplace_id
 
     def generate_full_document(self) -> str:
-        """Generate a comprehensive full document with all table of contents and all skill tables."""
+        """Generate only the complete skills listing content without README duplication."""
         lines = []
-
-        # Start with main README content but replace table of contents with full document version
-        main_readme = self.generate_readme()
-        # Replace the table of contents section with the full document version
-        toc_pattern = r"## Table of Contents\n\n.*?(?=\n## |\n## Creating Skills|\Z)"
-        full_toc = self.generate_full_document_table_of_contents()
-        main_readme_with_full_toc = re.sub(toc_pattern, full_toc.strip(), main_readme, flags=re.DOTALL)
-        lines.append(main_readme_with_full_toc.rstrip())
-        lines.append("")
-
-        # Add separator for full skill listing
-        lines.append("---")
-        lines.append("")
 
         # Add anchor for direct linking to skills listing
         lines.append('<a name="complete-skills-listing"></a>')

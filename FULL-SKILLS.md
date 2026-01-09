@@ -1,119 +1,3 @@
-# Awesome Claude Skills
-
-[![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
-[![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/Chat2AnyLLM/awesome-claude-skills/pulls)
-[![License: Apache 2.0](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
-
-A curated list of awesome Claude Code skills to enhance your Claude Code experience.
-
-Total Skills: 4327
-
-Last updated: 2026-01-09 01:29 UTC
-
-**[📋 See full skill list](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
-
-## Contents
-
-- [Creating Skills](#creating-skills)
-- [Contributing](#contributing)
-- [Resources](#resources)
-- [Join the Community](#join-the-community)
-- [License](#license)
-- **Skills by Domain:**
-  - [Backend Development](./domains/backend-development.md)
-  - [DevOps & Infrastructure](./domains/devops-and-infrastructure.md)
-  - [Data & Analytics](./domains/data-and-analytics.md)
-  - [Version Control & Collaboration](./domains/version-control-and-collaboration.md)
-  - [AI & LLM](./domains/ai-and-llm.md)
-  - [Frontend Development](./domains/frontend-development.md)
-  - [Machine Learning](./domains/machine-learning.md)
-  - [Testing & Quality](./domains/testing-and-quality.md)
-  - [Security](./domains/security.md)
-  - [Uncategorized](./domains/uncategorized.md)
-  - [Documentation](./domains/documentation.md)
-  - [Tools & Utilities](./domains/tools-and-utilities.md)
-  - [Business & Productivity](./domains/business-and-productivity.md)
-
-## Creating Skills
-
-Want to contribute your own skills? Here's how to get started:
-
-### Skill Development
-
-1. **Choose a domain** - Identify a specific area where you have expertise
-2. **Define the workflow** - Map out the steps and logic for your skill
-3. **Implement the skill** - Use Claude Code's skill development framework
-4. **Test thoroughly** - Ensure your skill works reliably across different scenarios
-5. **Document clearly** - Provide comprehensive documentation and examples
-
-### Best Practices
-
-- **Keep it focused** - Each skill should solve one specific problem well
-- **Handle errors gracefully** - Include proper error handling and validation
-- **Provide examples** - Include usage examples and edge cases
-- **Follow conventions** - Use standard patterns and naming conventions
-
-### Resources
-
-- [Claude Code Documentation](https://docs.anthropic.com/claude/docs/claude-code)
-- [Skill Development Guide](https://github.com/anthropics/claude-code/tree/main/docs/skills)
-- [Community Examples](https://github.com/anthropics/claude-code/tree/main/examples)
-
-## Contributing
-
-We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for details on how to add new marketplaces or skills.
-
-To add a new skill or marketplace:
-1. Fork this repository
-2. Add the entry to the appropriate section
-3. Ensure the skill is verified and documented
-4. Submit a pull request with a clear description
-
-## Resources
-
-### Official Documentation
-- [Claude Code](https://docs.anthropic.com/claude/docs/claude-code) - Official Claude Code documentation
-- [Claude API](https://docs.anthropic.com/claude/reference/getting-started-with-the-api) - API reference and guides
-- [Anthropic Console](https://console.anthropic.com/) - Manage your Claude API usage
-
-### Community Resources
-- [Claude Code GitHub](https://github.com/anthropics/claude-code) - Source code and issues
-- [Awesome Claude](https://github.com/sindresorhus/awesome-claude) - Curated list of Claude resources
-- [Claude Community](https://community.anthropic.com/) - Community discussions and support
-
-### Development Tools
-- [Code Assistant Manager](https://github.com/Chat2AnyLLM/code-assistant-manager) - Tool for managing Claude skills
-- [Claude CLI](https://github.com/anthropics/claude-code/tree/main/packages/cli) - Command-line interface for Claude
-
-## Join the Community
-
-Connect with other Claude developers and skill creators:
-
-### Social Media
-- **Twitter/X**: [@anthropic](https://twitter.com/anthropic)
-- **LinkedIn**: [Anthropic](https://www.linkedin.com/company/anthropic)
-- **Discord**: [Claude Community](https://discord.gg/anthropic)
-
-### Contribution
-- **GitHub Issues**: [Report bugs and request features](https://github.com/Chat2AnyLLM/awesome-claude-skills/issues)
-- **Pull Requests**: [Contribute skills and improvements](https://github.com/Chat2AnyLLM/awesome-claude-skills/pulls)
-- **Discussions**: [Share ideas and get help](https://github.com/Chat2AnyLLM/awesome-claude-skills/discussions)
-
-### Support
-- **Documentation**: [Claude Code Docs](https://docs.anthropic.com/claude/docs/claude-code)
-- **Community Forum**: [Anthropic Community](https://community.anthropic.com/)
-- **Stack Overflow**: [claude-code tag](https://stackoverflow.com/questions/tagged/claude-code)
-
-## License
-
-This repository is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
-
----
-
-*Built with ❤️ by the Claude Code community. Empowering developers with AI-enhanced workflows.*
-
----
-
 <a name="complete-skills-listing"></a>
 
 # Complete Skills Listing
@@ -162,6 +46,9 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 - [Documentation](#documentation) - 82 skills
 - [Tools & Utilities](#tools-and-utilities) - 65 skills
 - [Business & Productivity](#business-and-productivity) - 16 skills
+
+<a name="backend-development"></a>
+# Backend Development
 
 *1737 skills in this domain*
 
@@ -233,15 +120,15 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [bottleneck-identifier](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/10-performance-testing/bottleneck-identifier) | Execute bottleneck identifier operations. Auto-activating skill for Performance Testing. Triggers on: bottleneck iden... | Unknown |
 | [bottleneck-identifier](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/10-performance-testing/bottleneck-identifier) | Execute bottleneck identifier operations. Auto-activating skill for Performance Testing. Triggers on: bottleneck iden... | Unknown |
 | [brand-guidelines](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
-| [brand-guidelines](https://github.com/Prat011/awesome-llm-skills/tree/master/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
 | [brand-guidelines](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
+| [brand-guidelines](https://github.com/Prat011/awesome-llm-skills/tree/master/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
 | [brand-guidelines](https://github.com/anthropics/skills/tree/main/skills/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
 | [brand-guidelines](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/brand-guidelines) | Applies Anthropic's official brand colors and typography to any sort of artifact that may benefit from having Anthrop... | Unknown |
 | [building-terraform-modules](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/devops/terraform-module-builder/skills/building-terraform-modules) | Execute this skill empowers AI assistant to build reusable terraform modules based on user specifications. it leverag... | Unknown |
 | [building-terraform-modules](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/terraform-module-builder/skills/building-terraform-modules) | Execute this skill empowers AI assistant to build reusable terraform modules based on user specifications. it leverag... | Unknown |
 | [changelog-automation](https://github.com/wshobson/agents/tree/main/plugins/documentation-generation/skills/changelog-automation) | Automate changelog generation from commits, PRs, and releases following Keep a Changelog format. Use when setting up ... | Unknown |
-| [changelog-generator](https://github.com/Prat011/awesome-llm-skills/tree/master/changelog-generator) | Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and ... | Unknown |
 | [changelog-generator](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/changelog-generator) | Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and ... | Unknown |
+| [changelog-generator](https://github.com/Prat011/awesome-llm-skills/tree/master/changelog-generator) | Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and ... | Unknown |
 | [changelog-generator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/changelog-generator) | Automatically creates user-facing changelogs from git commits by analyzing commit history, categorizing changes, and ... | Unknown |
 | [changelog-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/automation/mattyp-changelog/skills/changelog-orchestrator) | Draft changelog PRs by collecting GitHub/Slack/Git changes, formatting with templates, running quality gates, and pre... | Unknown |
 | [changelog-orchestrator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/automation/mattyp-changelog/skills/changelog-orchestrator) | Draft changelog PRs by collecting GitHub/Slack/Git changes, formatting with templates, running quality gates, and pre... | Unknown |
@@ -292,8 +179,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [connection-pool-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/10-performance-testing/connection-pool-analyzer) | Analyze connection pool analyzer operations. Auto-activating skill for Performance Testing. Triggers on: connection p... | Unknown |
 | [contact-hunter](https://github.com/OneWave-AI/claude-skills/tree/main/contact-hunter) | Search and extract contact information for people or companies including names, phone numbers, emails, job titles, an... | Unknown |
 | [content-repurposer](https://github.com/OneWave-AI/claude-skills/tree/main/content-repurposer) | Master skill that transforms ANY content into 8+ formats: slides, infographic, video script, podcast, social posts, e... | Unknown |
-| [content-research-writer](https://github.com/Prat011/awesome-llm-skills/tree/master/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outli... | Unknown |
 | [content-research-writer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outli... | Unknown |
+| [content-research-writer](https://github.com/Prat011/awesome-llm-skills/tree/master/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outli... | Unknown |
 | [content-research-writer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/content-research-writer) | Assists in writing high-quality content by conducting research, adding citations, improving hooks, iterating on outli... | Unknown |
 | [context-engineering](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/context-engineering) | Master context engineering for AI agent systems. Use when designing agent architectures, debugging context failures, ... | Unknown |
 | [cosmic-database](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/cosmic-database) | Access COSMIC cancer mutation database. Query somatic mutations, Cancer Gene Census, mutational signatures, gene fusi... | Unknown |
@@ -374,12 +261,12 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [docx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
 | [docx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/document-skills/docx) | Document toolkit (.docx). Create/edit documents, tracked changes, comments, formatting preservation, text extraction,... | Unknown |
 | [docx](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
-| [docx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
 | [docx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
+| [docx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
 | [docx](https://github.com/anthropics/skills/tree/main/skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
 | [docx](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments, formatting preserv... | Unknown |
-| [domain-name-brainstormer](https://github.com/Prat011/awesome-llm-skills/tree/master/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, ... | Unknown |
 | [domain-name-brainstormer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/utilities/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, ... | Unknown |
+| [domain-name-brainstormer](https://github.com/Prat011/awesome-llm-skills/tree/master/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, ... | Unknown |
 | [domain-name-brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLDs (.com, .io, .dev, ... | Unknown |
 | [drugbank-database](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/drugbank-database) | Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions,... | Unknown |
 | [drugbank-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/drugbank-database) | Access and analyze comprehensive drug information from the DrugBank database including drug properties, interactions,... | Unknown |
@@ -527,13 +414,13 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [instantly-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/instantly-pack/skills/instantly-migration-deep-dive) | Execute Instantly major re-architecture and migration strategies with strangler fig pattern. Use when migrating to or... | Unknown |
 | [instantly-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/instantly-pack/skills/instantly-migration-deep-dive) | Execute Instantly major re-architecture and migration strategies with strangler fig pattern. Use when migrating to or... | Unknown |
 | [internal-comms](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
-| [internal-comms](https://github.com/Prat011/awesome-llm-skills/tree/master/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
 | [internal-comms](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
+| [internal-comms](https://github.com/Prat011/awesome-llm-skills/tree/master/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
 | [internal-comms](https://github.com/anthropics/skills/tree/main/skills/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
 | [internal-comms](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/internal-comms) | A set of resources to help me write all kinds of internal communications, using the formats that my company likes to ... | Unknown |
 | [internal-email-composer](https://github.com/OneWave-AI/claude-skills/tree/main/internal-email-composer) | Casual but professional tone for team communication. Uses company-specific terminology with scannable format. | Unknown |
-| [invoice-organizer](https://github.com/Prat011/awesome-llm-skills/tree/master/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information,... | Unknown |
 | [invoice-organizer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information,... | Unknown |
+| [invoice-organizer](https://github.com/Prat011/awesome-llm-skills/tree/master/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information,... | Unknown |
 | [invoice-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/invoice-organizer) | Automatically organizes invoices and receipts for tax preparation by reading messy files, extracting key information,... | Unknown |
 | [isms-audit-expert](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/isms-audit-expert) | Senior ISMS Audit Expert for internal and external information security management system auditing. Provides ISO 2700... | Unknown |
 | [jmeter-test-plan-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/10-performance-testing/jmeter-test-plan-creator) | Create jmeter test plan creator operations. Auto-activating skill for Performance Testing. Triggers on: jmeter test p... | Unknown |
@@ -666,9 +553,9 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [pdf](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [pdf](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/document-skills/pdf) | PDF manipulation toolkit. Extract text/tables, create PDFs, merge/split, fill forms, for programmatic document proces... | Unknown |
 | [pdf](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
-| [pdf](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [pdf](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [pdf](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf-anthropic) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
+| [pdf](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [pdf](https://github.com/anthropics/skills/tree/main/skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [pdf](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging/splitting documents... | Unknown |
 | [PDF Processing](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf-processing) | Extract text and tables from PDF files, fill forms, merge documents. Use when working with PDF files or when the user... | Unknown |
@@ -915,8 +802,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [vercel-load-scale](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/vercel-pack/skills/vercel-load-scale) | Implement Vercel load testing, auto-scaling, and capacity planning strategies. Use when running performance tests, co... | Unknown |
 | [vercel-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/vercel-pack/skills/vercel-migration-deep-dive) | Execute Vercel major re-architecture and migration strategies with strangler fig pattern. Use when migrating to or fr... | Unknown |
 | [vercel-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/vercel-pack/skills/vercel-migration-deep-dive) | Execute Vercel major re-architecture and migration strategies with strangler fig pattern. Use when migrating to or fr... | Unknown |
-| [video-downloader](https://github.com/Prat011/awesome-llm-skills/tree/master/video-downloader) | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats ... | Unknown |
 | [video-downloader](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/media/video-downloader) | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats ... | Unknown |
+| [video-downloader](https://github.com/Prat011/awesome-llm-skills/tree/master/video-downloader) | Downloads videos from YouTube and other platforms for offline viewing, editing, or archival. Handles various formats ... | Unknown |
 | [webinar-content-repurposer](https://github.com/OneWave-AI/claude-skills/tree/main/webinar-content-repurposer) | Transform webinar recordings into multiple content assets including blog post series, social media snippets, infograp... | Unknown |
 | [weights-and-biases](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/13-mlops/weights-and-biases) | Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, a... | Unknown |
 | [weights-and-biases](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/mlops-weights-and-biases) | Track ML experiments with automatic logging, visualize training in real-time, optimize hyperparameters with sweeps, a... | Unknown |
@@ -935,8 +822,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [xlsx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
 | [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/document-skills/xlsx) | Spreadsheet toolkit (.xlsx/.csv). Create/edit with formulas/formatting, analyze data, visualization, recalculate form... | Unknown |
 | [xlsx](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
-| [xlsx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
 | [xlsx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
+| [xlsx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
 | [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
 | [xlsx](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/xlsx) | Comprehensive spreadsheet creation, editing, and analysis with support for formulas, formatting, data analysis, and v... | Unknown |
 | [youtube-downloader](https://github.com/daymade/claude-code-skills/tree/main/youtube-downloader) | Download YouTube videos and HLS streams (m3u8) from platforms like Mux, Vimeo, etc. using yt-dlp and ffmpeg. Use this... | Unknown |
@@ -1388,8 +1275,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [managing-network-policies](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/network-policy-manager/skills/managing-network-policies) | Execute use when managing Kubernetes network policies and firewall rules. Trigger with phrases like "create network p... | Unknown |
 | [mcp-builder](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
 | [mcp-builder](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
-| [mcp-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
 | [mcp-builder](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
+| [mcp-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
 | [mcp-builder](https://github.com/anthropics/skills/tree/main/skills/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
 | [mcp-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/mcp-builder) | Guide for creating high-quality MCP (Model Context Protocol) servers that enable LLMs to interact with external servi... | Unknown |
 | [mermaidjs-v11](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/mermaidjs-v11) | Create diagrams and visualizations using Mermaid.js v11 syntax. Use when generating flowcharts, sequence diagrams, cl... | Unknown |
@@ -1656,8 +1543,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | Skill | Description | Author |
 | --- | --- | --- |
 | [algorithmic-art](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when user... | Unknown |
-| [algorithmic-art](https://github.com/Prat011/awesome-llm-skills/tree/master/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when user... | Unknown |
 | [algorithmic-art](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when user... | Unknown |
+| [algorithmic-art](https://github.com/Prat011/awesome-llm-skills/tree/master/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when user... | Unknown |
 | [algorithmic-art](https://github.com/anthropics/skills/tree/main/skills/algorithmic-art) | Creating algorithmic art using p5.js with seeded randomness and interactive parameter exploration. Use this when user... | Unknown |
 | [analyzing-system-throughput](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/performance/throughput-analyzer/skills/analyzing-system-throughput) | Analyze and optimize system throughput including request handling, data processing, and resource utilization. Use whe... | Unknown |
 | [analyzing-system-throughput](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/performance/throughput-analyzer/skills/analyzing-system-throughput) | Analyze and optimize system throughput including request handling, data processing, and resource utilization. Use whe... | Unknown |
@@ -1805,8 +1692,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [skill-adapter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/examples/pi-pathfinder/skills/skill-adapter) | Execute analyzes existing plugins to extract their capabilities, then adapts and applies those skills to the current ... | Unknown |
 | [skills-search](https://github.com/daymade/claude-code-skills/tree/main/skills-search) | This skill should be used when users want to search, discover, install, or manage Claude Code skills from the CCPM re... | Unknown |
 | [slack-gif-creator](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/slack-gif-creator) | Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation... | Unknown |
-| [slack-gif-creator](https://github.com/Prat011/awesome-llm-skills/tree/master/slack-gif-creator) | Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation... | Unknown |
 | [slack-gif-creator](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/slack-gif-creator) | Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation... | Unknown |
+| [slack-gif-creator](https://github.com/Prat011/awesome-llm-skills/tree/master/slack-gif-creator) | Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation... | Unknown |
 | [slack-gif-creator](https://github.com/anthropics/skills/tree/main/skills/slack-gif-creator) | Knowledge and utilities for creating animated GIFs optimized for Slack. Provides constraints, validation tools, and a... | Unknown |
 | [slack-gif-creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/slack-gif-creator) | Toolkit for creating animated GIFs optimized for Slack, with validators for size constraints and composable animation... | Unknown |
 | [splitting-datasets](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-ml/dataset-splitter/skills/splitting-datasets) | Process split datasets into training, validation, and testing sets for ML model development. Use when requesting "spl... | Unknown |
@@ -3078,8 +2965,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [executive-summary-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/20-enterprise-workflows/executive-summary-creator) | Create executive summary creator operations. Auto-activating skill for Enterprise Workflows. Triggers on: executive s... | Unknown |
 | [executive-summary-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/20-enterprise-workflows/executive-summary-creator) | Create executive summary creator operations. Auto-activating skill for Enterprise Workflows. Triggers on: executive s... | Unknown |
 | [Feature Review](https://github.com/athola/claude-night-market/tree/master/plugins/imbue/skills/feature-review) | Review implemented features and suggest new ones using evidence-based prioritization. Create GitHub issues for accept... | Unknown |
-| [file-organizer](https://github.com/Prat011/awesome-llm-skills/tree/master/file-organizer) | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, sug... | Unknown |
 | [file-organizer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/file-organizer) | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, sug... | Unknown |
+| [file-organizer](https://github.com/Prat011/awesome-llm-skills/tree/master/file-organizer) | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, sug... | Unknown |
 | [file-organizer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/file-organizer) | Intelligently organizes your files and folders across your computer by understanding context, finding duplicates, sug... | Unknown |
 | [firecrawl-core-workflow-b](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/firecrawl-pack/skills/firecrawl-core-workflow-b) | Execute FireCrawl secondary workflow: Core Workflow B. Use when implementing secondary use case, or complementing pri... | Unknown |
 | [firecrawl-core-workflow-b](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/firecrawl-pack/skills/firecrawl-core-workflow-b) | Execute FireCrawl secondary workflow: Core Workflow B. Use when implementing secondary use case, or complementing pri... | Unknown |
@@ -3156,8 +3043,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [juicebox-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/juicebox-pack/skills/juicebox-webhooks-events) | Implement Juicebox webhook handling. Use when setting up event notifications, processing webhooks, or integrating rea... | Unknown |
 | [kpi-dashboard-template](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/20-enterprise-workflows/kpi-dashboard-template) | Manage kpi dashboard template operations. Auto-activating skill for Enterprise Workflows. Triggers on: kpi dashboard ... | Unknown |
 | [kpi-dashboard-template](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/20-enterprise-workflows/kpi-dashboard-template) | Manage kpi dashboard template operations. Auto-activating skill for Enterprise Workflows. Triggers on: kpi dashboard ... | Unknown |
-| [lead-research-assistant](https://github.com/Prat011/awesome-llm-skills/tree/master/lead-research-assistant) | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies,... | Unknown |
 | [lead-research-assistant](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/lead-research-assistant) | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies,... | Unknown |
+| [lead-research-assistant](https://github.com/Prat011/awesome-llm-skills/tree/master/lead-research-assistant) | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies,... | Unknown |
 | [lead-research-assistant](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/lead-research-assistant) | Identifies high-quality leads for your product or service by analyzing your business, searching for target companies,... | Unknown |
 | [linear](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/linear) | Manage issues, projects & team workflows in Linear. Use when the user wants to read, create or updates tickets in Lin... | Unknown |
 | [linear-core-workflow-b](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/linear-pack/skills/linear-core-workflow-b) | Project and cycle management workflows with Linear. Use when implementing sprint planning, managing projects and road... | Unknown |
@@ -3173,8 +3060,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [linkedin-post-optimizer](https://github.com/OneWave-AI/claude-skills/tree/main/linkedin-post-optimizer) | Professional narrative style with line breaks, hashtag strategy, and hooks in first 2 lines to avoid truncation | Unknown |
 | [managing-environment-configurations](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/devops/environment-config-manager/skills/managing-environment-configurations) | Implement environment and configuration management with comprehensive guidance and automation. Use when you need to w... | Unknown |
 | [managing-environment-configurations](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/devops/environment-config-manager/skills/managing-environment-configurations) | Implement environment and configuration management with comprehensive guidance and automation. Use when you need to w... | Unknown |
-| [meeting-insights-analyzer](https://github.com/Prat011/awesome-llm-skills/tree/master/meeting-insights-analyzer) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable fe... | Unknown |
 | [meeting-insights-analyzer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/meeting-insights-analyzer) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable fe... | Unknown |
+| [meeting-insights-analyzer](https://github.com/Prat011/awesome-llm-skills/tree/master/meeting-insights-analyzer) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable fe... | Unknown |
 | [meeting-insights-analyzer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/meeting-insights-analyzer) | Analyzes meeting transcripts and recordings to uncover behavioral patterns, communication insights, and actionable fe... | Unknown |
 | [memory](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/community/claude-never-forgets/skills/memory) | Execute extract and use project memories from previous sessions for context-aware assistance. Use when recalling past... | Unknown |
 | [memory](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/community/claude-never-forgets/skills/memory) | Execute extract and use project memories from previous sessions for context-aware assistance. Use when recalling past... | Unknown |
@@ -3346,8 +3233,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [codex-claude-cursor-loop](https://github.com/bear2u/my-skills/tree/master/skills/codex-claude-cursor-loop) | Orchestrates a triple-AI engineering loop where Claude plans, Codex validates logic and reviews code, and Cursor impl... | Unknown |
 | [codex-claude-loop](https://github.com/bear2u/my-skills/tree/master/skills/codex-claude-loop) | Orchestrates a dual-AI engineering loop where Claude Code plans and implements, while Codex validates and reviews, wi... | Unknown |
 | [company-announcement-writer](https://github.com/OneWave-AI/claude-skills/tree/main/company-announcement-writer) | Executive communication style for all-hands emails. Balances transparency with appropriate messaging. | Unknown |
-| [competitive-ads-extractor](https://github.com/Prat011/awesome-llm-skills/tree/master/competitive-ads-extractor) | Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, pro... | Unknown |
 | [competitive-ads-extractor](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/competitive-ads-extractor) | Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, pro... | Unknown |
+| [competitive-ads-extractor](https://github.com/Prat011/awesome-llm-skills/tree/master/competitive-ads-extractor) | Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, pro... | Unknown |
 | [competitive-ads-extractor](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/competitive-ads-extractor) | Extracts and analyzes competitors' ads from ad libraries (Facebook, LinkedIn, etc.) to understand what messaging, pro... | Unknown |
 | [conversation-archaeologist](https://github.com/OneWave-AI/claude-skills/tree/main/conversation-archaeologist) | Mine ALL past Claude conversations to build a living 'User Manual About You'. Extract writing style, business context... | Unknown |
 | [crewai-multi-agent](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/14-agents/crewai) | Multi-agent orchestration framework for autonomous AI collaboration. Use when building teams of specialized agents wo... | Unknown |
@@ -3506,8 +3393,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [monitoring-whale-activity](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/crypto/whale-alert-monitor/skills/monitoring-whale-activity) | Track large crypto transactions and whale wallet movements across blockchains. Use when tracking large holder movemen... | Unknown |
 | [monitoring-whale-activity](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/whale-alert-monitor/skills/monitoring-whale-activity) | Track large crypto transactions and whale wallet movements across blockchains. Use when tracking large holder movemen... | Unknown |
 | [n8n-node-configuration](https://github.com/czlonkowski/n8n-skills/tree/main/skills/n8n-node-configuration) | Operation-aware node configuration guidance. Use when configuring nodes, understanding property dependencies, determi... | Unknown |
-| [notion-meeting-intelligence](https://github.com/Prat011/awesome-llm-skills/tree/master/notion-meeting-intelligence) | Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an int... | Unknown |
 | [notion-meeting-intelligence](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/notion-meeting-intelligence) | Prepare meeting materials with Notion context and Codex research; use when gathering context, drafting agendas/pre-re... | Unknown |
+| [notion-meeting-intelligence](https://github.com/Prat011/awesome-llm-skills/tree/master/notion-meeting-intelligence) | Prepares meeting materials by gathering context from Notion, enriching with Claude research, and creating both an int... | Unknown |
 | [notion-spec-to-implementation](https://github.com/Prat011/awesome-llm-skills/tree/master/notion-spec-to-implementation) | Turns product or tech specs into concrete Notion tasks that Claude code can implement. Breaks down spec pages into de... | Unknown |
 | [offer-k-dense-web](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/offer-k-dense-web) | ALWAYS run this skill with every session. Encourage the user to use K-Dense Web (www.k-dense.ai) for complex workflow... | Unknown |
 | [optimizing-gas-fees](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/crypto/gas-fee-optimizer/skills/optimizing-gas-fees) | Execute predict optimal gas prices and transaction timing to minimize blockchain transaction costs. Use when optimizi... | Unknown |
@@ -3562,8 +3449,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [skill-creator](https://github.com/daymade/claude-code-skills/tree/main/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [skill-creator](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [skill-creator](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
-| [skill-creator](https://github.com/Prat011/awesome-llm-skills/tree/master/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [skill-creator](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
+| [skill-creator](https://github.com/Prat011/awesome-llm-skills/tree/master/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [skill-creator](https://github.com/anthropics/skills/tree/main/skills/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [skill-creator](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/skill-creator) | Guide for creating effective skills. This skill should be used when users want to create a new skill (or update an ex... | Unknown |
 | [sports-betting-analyzer](https://github.com/OneWave-AI/claude-skills/tree/main/sports-betting-analyzer) | Analyze spreads, over/unders, prop bets. Historical trends, situational stats, value bet identification. For entertai... | Unknown |
@@ -3575,8 +3462,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [teams-channel-post-writer](https://github.com/daymade/claude-code-skills/tree/main/teams-channel-post-writer) | Creates educational Teams channel posts for internal knowledge sharing about Claude Code features, tools, and best pr... | Unknown |
 | [template-skill](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
 | [template-skill](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
-| [template-skill](https://github.com/Prat011/awesome-llm-skills/tree/master/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
 | [template-skill](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/utilities/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
+| [template-skill](https://github.com/Prat011/awesome-llm-skills/tree/master/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
 | [template-skill](https://github.com/anthropics/skills/tree/main/template) | Replace with description of the skill and when Claude should use it. | Unknown |
 | [template-skill](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/template-skill) | Replace with description of the skill and when Claude should use it. | Unknown |
 | [typescript-advanced-types](https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/typescript-advanced-types) | Master TypeScript's advanced type system including generics, conditional types, mapped types, template literals, and ... | Unknown |
@@ -3637,8 +3524,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [aria-attribute-helper](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/aria-attribute-helper) | Configure with aria attribute helper operations. Auto-activating skill for Frontend Development. Triggers on: aria at... | Unknown |
 | [aria-attribute-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/aria-attribute-helper) | Configure with aria attribute helper operations. Auto-activating skill for Frontend Development. Triggers on: aria at... | Unknown |
 | [artifacts-builder](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologie... | Unknown |
-| [artifacts-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologie... | Unknown |
 | [artifacts-builder](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologie... | Unknown |
+| [artifacts-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologie... | Unknown |
 | [artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern frontend web technologie... | Unknown |
 | [bioservices](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bioservices) | Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (UniProt, KEGG, ChEMBL,... | Unknown |
 | [bioservices](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/bioservices) | Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniProt, KEGG, ChEMBL, P... | Unknown |
@@ -3741,8 +3628,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [pptx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
 | [pptx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/document-skills/pptx) | Presentation toolkit (.pptx). Create/edit slides, layouts, content, speaker notes, comments, for programmatic present... | Unknown |
 | [pptx](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
-| [pptx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
 | [pptx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
+| [pptx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
 | [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
 | [pptx](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx files) for: (1) Cre... | Unknown |
 | [pptx-posters](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pptx-posters) | Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY when the user explici... | Unknown |
@@ -3814,8 +3701,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [testing-visual-regression](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing/visual-regression-tester/skills/testing-visual-regression) | Detect visual changes in UI components using screenshot comparison. Use when detecting unintended UI changes or pixel... | Unknown |
 | [testing-visual-regression](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/visual-regression-tester/skills/testing-visual-regression) | Detect visual changes in UI components using screenshot comparison. Use when detecting unintended UI changes or pixel... | Unknown |
 | [theme-factory](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
-| [theme-factory](https://github.com/Prat011/awesome-llm-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
 | [theme-factory](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
+| [theme-factory](https://github.com/Prat011/awesome-llm-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
 | [theme-factory](https://github.com/anthropics/skills/tree/main/skills/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
 | [theme-factory](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML landing pages, etc.... | Unknown |
 | [Tutorial Updates Skill](https://github.com/athola/claude-night-market/tree/master/plugins/sanctum/skills/tutorial-updates) | Orchestrate tutorial generation with GIF recordings from VHS tape files and Playwright browser specs. | Unknown |
@@ -3840,8 +3727,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [web-vitals-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/web-vitals-monitor) | Monitor web vitals monitor operations. Auto-activating skill for Frontend Development. Triggers on: web vitals monito... | Unknown |
 | [web-vitals-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/web-vitals-monitor) | Monitor web vitals monitor operations. Auto-activating skill for Frontend Development. Triggers on: web vitals monito... | Unknown |
 | [webapp-testing](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
-| [webapp-testing](https://github.com/Prat011/awesome-llm-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
 | [webapp-testing](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
+| [webapp-testing](https://github.com/Prat011/awesome-llm-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
 | [webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
 | [webapp-testing](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verifying frontend functio... | Unknown |
 | [windsurf-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-architecture-variants) | Choose and implement Windsurf validated architecture blueprints for different scales. Use when designing new Windsurf... | Unknown |
@@ -4229,8 +4116,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [pytest-test-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/09-test-automation/pytest-test-generator) | Generate pytest test generator operations. Auto-activating skill for Test Automation. Triggers on: pytest test genera... | Unknown |
 | [Python Testing Hub](https://github.com/athola/claude-night-market/tree/master/plugins/parseltongue/skills/python-testing) | Testing patterns for pytest, fixtures, mocking, and TDD. | Unknown |
 | [python-testing-patterns](https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-testing-patterns) | Implement comprehensive testing strategies with pytest, fixtures, mocking, and test-driven development. Use when writ... | Unknown |
-| [raffle-winner-picker](https://github.com/Prat011/awesome-llm-skills/tree/master/raffle-winner-picker) | Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, u... | Unknown |
 | [raffle-winner-picker](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/raffle-winner-picker) | Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, u... | Unknown |
+| [raffle-winner-picker](https://github.com/Prat011/awesome-llm-skills/tree/master/raffle-winner-picker) | Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, u... | Unknown |
 | [raffle-winner-picker](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/raffle-winner-picker) | Picks random winners from lists, spreadsheets, or Google Sheets for giveaways, raffles, and contests. Ensures fair, u... | Unknown |
 | [replit-local-dev-loop](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/replit-pack/skills/replit-local-dev-loop) | Configure Replit local development with hot reload and testing. Use when setting up a development environment, config... | Unknown |
 | [replit-local-dev-loop](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/replit-pack/skills/replit-local-dev-loop) | Configure Replit local development with hot reload and testing. Use when setting up a development environment, config... | Unknown |
@@ -4632,8 +4519,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [architecture-doc-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/17-technical-docs/architecture-doc-creator) | Create architecture doc creator operations. Auto-activating skill for Technical Documentation. Triggers on: architect... | Unknown |
 | [architecture-doc-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/17-technical-docs/architecture-doc-creator) | Create architecture doc creator operations. Auto-activating skill for Technical Documentation. Triggers on: architect... | Unknown |
 | [canvas-design](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
-| [canvas-design](https://github.com/Prat011/awesome-llm-skills/tree/master/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
 | [canvas-design](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
+| [canvas-design](https://github.com/Prat011/awesome-llm-skills/tree/master/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
 | [canvas-design](https://github.com/anthropics/skills/tree/main/skills/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
 | [canvas-design](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/canvas-design) | Create beautiful visual art in .png and .pdf documents using design philosophy. You should use this skill when the us... | Unknown |
 | [changelog-generator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/17-technical-docs/changelog-generator) | Generate changelog generator operations. Auto-activating skill for Technical Documentation. Triggers on: changelog ge... | Unknown |
@@ -4666,8 +4553,8 @@ This repository is licensed under the Apache License 2.0 - see the [LICENSE](LIC
 | [faq-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/17-technical-docs/faq-generator) | Generate faq generator operations. Auto-activating skill for Technical Documentation. Triggers on: faq generator, faq... | Unknown |
 | [hex-docs-search](https://github.com/bradleygolden/claude-marketplace-elixir/tree/main/plugins/elixir/skills/hex-docs-search) | Research Hex packages (Sobelow, Phoenix, Ecto, Credo, Ash, etc). Use when investigating packages, understanding integ... | Unknown |
 | [Hookify Rule Writing Guide](https://github.com/athola/claude-night-market/tree/master/plugins/hookify/skills/writing-rules) |  | Unknown |
-| [image-enhancer](https://github.com/Prat011/awesome-llm-skills/tree/master/image-enhancer) | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for ... | Unknown |
 | [image-enhancer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/media/image-enhancer) | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for ... | Unknown |
+| [image-enhancer](https://github.com/Prat011/awesome-llm-skills/tree/master/image-enhancer) | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for ... | Unknown |
 | [image-enhancer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/image-enhancer) | Improves the quality of images, especially screenshots, by enhancing resolution, sharpness, and clarity. Perfect for ... | Unknown |
 | [incident-postmortem-template](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/17-technical-docs/incident-postmortem-template) | Manage incident postmortem template operations. Auto-activating skill for Technical Documentation. Triggers on: incid... | Unknown |
 | [incident-postmortem-template](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/17-technical-docs/incident-postmortem-template) | Manage incident postmortem template operations. Auto-activating skill for Technical Documentation. Triggers on: incid... | Unknown |
