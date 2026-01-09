@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*209 skills in this domain*
+*210 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -17,8 +17,8 @@
 | [aria-attribute-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/aria-attribute-helper) | Configure with aria attribute helper operations. Auto-activating skill for Frontend Development. ... | jeremylongshore |
 | [aria-attribute-helper](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/aria-attribute-helper) | Configure with aria attribute helper operations. Auto-activating skill for Frontend Development. ... | jeremylongshore |
 | [artifacts-builder](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fron... | OneWave-AI |
-| [artifacts-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fron... | Prat011 |
 | [artifacts-builder](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fron... | davila7 |
+| [artifacts-builder](https://github.com/Prat011/awesome-llm-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fron... | Prat011 |
 | [artifacts-builder](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/artifacts-builder) | Suite of tools for creating elaborate, multi-component claude.ai HTML artifacts using modern fron... | ComposioHQ |
 | [bioservices](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bioservices) | Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (Un... | K-Dense-AI |
 | [bioservices](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/bioservices) | Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniP... | davila7 |
@@ -26,6 +26,7 @@
 | [brainstorming](https://github.com/obra/superpowers/tree/main/skills/brainstorming) | You MUST use this before any creative work - creating features, building components, adding funct... | obra |
 | [brenda-database](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/brenda-database) | Access BRENDA enzyme database via SOAP API. Retrieve kinetic parameters (Km, kcat), reaction equa... | K-Dense-AI |
 | [brenda-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/brenda-database) | Access BRENDA enzyme database via SOAP API. Retrieve kinetic parameters (Km, kcat), reaction equa... | davila7 |
+| [browser](https://github.com/iamzhihuix/happy-claude-skills/tree/main/skills/browser) | Minimal Chrome DevTools Protocol tools for browser automation and scraping. Use when you need to ... | iamzhihuix |
 | [bundle-size-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/bundle-size-analyzer) | Analyze bundle size analyzer operations. Auto-activating skill for Frontend Development. Triggers... | jeremylongshore |
 | [bundle-size-analyzer](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/bundle-size-analyzer) | Analyze bundle size analyzer operations. Auto-activating skill for Frontend Development. Triggers... | jeremylongshore |
 | [chrome-devtools](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/chrome-devtools) | Browser automation, debugging, and performance analysis using Puppeteer CLI scripts. Use for auto... | mrgoonie |
@@ -59,8 +60,8 @@
 | [fireflies-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/fireflies-pack/skills/fireflies-reference-architecture) | Implement Fireflies.ai reference architecture with best-practice project layout. Use when designi... | jeremylongshore |
 | [fireflies-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/fireflies-pack/skills/fireflies-reference-architecture) | Implement Fireflies.ai reference architecture with best-practice project layout. Use when designi... | jeremylongshore |
 | [frontend-design](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | mrgoonie |
-| [frontend-design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design/skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | anthropics |
 | [frontend-design](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | davila7 |
+| [frontend-design](https://github.com/anthropics/claude-code/tree/main/plugins/frontend-design/skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | anthropics |
 | [frontend-design](https://github.com/bear2u/my-skills/tree/master/skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | bear2u |
 | [frontend-design](https://github.com/anthropics/skills/tree/main/skills/frontend-design) | Create distinctive, production-grade frontend interfaces with high design quality. Use this skill... | anthropics |
 | [frontend-dev-guidelines](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/frontend-development) | Frontend development guidelines for React/TypeScript applications. Modern patterns including Susp... | mrgoonie |
@@ -104,15 +105,15 @@
 | [pinia-store-setup](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/pinia-store-setup) | Configure pinia store setup operations. Auto-activating skill for Frontend Development. Triggers ... | jeremylongshore |
 | [playwright-skill](https://github.com/lackeyjb/playwright-skill/tree/main/skills/playwright-skill) | Complete browser automation with Playwright. Auto-detects dev servers, writes clean test scripts ... | lackeyjb |
 | [plotly](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/plotly) | Interactive scientific and statistical data visualization library for Python. Use when creating c... | davila7 |
-| [Plugin Structure](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/plugin-structure) | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understa... | anthropics |
 | [Plugin Structure](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/plugin-structure) | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understa... | davila7 |
+| [Plugin Structure](https://github.com/anthropics/claude-code/tree/main/plugins/plugin-dev/skills/plugin-structure) | This skill should be used when the user asks to "create a plugin", "scaffold a plugin", "understa... | anthropics |
 | [posthog-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/posthog-pack/skills/posthog-reference-architecture) | Implement PostHog reference architecture with best-practice project layout. Use when designing ne... | jeremylongshore |
 | [posthog-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/posthog-pack/skills/posthog-reference-architecture) | Implement PostHog reference architecture with best-practice project layout. Use when designing ne... | jeremylongshore |
 | [pptx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | mrgoonie |
 | [pptx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/document-skills/pptx) | Presentation toolkit (.pptx). Create/edit slides, layouts, content, speaker notes, comments, for ... | K-Dense-AI |
 | [pptx](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | OneWave-AI |
-| [pptx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | Prat011 |
 | [pptx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | davila7 |
+| [pptx](https://github.com/Prat011/awesome-llm-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | Prat011 |
 | [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | anthropics |
 | [pptx](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | ComposioHQ |
 | [pptx-posters](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pptx-posters) | Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY w... | K-Dense-AI |
@@ -181,8 +182,8 @@
 | [testing-visual-regression](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/visual-regression-tester/skills/testing-visual-regression) | Detect visual changes in UI components using screenshot comparison. Use when detecting unintended... | jeremylongshore |
 | [testing-visual-regression](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing/visual-regression-tester/skills/testing-visual-regression) | Detect visual changes in UI components using screenshot comparison. Use when detecting unintended... | jeremylongshore |
 | [theme-factory](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | OneWave-AI |
-| [theme-factory](https://github.com/Prat011/awesome-llm-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | Prat011 |
 | [theme-factory](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | davila7 |
+| [theme-factory](https://github.com/Prat011/awesome-llm-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | Prat011 |
 | [theme-factory](https://github.com/anthropics/skills/tree/main/skills/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | anthropics |
 | [theme-factory](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/theme-factory) | Toolkit for styling artifacts with a theme. These artifacts can be slides, docs, reportings, HTML... | ComposioHQ |
 | [ui-design-system](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/ui-design-system) | UI design system toolkit for Senior UI Designer including design token generation, component docu... | davila7 |
@@ -205,8 +206,8 @@
 | [web-vitals-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/web-vitals-monitor) | Monitor web vitals monitor operations. Auto-activating skill for Frontend Development. Triggers o... | jeremylongshore |
 | [web-vitals-monitor](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/web-vitals-monitor) | Monitor web vitals monitor operations. Auto-activating skill for Frontend Development. Triggers o... | jeremylongshore |
 | [webapp-testing](https://github.com/OneWave-AI/claude-skills/tree/main/official-anthropic-skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | OneWave-AI |
-| [webapp-testing](https://github.com/Prat011/awesome-llm-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | Prat011 |
 | [webapp-testing](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | davila7 |
+| [webapp-testing](https://github.com/Prat011/awesome-llm-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | Prat011 |
 | [webapp-testing](https://github.com/anthropics/skills/tree/main/skills/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | anthropics |
 | [webapp-testing](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/webapp-testing) | Toolkit for interacting with and testing local web applications using Playwright. Supports verify... | ComposioHQ |
 | [windsurf-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-architecture-variants) | Choose and implement Windsurf validated architecture blueprints for different scales. Use when de... | jeremylongshore |
