@@ -11,9 +11,9 @@
 
 A curated list of awesome Claude Code skills to enhance your Claude Code experience.
 
-Total Skills: 4167
+Total Skills: 4171
 
-Last updated: 2026-01-09 11:10 UTC
+Last updated: 2026-01-09 12:20 UTC
 
 **[📋 See full skill list](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
 
