@@ -20,8 +20,14 @@ class SkillParser(EntityParser[Skill]):
         file_path: Path,
         repo_config: RepoConfig
     ) -> Optional[Skill]:
-        """Parse skill from SKILL.md file."""
-        if file_path.name != "SKILL.md":
+        """Parse skill from SKILL.md or agent .md file."""
+        # Check if this is an agent file (in agents directory and .md extension)
+        is_agent_file = (file_path.parent.name.lower() == 'agents' and
+                        file_path.suffix.lower() == '.md' and
+                        file_path.name.lower() != 'readme.md')
+
+        # Check for SKILL.md files or agent files
+        if not (file_path.name.lower() == "skill.md" or is_agent_file):
             return None
 
         skill_dir = file_path.parent
@@ -31,36 +37,54 @@ class SkillParser(EntityParser[Skill]):
             logger.debug(f"Skipping generated skill directory: {skill_dir.name}")
             return None
 
-        # Parse metadata from SKILL.md
+        # Parse metadata from the file
         meta = self._parse_metadata(file_path)
         if meta is None:
             return None
 
         # Calculate paths
-        directory = skill_dir.name
+        if is_agent_file:
+            # For agent files, the directory is the plugin name (parent of agents directory)
+            directory = file_path.parent.parent.name
+        else:
+            directory = skill_dir.name
 
         # Find the repo root by looking for .git directory
-        repo_root = skill_dir
-        # Check current dir first
-        if (skill_dir / '.git').exists():
-            repo_root = skill_dir
+        if is_agent_file:
+            # For agent files, start from the plugin directory
+            repo_root_search_dir = file_path.parent.parent
         else:
-            for parent in skill_dir.parents:
+            repo_root_search_dir = skill_dir
+
+        repo_root = repo_root_search_dir
+        # Check current dir first
+        if (repo_root_search_dir / '.git').exists():
+            repo_root = repo_root_search_dir
+        else:
+            for parent in repo_root_search_dir.parents:
                 if (parent / '.git').exists():
                     repo_root = parent
                     break
             else:
                 # Fallback to the original logic if .git not found
                 try:
-                    repo_root = skill_dir.parents[-2]
+                    repo_root = repo_root_search_dir.parents[-2]
                 except IndexError:
-                    repo_root = skill_dir.parent
+                    repo_root = repo_root_search_dir.parent
 
         # Get relative path from repo root to skill directory
-        try:
-            repo_relative_path = str(skill_dir.relative_to(repo_root))
-        except ValueError:
-            repo_relative_path = directory
+        if is_agent_file:
+            # For agent files, use the parent directory of the agents directory
+            skill_parent_dir = file_path.parent.parent
+            try:
+                repo_relative_path = str(skill_parent_dir.relative_to(repo_root))
+            except ValueError:
+                repo_relative_path = skill_parent_dir.name
+        else:
+            try:
+                repo_relative_path = str(skill_dir.relative_to(repo_root))
+            except ValueError:
+                repo_relative_path = directory
 
         source_directory = repo_relative_path
 
@@ -76,7 +100,10 @@ class SkillParser(EntityParser[Skill]):
                 logger.warning(f"Skill directory {skill_dir} is not under skills_path {repo_config.path}")
 
         # Determine directory name for key
-        if skill_dir == repo_root:
+        if is_agent_file:
+            # For agent files, keep the directory as set above
+            pass
+        elif skill_dir == repo_root:
             # Use repo name for root skills if directory would be "."
             directory = repo_config.name if repo_config.name else "."
         else:
@@ -100,7 +127,7 @@ class SkillParser(EntityParser[Skill]):
         return skill
 
     def get_file_pattern(self) -> str:
-        """Skills use SKILL.md files."""
+        """Skills use SKILL.md or skill.md files (case-insensitive)."""
         return "SKILL.md"
 
     def create_entity_key(self, repo_config: RepoConfig, entity_name: str) -> str:

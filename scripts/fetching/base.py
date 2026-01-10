@@ -147,19 +147,75 @@ class BaseEntityFetcher(ABC, Generic[T]):
 
                     # Find entity files
                     file_pattern = self.parser.get_file_pattern()
-                    for entity_file in scan_dir.rglob(file_pattern):
-                        # Check if file should be excluded
-                        if self._should_exclude_file(entity_file, temp_dir, repo):
-                            logger.debug(f"Excluded file: {entity_file}")
-                            continue
+                    # Handle case-insensitive patterns for skills
+                    if file_pattern == "SKILL.md":
+                        # Find all directories that contain SKILL.md files
+                        skill_dirs = set()
+                        for skill_file in scan_dir.rglob("SKILL.md"):
+                            if self._should_exclude_file(skill_file, temp_dir, repo):
+                                logger.debug(f"Excluded file: {skill_file}")
+                                continue
+                            # Check if the directory should be excluded
+                            if self._should_exclude_directory(skill_file.parent, temp_dir, repo):
+                                logger.debug(f"Excluded directory: {skill_file.parent}")
+                                continue
+                            skill_dirs.add(skill_file.parent)
 
-                        try:
-                            entity = self.parser.parse_from_file(entity_file, repo)
-                            if entity:
-                                entities.append(entity)
-                                logger.debug(f"Found entity: {entity}")
-                        except Exception as e:
-                            logger.warning(f"Failed to parse {entity_file}: {e}")
+                        # Also find agent files in agents directories
+                        if scan_dir.name.lower() == 'agents':
+                            for agent_file in scan_dir.glob("*.md"):
+                                if agent_file.name.lower() == 'readme.md':
+                                    continue
+                                if self._should_exclude_file(agent_file, temp_dir, repo):
+                                    logger.debug(f"Excluded file: {agent_file}")
+                                    continue
+                                # Check if the directory should be excluded
+                                if self._should_exclude_directory(agent_file.parent.parent, temp_dir, repo):
+                                    logger.debug(f"Excluded directory: {agent_file.parent.parent}")
+                                    continue
+                                # For agent files, the "directory" is the parent of agents
+                                skill_dirs.add(agent_file.parent.parent)
+
+                        # Process each skill directory
+                        for skill_dir in skill_dirs:
+                            skill_file = skill_dir / "SKILL.md"
+                            if skill_file.exists():
+                                # Regular skill directory with SKILL.md
+                                entity_file = skill_file
+                            else:
+                                # Agent file - find the .md file in the agents subdirectory
+                                agents_dir = skill_dir / "agents"
+                                if agents_dir.exists():
+                                    agent_files = list(agents_dir.glob("*.md"))
+                                    agent_files = [f for f in agent_files if f.name.lower() != 'readme.md']
+                                    if agent_files:
+                                        entity_file = agent_files[0]  # Use the first agent file
+                                    else:
+                                        continue
+                                else:
+                                    continue
+
+                            try:
+                                entity = self.parser.parse_from_file(entity_file, repo)
+                                if entity:
+                                    entities.append(entity)
+                                    logger.debug(f"Found entity: {entity}")
+                            except Exception as e:
+                                logger.warning(f"Failed to parse {entity_file}: {e}")
+                    else:
+                        for entity_file in scan_dir.rglob(file_pattern):
+                            # Check if file should be excluded
+                            if self._should_exclude_file(entity_file, temp_dir, repo):
+                                logger.debug(f"Excluded file: {entity_file}")
+                                continue
+
+                            try:
+                                entity = self.parser.parse_from_file(entity_file, repo)
+                                if entity:
+                                    entities.append(entity)
+                                    logger.debug(f"Found entity: {entity}")
+                            except Exception as e:
+                                logger.warning(f"Failed to parse {entity_file}: {e}")
 
         except Exception as e:
             logger.error(f"Failed to fetch from {repo.owner}/{repo.name}: {e}")
@@ -170,7 +226,8 @@ class BaseEntityFetcher(ABC, Generic[T]):
         """Get scan directories from repo path (supports multiple paths separated by '|').
 
         For agents, if no path is specified, automatically find all 'agents' directories
-        in the repository. For other entity types, use the specified path or repo root.
+        in the repository. For skills, if no path is specified, scan from repo root
+        and also check for 'agents' directories.
 
         Args:
             temp_dir: Repository root directory
@@ -185,8 +242,11 @@ class BaseEntityFetcher(ABC, Generic[T]):
                 # For agents: automatically find all 'agents' directories in the repo
                 return self._find_agent_directories(temp_dir)
             else:
-                # For other entities: scan from repo root
-                return [temp_dir]
+                # For skills: scan from repo root and also check agents directories
+                scan_dirs = [temp_dir]
+                agent_dirs = self._find_agent_directories(temp_dir)
+                scan_dirs.extend(agent_dirs)
+                return scan_dirs
 
         # Split by '|' to support multiple paths
         paths = [p.strip().strip('/') for p in repo.path.split('|') if p.strip()]
@@ -278,6 +338,45 @@ class BaseEntityFetcher(ABC, Generic[T]):
                 if file_path.name == pattern[1:]:
                     return True
             elif pattern.endswith("*"):
+                # Pattern like "backups/*" - check if path starts with pattern
+                if rel_path_str.startswith(pattern[:-1]):
+                    return True
+            elif pattern in rel_path_str:
+                # Direct substring match
+                return True
+
+        return False
+
+    def _should_exclude_directory(self, dir_path: Path, repo_root: Path, repo_config: RepoConfig) -> bool:
+        """Check if a directory should be excluded based on exclude patterns.
+
+        Args:
+            dir_path: Absolute path to the directory
+            repo_root: Root directory of the repository
+            repo_config: Repository configuration
+
+        Returns:
+            True if the directory should be excluded, False otherwise
+        """
+        # Get relative path from repo root
+        try:
+            rel_path = dir_path.relative_to(repo_root)
+            rel_path_str = str(rel_path)
+        except ValueError:
+            # Directory is not under repo root (shouldn't happen, but be safe)
+            return False
+
+        # Always exclude paths containing "backup" (hardcoded rule)
+        if "backup" in rel_path_str.lower():
+            return True
+
+        # Check configured exclude patterns
+        if not repo_config.exclude:
+            return False
+
+        # Check each exclude pattern
+        for pattern in repo_config.exclude:
+            if pattern.endswith("*"):
                 # Pattern like "backups/*" - check if path starts with pattern
                 if rel_path_str.startswith(pattern[:-1]):
                     return True
