@@ -218,11 +218,9 @@ class BaseEntityFetcher(ABC, Generic[T]):
                 # For agents: automatically find all 'agents' directories in the repo
                 return self._find_agent_directories(temp_dir)
             else:
-                # For skills: scan from repo root and also check agents directories
-                scan_dirs = [temp_dir]
-                agent_dirs = self._find_agent_directories(temp_dir)
-                scan_dirs.extend(agent_dirs)
-                return scan_dirs
+                # For skills: scan from repo root only - do not scan agent directories
+                # Skills are only identified by SKILL.md files, not by being in agent directories
+                return [temp_dir]
 
         # Split by '|' to support multiple paths
         paths = [p.strip().strip('/') for p in repo.path.split('|') if p.strip()]

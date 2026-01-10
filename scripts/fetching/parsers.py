@@ -1,6 +1,5 @@
 """Entity-specific parsers for skills."""
 
-import json
 from pathlib import Path
 from typing import Optional, Dict, Any
 import logging
@@ -20,14 +19,10 @@ class SkillParser(EntityParser[Skill]):
         file_path: Path,
         repo_config: RepoConfig
     ) -> Optional[Skill]:
-        """Parse skill from SKILL.md or agent .md file."""
-        # Check if this is an agent file (in agents directory and .md extension)
-        is_agent_file = (file_path.parent.name.lower() == 'agents' and
-                        file_path.suffix.lower() == '.md' and
-                        file_path.name.lower() != 'readme.md')
-
-        # Check for SKILL.md files or agent files
-        if not (file_path.name.lower() == "skill.md" or is_agent_file):
+        """Parse skill from SKILL.md file."""
+        # Only check for SKILL.md files - agent files should not be considered skills
+        # unless they have a SKILL.md file in their folder
+        if file_path.name.lower() != "skill.md":
             return None
 
         skill_dir = file_path.parent
@@ -43,18 +38,10 @@ class SkillParser(EntityParser[Skill]):
             return None
 
         # Calculate paths
-        if is_agent_file:
-            # For agent files, the directory is the plugin name (parent of agents directory)
-            directory = file_path.parent.parent.name
-        else:
-            directory = skill_dir.name
+        directory = skill_dir.name
 
         # Find the repo root by looking for .git directory
-        if is_agent_file:
-            # For agent files, start from the plugin directory
-            repo_root_search_dir = file_path.parent.parent
-        else:
-            repo_root_search_dir = skill_dir
+        repo_root_search_dir = skill_dir
 
         repo_root = repo_root_search_dir
         # Check current dir first
@@ -73,37 +60,24 @@ class SkillParser(EntityParser[Skill]):
                     repo_root = repo_root_search_dir.parent
 
         # Get relative path from repo root to skill directory
-        if is_agent_file:
-            # For agent files, use the parent directory of the agents directory
-            skill_parent_dir = file_path.parent.parent
-            try:
-                repo_relative_path = str(skill_parent_dir.relative_to(repo_root))
-            except ValueError:
-                repo_relative_path = skill_parent_dir.name
-        else:
-            try:
-                repo_relative_path = str(skill_dir.relative_to(repo_root))
-            except ValueError:
-                repo_relative_path = directory
+        try:
+            repo_relative_path = str(skill_dir.relative_to(repo_root))
+        except ValueError:
+            repo_relative_path = directory
 
-        source_directory = repo_relative_path
-
-        # If skills_path is set, source_directory should be relative to skills_path
+        # If skills_path is set, adjust repo_relative_path accordingly
         if repo_config.path:
             skills_path = Path(repo_config.path)
             try:
-                # Try to make source_directory relative to skills_path
+                # Try to make repo_relative_path relative to skills_path
                 full_skills_path = repo_root / skills_path
-                source_directory = str(skill_dir.relative_to(full_skills_path))
+                repo_relative_path = str(skill_dir.relative_to(full_skills_path))
             except ValueError:
                 # If we can't make it relative, keep the full path but warn
                 logger.warning(f"Skill directory {skill_dir} is not under skills_path {repo_config.path}")
 
         # Determine directory name for key
-        if is_agent_file:
-            # For agent files, keep the directory as set above
-            pass
-        elif skill_dir == repo_root:
+        if skill_dir == repo_root:
             # Use repo name for root skills if directory would be "."
             directory = repo_config.name if repo_config.name else "."
         else:
