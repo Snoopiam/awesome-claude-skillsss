@@ -11,9 +11,9 @@
 
 A curated list of awesome Claude Code skills to enhance your Claude Code experience.
 
-Total Skills: 9480
+Total Skills: 9483
 
-Last updated: 2026-04-26 01:22 UTC
+Last updated: 2026-04-26 05:08 UTC
 
 **[📋 See full skill list](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
 
@@ -89,11 +89,6 @@ To add a new skill or marketplace:
 ### Development Tools
 - [Code Assistant Manager](https://github.com/Chat2AnyLLM/code-assistant-manager) - Tool for managing Claude skills
 - [Claude CLI](https://github.com/anthropics/claude-code/tree/main/packages/cli) - Command-line interface for Claude
-
-### Articles
-
-- [Agent Skills](https://arxiv.org/abs/2602.08004) - Data-driven analysis: the ecosystem, opportunities, and risks behind 40,000+ Claude Skills
-
 
 ## Join the Community
 
