@@ -13,7 +13,7 @@ A curated list of awesome Claude Code skills to enhance your Claude Code experie
 
 Total Skills: 9869
 
-Last updated: 2026-05-09 11:39 UTC
+Last updated: 2026-05-09 12:35 UTC
 
 **[📋 See full skill list](FULL-SKILLS.md#complete-skills-listing)** - Convenient for searching through all skills without size limits.
 
@@ -66,13 +66,7 @@ Want to contribute your own skills? Here's how to get started:
 
 ## Contributing
 
-We welcome contributions! Please see our [contributing guidelines](CONTRIBUTING.md) for details on how to add new marketplaces or skills.
-
-To add a new skill or marketplace:
-1. Fork this repository
-2. Add the entry to the appropriate section
-3. Ensure the skill is verified and documented
-4. Submit a pull request with a clear description
+We welcome contributions! To add a new skill config, please visit the **[awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs)** repository and add your entry to the config file there. Skill listings in this repository are generated automatically from that config.
 
 ## Resources
 
@@ -100,8 +94,8 @@ Connect with other Claude developers and skill creators:
 - **Discord**: [Claude Community](https://discord.gg/anthropic)
 
 ### Contribution
+- **Add a Skill**: [Submit new skill configs to awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs)
 - **GitHub Issues**: [Report bugs and request features](https://github.com/Chat2AnyLLM/awesome-claude-skills/issues)
-- **Pull Requests**: [Contribute skills and improvements](https://github.com/Chat2AnyLLM/awesome-claude-skills/pulls)
 - **Discussions**: [Share ideas and get help](https://github.com/Chat2AnyLLM/awesome-claude-skills/discussions)
 
 ### Support
