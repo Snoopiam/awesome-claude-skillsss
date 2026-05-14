@@ -1,0 +1,80 @@
+name: Remind README Contributors
+
+on:
+  pull_request_target:
+    types:
+      - opened
+      - reopened
+      - synchronize
+
+permissions:
+  contents: read
+  pull-requests: write
+
+jobs:
+  remind-contributors:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Remind contributors about generated README updates
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const core = require('@actions/core');
+
+            const owner = context.repo.owner;
+            const repo = context.repo.repo;
+            const pullNumber = context.payload.pull_request.number;
+            const marker = '<!-- readme-contribution-reminder -->';
+
+            const files = await github.paginate(github.rest.pulls.listFiles, {
+              owner,
+              repo,
+              pull_number: pullNumber,
+              per_page: 100,
+            });
+
+            const readmeTouched = files.some((file) => file.filename === 'README.md');
+
+            if (!readmeTouched) {
+              core.info('README.md was not modified in this pull request.');
+              return;
+            }
+
+            const body = [
+              marker,
+              `Thanks for updating \`README.md\`. This file is generated automatically, so please review the contributing guidance in this repository's [README](https://github.com/${owner}/${repo}/blob/main/README.md).`,
+              "",
+              "For a valid config update, add or update the source entry in [Chat2AnyLLM/awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs) instead of editing the generated README directly.",
+            ].join('\n');
+
+            const comments = await github.paginate(github.rest.issues.listComments, {
+              owner,
+              repo,
+              issue_number: pullNumber,
+              per_page: 100,
+            });
+
+            const existingComment = comments.find(
+              (comment) => comment.user?.type === 'Bot' && comment.body?.includes(marker)
+            );
+
+            if (existingComment) {
+              await github.rest.issues.updateComment({
+                owner,
+                repo,
+                comment_id: existingComment.id,
+                body,
+              });
+              core.info(`Updated reminder comment ${existingComment.id}.`);
+              return;
+            }
+
+            const createdComment = await github.rest.issues.createComment({
+              owner,
+              repo,
+              issue_number: pullNumber,
+              body,
+            });
+
+            core.info(`Created reminder comment ${createdComment.data.id}.`);
