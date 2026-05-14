@@ -43,7 +43,7 @@ jobs:
 
             const body = [
               marker,
-              `Thanks for updating \`README.md\`. This file is generated automatically, so please review the repository's [contributing guidance](https://github.com/${owner}/${repo}#contributing).`,
+              `Thanks for updating \`README.md\`. This file is generated automatically, so please review the contributing guidance in this repository's [README](https://github.com/${owner}/${repo}/blob/main/README.md).`,
               "",
               "For a valid config update, add or update the source entry in [Chat2AnyLLM/awesome-repo-configs](https://github.com/Chat2AnyLLM/awesome-repo-configs) instead of editing the generated README directly.",
             ].join('\n');
