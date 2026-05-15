@@ -32,8 +32,8 @@
 - [Frontend Development](#frontend-development) - 536 skills
 - [Version Control & Collaboration](#version-control-and-collaboration) - 534 skills
 - [Testing & Quality](#testing-and-quality) - 342 skills
-- [Machine Learning](#machine-learning) - 339 skills
-  - [Model Training](#model-training) - 219 skills
+- [Machine Learning](#machine-learning) - 340 skills
+  - [Model Training](#model-training) - 220 skills
   - [Hyperparameter Tuning](#hyperparameter-tuning) - 68 skills
   - [Model Evaluation](#model-evaluation) - 21 skills
   - [Feature Engineering](#feature-engineering) - 20 skills
@@ -9070,11 +9070,11 @@
 <a name="machine-learning"></a>
 # Machine Learning
 
-*339 skills in this domain*
+*340 skills in this domain*
 
 <a name="model-training"></a>
 ## Model Training
-*219 skills*
+*220 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -9240,6 +9240,7 @@
 | [QuickBooks Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/quickbooks-automation) | QuickBooks Automation: manage invoices, customers, accounts, and payments in QuickBooks Online for streamlined bookke... | ComposioHQ |
 | [quota-setting-calculator](https://github.com/OneWave-AI/claude-skills/tree/main/quota-setting-calculator) | Top-down vs bottom-up quota models. Historical attainment, market growth assumptions, ramp periods, territory complex... | OneWave-AI |
 | [ray-train](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/08-distributed-training/ray-train) | Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from laptop to 1000s of nod... | zechenzhangAGI |
+| [real-estate-investing-cn-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/real-estate-investing-cn-master/output) | 国内房产投资(房产投资人视角 — 城市与地段选择 / 政策与调控解读 / 一手房与二手房 / 房产金融与杠杆 / 估值与尽职调查 / 交易流程与税费 / 持有运营与出租 / 退出与流动性 / 风险识别 / 房产在个人资产配置中的位置 ... | voidborne-d |
 | [risk-classification](https://github.com/athola/claude-night-market/tree/master/plugins/leyline/skills/risk-classification) | 4-tier risk classification for agent tasks. GREEN/YELLOW heuristic, RED/CRITICAL escalate to war-room-checkpoint. | athola |
 | [roc-curve-plotter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/07-ml-training/roc-curve-plotter) | Roc Curve Plotter - Auto-activating skill for ML Training. Triggers on: roc curve plotter, roc curve plotter Part of ... | jeremylongshore |
 | [roc-curve-plotter](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/07-ml-training/roc-curve-plotter) | Roc Curve Plotter - Auto-activating skill for ML Training. Triggers on: roc curve plotter, roc curve plotter Part of ... | jeremylongshore |

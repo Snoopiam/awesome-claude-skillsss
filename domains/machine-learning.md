@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*339 skills in this domain*
+*340 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,7 +11,7 @@
 
 ## Table of Contents
 
-- [Model Training](#model-training) - 219 skills
+- [Model Training](#model-training) - 220 skills
 - [Hyperparameter Tuning](#hyperparameter-tuning) - 68 skills
 - [Model Evaluation](#model-evaluation) - 21 skills
 - [Feature Engineering](#feature-engineering) - 20 skills
@@ -19,7 +19,7 @@
 
 <a name="model-training"></a>
 ## Model Training
-*219 skills*
+*220 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -185,6 +185,7 @@
 | [QuickBooks Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/quickbooks-automation) | QuickBooks Automation: manage invoices, customers, accounts, and payments in QuickBooks Online fo... | ComposioHQ |
 | [quota-setting-calculator](https://github.com/OneWave-AI/claude-skills/tree/main/quota-setting-calculator) | Top-down vs bottom-up quota models. Historical attainment, market growth assumptions, ramp period... | OneWave-AI |
 | [ray-train](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/08-distributed-training/ray-train) | Distributed training orchestration across clusters. Scales PyTorch/TensorFlow/HuggingFace from la... | zechenzhangAGI |
+| [real-estate-investing-cn-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/real-estate-investing-cn-master/output) | 国内房产投资(房产投资人视角 — 城市与地段选择 / 政策与调控解读 / 一手房与二手房 / 房产金融与杠杆 / 估值与尽职调查 / 交易流程与税费 / 持有运营与出租 / 退出与流动性 / 风... | voidborne-d |
 | [risk-classification](https://github.com/athola/claude-night-market/tree/master/plugins/leyline/skills/risk-classification) | 4-tier risk classification for agent tasks. GREEN/YELLOW heuristic, RED/CRITICAL escalate to war-... | athola |
 | [roc-curve-plotter](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/07-ml-training/roc-curve-plotter) | Roc Curve Plotter - Auto-activating skill for ML Training. Triggers on: roc curve plotter, roc cu... | jeremylongshore |
 | [roc-curve-plotter](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/07-ml-training/roc-curve-plotter) | Roc Curve Plotter - Auto-activating skill for ML Training. Triggers on: roc curve plotter, roc cu... | jeremylongshore |
