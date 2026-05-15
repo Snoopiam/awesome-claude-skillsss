@@ -196,6 +196,10 @@ class BaseEntityFetcher(ABC, Generic[T]):
         except Exception as e:
             logger.error(f"Failed to fetch from {repo.owner}/{repo.name}: {e}")
 
+        if not entities:
+            logger.info(f"No entities found in {repo.owner}/{repo.name} (path={repo.path!r})")
+        else:
+            logger.info(f"Found {len(entities)} entities in {repo.owner}/{repo.name}")
         return entities
 
     def _get_scan_dirs(self, temp_dir: Path, repo: RepoConfig) -> List[Path]:
