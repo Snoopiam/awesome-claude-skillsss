@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*795 skills in this domain*
+*796 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,7 +11,7 @@
 
 ## Table of Contents
 
-- [Data Pipelines](#data-pipelines) - 520 skills
+- [Data Pipelines](#data-pipelines) - 521 skills
 - [Analytics & Queries](#analytics-queries) - 210 skills
 - [Data Warehousing](#data-warehousing) - 43 skills
 - [Data Science](#data-science) - 13 skills
@@ -20,7 +20,7 @@
 
 <a name="data-pipelines"></a>
 ## Data Pipelines
-*520 skills*
+*521 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -454,6 +454,7 @@
 | [quality-gate](https://github.com/athola/claude-night-market/tree/master/plugins/egregore/skills/quality-gate) | Orchestrate egregore's QUALITY pipeline stage. | athola |
 | [rand-fishkin-moz-perspective](https://github.com/voidborne-d/master-skill/tree/main/prototypes/seo-master/output/sub-skills/rand-fishkin-moz) | Rand Fishkin (Moz 创始人 + SparkToro) 视角. SEO 长期主义 + 跨平台视野 + 受众洞察派. 调用此 skill 时, 用 Rand 框架做战略级 SEO 决策. | voidborne-d |
 | [ray-data](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/05-data-processing/ray-data) | Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/C... | zechenzhangAGI |
+| [recsys-pipeline-architect](https://github.com/mturac/recsys-pipeline-architect/tree/main) | Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrato... | mturac |
 | [renewal-predictor](https://github.com/OneWave-AI/claude-skills/tree/main/renewal-predictor) | Predicts client renewal likelihood based on health score signals. Analyzes engagement, support, a... | OneWave-AI |
 | [resume-quantifier](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/career/resume-quantifier) | Find opportunities to add metrics and estimate numbers when exact data is unavailable. Use when t... | davila7 |
 | [retellai-data-handling](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/retellai-pack/skills/retellai-data-handling) | Retell AI data handling — AI voice agent and phone call automation. Use when working with Retell ... | jeremylongshore |
