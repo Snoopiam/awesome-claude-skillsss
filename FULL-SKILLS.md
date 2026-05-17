@@ -2,8 +2,8 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4424 skills
-  - [APIs & REST](#apis-and-rest) - 2627 skills
+- [Backend Development](#backend-development) - 4425 skills
+  - [APIs & REST](#apis-and-rest) - 2628 skills
   - [Database Design](#database-design) - 1298 skills
   - [Request Handling](#request-handling) - 264 skills
   - [Web Frameworks](#web-frameworks) - 170 skills
@@ -46,11 +46,11 @@
 <a name="backend-development"></a>
 # Backend Development
 
-*4424 skills in this domain*
+*4425 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
-*2627 skills*
+*2628 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2283,6 +2283,7 @@
 | [similarweb_digitalrank_api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/similarweb_digitalrank_api-automation) | Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market intelligence. Always... | ComposioHQ |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use when setting up Sno... | jeremylongshore |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use when setting up Sno... | jeremylongshore |
+| [software-architecture-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/software-architecture-master/output) | 软件架构 (含 应用架构 / 系统架构 / 分布式 后端架构 / 前后端 数据流 与 数据模型 设计 / API 边界 / 可扩展性 / 演进式架构 — 不含 硬件架构 / 纯企业架构 / 纯 DevOps / 纯安全架构) (sof... | voidborne-d |
 | [sora](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/video/sora) | Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI’s video API using t... | davila7 |
 | [sorting-parameter-handler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/15-api-development/sorting-parameter-handler) | Sorting Parameter Handler - Auto-activating skill for API Development. Triggers on: sorting parameter handler, sortin... | jeremylongshore |
 | [sorting-parameter-handler](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/15-api-development/sorting-parameter-handler) | Sorting Parameter Handler - Auto-activating skill for API Development. Triggers on: sorting parameter handler, sortin... | jeremylongshore |
