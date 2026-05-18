@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4426 skills in this domain*
+*4421 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,8 +11,8 @@
 
 ## Table of Contents
 
-- [APIs & REST](#apis-rest) - 2629 skills
-- [Database Design](#database-design) - 1298 skills
+- [APIs & REST](#apis-rest) - 2625 skills
+- [Database Design](#database-design) - 1297 skills
 - [Request Handling](#request-handling) - 264 skills
 - [Web Frameworks](#web-frameworks) - 170 skills
 - [Authentication](#authentication) - 21 skills
@@ -22,7 +22,7 @@
 
 <a name="apis-rest"></a>
 ## APIs & REST
-*2629 skills*
+*2625 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -747,7 +747,6 @@
 | [deepgram-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/deepgram-pack/skills/deepgram-security-basics) | Apply Deepgram security best practices for API key management and data protection. Use when secur... | jeremylongshore |
 | [deepgram-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/deepgram-pack/skills/deepgram-upgrade-migration) | Plan and execute Deepgram SDK upgrades and model migrations. Use when upgrading SDK versions (v3 ... | jeremylongshore |
 | [deepgram-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/deepgram-pack/skills/deepgram-upgrade-migration) | Plan and execute Deepgram SDK upgrades and model migrations. Use when upgrading SDK versions (v3 ... | jeremylongshore |
-| [dentistry-implant-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/dentistry-implant-master/output) | 口腔种植 (含 单牙/多牙缺失种植 / 全口 All-on-X / 即刻种植 即刻负重 / 上颌窦提升 / 牙槽嵴骨增量 GBR / 软组织移植 / 数字化种植 (CBCT 设计 + 口扫 + ... | voidborne-d |
 | [designing-apis](https://github.com/CloudAI-X/claude-workflow-v2/tree/main/skills/designing-apis) | Designs REST and GraphQL APIs including endpoints, error handling, versioning, and documentation.... | CloudAI-X |
 | [dictionary-api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/dictionary-api-automation) | Automate Dictionary API tasks via Rube MCP (Composio). Always search tools first for current sche... | ComposioHQ |
 | [docs-search](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-maestro/docs-search) | Search auto-generated codebase documentation for function signatures, API docs, class definitions... | davila7 |
@@ -1609,7 +1608,6 @@
 | [modal-serverless-gpu](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/09-infrastructure/modal) | Serverless GPU cloud platform for running ML workloads. Use when you need on-demand GPU access wi... | zechenzhangAGI |
 | [model-merging](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/emerging-techniques-model-merging) | Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use w... | davila7 |
 | [model-merging](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/19-emerging-techniques/model-merging) | Merge multiple fine-tuned models using mergekit to combine capabilities without retraining. Use w... | zechenzhangAGI |
-| [monetize-agents-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/monetize-agents-master/output) | 用 AI agent 赚钱 / agent 商业化 (创业 + 副业 + 咨询 + indie hacker) (Monetizing AI agents — building business... | voidborne-d |
 | [monitoring-apis](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-monitoring-dashboard/skills/monitoring-apis) | Build real-time API monitoring dashboards with metrics, alerts, and health checks. Use when track... | jeremylongshore |
 | [monitoring-apis](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/api-development/api-monitoring-dashboard/skills/monitoring-apis) | Build real-time API monitoring dashboards with metrics, alerts, and health checks. Use when track... | jeremylongshore |
 | [moodle-external-api-development](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/moodle-external-api-development) | Create custom external web service APIs for Moodle LMS. Use when implementing web services for co... | davila7 |
@@ -1959,7 +1957,6 @@
 | [proof-api](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/proof-api) | Build API test suites — endpoint testing, contract testing, load testing for REST/GraphQL/gRPC AP... | jeremylongshore |
 | [protocolsio-integration](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/protocolsio-integration) | Integration with protocols.io API for managing scientific protocols. This skill should be used wh... | K-Dense-AI |
 | [protocolsio-integration](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/protocolsio-integration) | Integration with protocols.io API for managing scientific protocols. This skill should be used wh... | davila7 |
-| [psychotherapy-counseling-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/psychotherapy-counseling-master/output) | 心理咨询 / 心理治疗(临床实践者视角 — 接案与评估 / 个案概念化 / 主流流派技术(CBT 与第三浪潮 / 精神动力 / 人本存在 / 家庭系统 / 创伤治疗) / 伦理边界与危机干预 /... | voidborne-d |
 | [pubchem-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/pubchem-database) | Query PubChem via PUG-REST API/PubChemPy (110M+ compounds). Search by name/CID/SMILES, retrieve p... | davila7 |
 | [pubmed-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/pubmed-database) | Direct REST API access to PubMed. Advanced Boolean/MeSH queries, E-utilities API, batch processin... | davila7 |
 | [pylabrobot](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pylabrobot) | Vendor-agnostic lab automation framework. Use when controlling multiple equipment types (Hamilton... | K-Dense-AI |
@@ -2060,6 +2057,7 @@
 | [request-body-validator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/15-api-development/request-body-validator) | Request Body Validator - Auto-activating skill for API Development. Triggers on: request body val... | jeremylongshore |
 | [request-interceptor-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/16-api-integration/request-interceptor-creator) | Request Interceptor Creator - Auto-activating skill for API Integration. Triggers on: request int... | jeremylongshore |
 | [request-interceptor-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/16-api-integration/request-interceptor-creator) | Request Interceptor Creator - Auto-activating skill for API Integration. Triggers on: request int... | jeremylongshore |
+| [research-lookup](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/research-lookup) | Look up current research information using parallel-cli search (primary, fast web search), the Pa... | K-Dense-AI |
 | [response-schema-generator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/15-api-development/response-schema-generator) | Response Schema Generator - Auto-activating skill for API Development. Triggers on: response sche... | jeremylongshore |
 | [response-schema-generator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/15-api-development/response-schema-generator) | Response Schema Generator - Auto-activating skill for API Development. Triggers on: response sche... | jeremylongshore |
 | [response-transformer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/16-api-integration/response-transformer) | Response Transformer - Auto-activating skill for API Integration. Triggers on: response transform... | jeremylongshore |
@@ -2256,7 +2254,6 @@
 | [similarweb_digitalrank_api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/similarweb_digitalrank_api-automation) | Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market ... | ComposioHQ |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use... | jeremylongshore |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use... | jeremylongshore |
-| [software-architecture-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/software-architecture-master/output) | 软件架构 (含 应用架构 / 系统架构 / 分布式 后端架构 / 前后端 数据流 与 数据模型 设计 / API 边界 / 可扩展性 / 演进式架构 — 不含 硬件架构 / 纯企业架构 / 纯 ... | voidborne-d |
 | [sora](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/video/sora) | Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI... | davila7 |
 | [sorting-parameter-handler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/planned-skills/generated/15-api-development/sorting-parameter-handler) | Sorting Parameter Handler - Auto-activating skill for API Development. Triggers on: sorting param... | jeremylongshore |
 | [sorting-parameter-handler](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/planned-skills/generated/15-api-development/sorting-parameter-handler) | Sorting Parameter Handler - Auto-activating skill for API Development. Triggers on: sorting param... | jeremylongshore |
@@ -2463,7 +2460,6 @@
 | [vastai-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/vastai-pack/skills/vastai-security-basics) | Apply Vast.ai security best practices for API keys and instance access. Use when securing API key... | jeremylongshore |
 | [vastai-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/vastai-pack/skills/vastai-upgrade-migration) | Upgrade Vast.ai CLI, migrate API versions, and handle breaking changes. Use when upgrading vastai... | jeremylongshore |
 | [vastai-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/vastai-pack/skills/vastai-upgrade-migration) | Upgrade Vast.ai CLI, migrate API versions, and handle breaking changes. Use when upgrading vastai... | jeremylongshore |
-| [vc-investor-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/vc-investor-master/output) | 风险投资人 / 早期投资判断(GP + Principal — Deal sourcing / 尽调 / 估值与 term sheet / 投后服务 / 退出 + LP 关系与 fundrais... | voidborne-d |
 | [veeva-ci-integration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/veeva-pack/skills/veeva-ci-integration) | Veeva Vault ci integration for REST API and clinical operations. Use when working with Veeva Vaul... | jeremylongshore |
 | [veeva-ci-integration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/veeva-pack/skills/veeva-ci-integration) | Veeva Vault ci integration for REST API and clinical operations. Use when working with Veeva Vaul... | jeremylongshore |
 | [veeva-common-errors](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/veeva-pack/skills/veeva-common-errors) | Veeva Vault common errors for REST API and clinical operations. Use when working with Veeva Vault... | jeremylongshore |
@@ -2658,7 +2654,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1298 skills*
+*1297 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -3745,7 +3741,6 @@
 | [shopify-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/shopify-pack/skills/shopify-migration-deep-dive) | Migrate e-commerce data to Shopify using bulk operations, product imports, and the strangler fig ... | jeremylongshore |
 | [shopify-theme-performance](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/shopify-pack/skills/shopify-theme-performance) | Optimize Shopify theme performance for Core Web Vitals (LCP, CLS, INP). Use when diagnosing slow ... | jeremylongshore |
 | [shopify-theme-performance](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/shopify-pack/skills/shopify-theme-performance) | Optimize Shopify theme performance for Core Web Vitals (LCP, CLS, INP). Use when diagnosing slow ... | jeremylongshore |
-| [short-video-ads-master](https://github.com/voidborne-d/master-skill/tree/main/prototypes/short-video-ads-master/output) | 短视频投流 (short-video paid advertising (China platforms)) Master OS — automated mastery of short-vid... | voidborne-d |
 | [signup-flow-cro](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/signup-flow-cro) | When the user wants to optimize signup, registration, account creation, or trial activation flows... | davila7 |
 | [simpo-training](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/post-training-simpo) | Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better p... | davila7 |
 | [simpo-training](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/06-post-training/simpo) | Simple Preference Optimization for LLM alignment. Reference-free alternative to DPO with better p... | zechenzhangAGI |

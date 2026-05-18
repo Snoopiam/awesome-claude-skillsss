@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*537 skills in this domain*
+*538 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -82,6 +82,7 @@
 | [backend-to-frontend-handoff-docs](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs) | Create API handoff documentation for frontend developers. Use when backend work is complete and n... | davila7 |
 | [bb-browser](https://github.com/epiral/bb-browser/tree/main/skills/bb-browser) | 强大的信息获取与浏览器自动化工具。通过浏览器 + 用户登录态，获取公域和私域信息。可访问任意网页、内部系统、登录后页面，执行表单填写、信息提取、页面操作。支持 site 系统（36 平台 103... | epiral |
 | [bb-browser-openclaw](https://github.com/epiral/bb-browser/tree/main/skills/bb-browser-openclaw) | Turn any website into a CLI command. 36 platforms, 103 commands — Twitter, Reddit, GitHub, YouTub... | epiral |
+| [bids](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bids) | Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neurosc... | K-Dense-AI |
 | [bioservices](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bioservices) | Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (Un... | K-Dense-AI |
 | [bioservices](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/bioservices) | Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniP... | davila7 |
 | [brainstorming](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/brainstorming) | You MUST use this before any creative work - creating features, building components, adding funct... | davila7 |
