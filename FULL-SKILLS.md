@@ -2,9 +2,9 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4421 skills
-  - [APIs & REST](#apis-and-rest) - 2625 skills
-  - [Database Design](#database-design) - 1297 skills
+- [Backend Development](#backend-development) - 4423 skills
+  - [APIs & REST](#apis-and-rest) - 2626 skills
+  - [Database Design](#database-design) - 1298 skills
   - [Request Handling](#request-handling) - 264 skills
   - [Web Frameworks](#web-frameworks) - 170 skills
   - [Authentication](#authentication) - 21 skills
@@ -29,7 +29,7 @@
   - [Time Series](#time-series) - 2 skills
 - [AI & LLM](#ai-and-llm) - 728 skills
 - [Tools & Utilities](#tools-and-utilities) - 632 skills
-- [Version Control & Collaboration](#version-control-and-collaboration) - 542 skills
+- [Version Control & Collaboration](#version-control-and-collaboration) - 543 skills
 - [Frontend Development](#frontend-development) - 538 skills
 - [Testing & Quality](#testing-and-quality) - 341 skills
 - [Machine Learning](#machine-learning) - 324 skills
@@ -40,17 +40,17 @@
   - [Model Deployment](#model-deployment) - 11 skills
 - [Security](#security) - 274 skills
 - [Uncategorized](#uncategorized) - 246 skills
-- [Documentation](#documentation) - 167 skills
+- [Documentation](#documentation) - 166 skills
 - [Business & Productivity](#business-and-productivity) - 99 skills
 
 <a name="backend-development"></a>
 # Backend Development
 
-*4421 skills in this domain*
+*4423 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
-*2625 skills*
+*2626 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -797,6 +797,7 @@
 | [documenso-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-upgrade-migration) | Manage Documenso API version upgrades and SDK migrations. Use when upgrading from v1 to v2 API, updating SDK versions... | jeremylongshore |
 | [documenso-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-upgrade-migration) | Manage Documenso API version upgrades and SDK migrations. Use when upgrading from v1 to v2 API, updating SDK versions... | jeremylongshore |
 | [documentation-templates](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/documentation-templates) | Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendly documentation. | davila7 |
+| [dora-metrics](https://github.com/athola/claude-night-market/tree/master/plugins/minister/skills/dora-metrics) | Compute DORA delivery-performance metrics from local git and GitHub API. Classify tier and surface bottleneck. | athola |
 | [dotnet-backend](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/dotnet-backend) | Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API patterns. | davila7 |
 | [dotnet-backend-patterns](https://github.com/wshobson/agents/tree/main/plugins/dotnet-contribution/skills/dotnet-backend-patterns) | Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise applications. Cover... | wshobson |
 | [dotnet-core-expert](https://github.com/Jeffallan/claude-skills/tree/main/skills/dotnet-core-expert) | Use when building .NET 8 applications with minimal APIs, clean architecture, or cloud-native microservices. Invoke fo... | Jeffallan |
@@ -1118,7 +1119,7 @@
 | [gamma-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-security-basics) | Implement security best practices for Gamma integration. Use when securing API keys, implementing access controls, or... | jeremylongshore |
 | [gamma-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-upgrade-migration) | Upgrade Gamma SDK versions and migrate between API versions. Use when upgrading SDK packages, handling deprecations, ... | jeremylongshore |
 | [gamma-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-upgrade-migration) | Upgrade Gamma SDK versions and migrate between API versions. Use when upgrading SDK packages, handling deprecations, ... | jeremylongshore |
-| [gangtise-copilot](https://github.com/daymade/claude-code-skills/tree/main/gangtise-copilot) | One-stop installer and companion for the full Gangtise (岗底斯投研) OpenAPI skill suite — 19 official skills covering data... | daymade |
+| [gangtise-copilot](https://github.com/daymade/claude-code-skills/tree/main/gangtise-copilot) | Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official skills (data, resea... | daymade |
 | [gemini-api-agent-platform](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/gemini-api-agent-platform) | Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK for enterprise AI applications. Cover... | davila7 |
 | [gender-api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/gender-api-automation) | Automate Gender API tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
 | [genderapi-io-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/genderapi-io-automation) | Automate Genderapi IO tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
@@ -2682,7 +2683,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1297 skills*
+*1298 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -3194,6 +3195,7 @@
 | [gguf-quantization](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/optimization-gguf) | GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardwar... | davila7 |
 | [gguf-quantization](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/10-optimization/gguf) | GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models on consumer hardwar... | zechenzhangAGI |
 | [git-platform](https://github.com/athola/claude-night-market/tree/master/plugins/leyline/skills/git-platform) | Git platform detection and cross-platform command mapping for GitHub, GitLab, and Bitbucket. | athola |
+| [github-contributor](https://github.com/daymade/claude-code-skills/tree/main/github-contributor) | End-to-end playbook for shipping high-quality pull requests to open-source projects you don't maintain. Use whenever ... | daymade |
 | [gitlab-ci-patterns](https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/gitlab-ci-patterns) | Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for scalable automation. Us... | wshobson |
 | [glean-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/glean-pack/skills/glean-debug-bundle) | Collect Glean diagnostic information for support including datasource config, indexing status, and search quality met... | jeremylongshore |
 | [glean-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/glean-pack/skills/glean-debug-bundle) | Collect Glean diagnostic information for support including datasource config, indexing status, and search quality met... | jeremylongshore |
@@ -7629,7 +7631,7 @@
 <a name="version-control-and-collaboration"></a>
 # Version Control & Collaboration
 
-*542 skills in this domain*
+*543 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -7855,6 +7857,7 @@
 | [groq-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/groq-pack/skills/groq-sdk-patterns) | Apply production-ready Groq SDK patterns for TypeScript and Python. Use when implementing Groq integrations, refactor... | jeremylongshore |
 | [groq-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/groq-pack/skills/groq-sdk-patterns) | Apply production-ready Groq SDK patterns for TypeScript and Python. Use when implementing Groq integrations, refactor... | jeremylongshore |
 | [Gumroad Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/gumroad-automation) | Automate Gumroad product management, sales tracking, license verification, and webhook subscriptions using natural la... | ComposioHQ |
+| [harden](https://github.com/athola/claude-night-market/tree/master/plugins/pensive/skills/harden) | Active codebase hardening with NIST/CWE-cited checks for Python and Rust. Composes existing reviews; proposes concret... | athola |
 | [Harvest Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/harvest-automation) | Automate time tracking, project management, and invoicing workflows in Harvest -- log hours, manage projects, clients... | ComposioHQ |
 | [haskell-pro](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/haskell-pro) | Expert Haskell engineer specializing in advanced type systems, pure | davila7 |
 | [helm](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/helm) | Head of product — orchestrate the product team, write briefs, plan initiatives, hand off to Apex. | jeremylongshore |
@@ -8347,7 +8350,7 @@
 | [engineer-design-diagram](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/devops/engineer-design-diagram/skills/engineer-design-diagram) | Generate production-grade engineering design diagrams (architecture, sequence, delta, drift) as self-contained dark-t... | jeremylongshore |
 | [error-boundary-creator](https://github.com/OneWave-AI/claude-skills/tree/main/error-boundary-creator) | Create error boundaries, error handling, and fallback UIs for React applications. Use when implementing error handlin... | OneWave-AI |
 | [example-command](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin/skills/example-command) | An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.md layout | anthropics |
-| [feishu-doc-scraper](https://github.com/daymade/claude-code-skills/tree/main/feishu-doc-scraper) | Save Feishu Docs and Feishu Wiki pages as clean Markdown from a live authenticated browser session. This skill should... | daymade |
+| [feishu-doc-scraper](https://github.com/daymade/claude-code-skills/tree/main/feishu-doc-scraper) | Extract Feishu (Lark) Docs, Wiki pages, Wiki collections/hubs, spreadsheets, and Minutes (妙记) transcripts into clean ... | daymade |
 | [figma-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/figma-pack/skills/figma-core-workflow-a) | Extract design tokens, colors, typography, and spacing from Figma files via REST API. Use when building a design-to-c... | jeremylongshore |
 | [figma-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/figma-pack/skills/figma-core-workflow-a) | Extract design tokens, colors, typography, and spacing from Figma files via REST API. Use when building a design-to-c... | jeremylongshore |
 | [figma-implement-design](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/figma-implement-design) | Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP workflow (design contex... | davila7 |
@@ -9974,7 +9977,7 @@
 <a name="documentation"></a>
 # Documentation
 
-*167 skills in this domain*
+*166 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -10068,7 +10071,6 @@
 | [figma-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/figma-pack/skills/figma-webhooks-events) | Implement Figma Webhooks V2 for real-time file, comment, and library events. Use when setting up webhook endpoints, h... | jeremylongshore |
 | [flyio-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/flyio-pack/skills/flyio-debug-bundle) | Collect Fly.io debug evidence for support tickets including machine status, logs, health checks, volume state, and ne... | jeremylongshore |
 | [flyio-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/flyio-pack/skills/flyio-debug-bundle) | Collect Fly.io debug evidence for support tickets including machine status, logs, health checks, volume state, and ne... | jeremylongshore |
-| [github-contributor](https://github.com/daymade/claude-code-skills/tree/main/github-contributor) | Strategic guide for becoming an effective GitHub contributor. Covers opportunity discovery, project selection, high-q... | daymade |
 | [glean-enterprise-rbac](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/glean-pack/skills/glean-enterprise-rbac) | Map AD/Okta groups to Glean document permissions using allowedGroups. Trigger: "glean enterprise rbac", "enterprise-r... | jeremylongshore |
 | [glean-enterprise-rbac](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/glean-pack/skills/glean-enterprise-rbac) | Map AD/Okta groups to Glean document permissions using allowedGroups. Trigger: "glean enterprise rbac", "enterprise-r... | jeremylongshore |
 | [googledocs-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/googledocs-automation) | Automate Google Docs tasks via Rube MCP (Composio): create, edit, search, export, copy, and update documents. Always ... | ComposioHQ |

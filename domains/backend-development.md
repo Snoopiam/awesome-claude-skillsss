@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4421 skills in this domain*
+*4423 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,8 +11,8 @@
 
 ## Table of Contents
 
-- [APIs & REST](#apis-rest) - 2625 skills
-- [Database Design](#database-design) - 1297 skills
+- [APIs & REST](#apis-rest) - 2626 skills
+- [Database Design](#database-design) - 1298 skills
 - [Request Handling](#request-handling) - 264 skills
 - [Web Frameworks](#web-frameworks) - 170 skills
 - [Authentication](#authentication) - 21 skills
@@ -22,7 +22,7 @@
 
 <a name="apis-rest"></a>
 ## APIs & REST
-*2625 skills*
+*2626 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -769,6 +769,7 @@
 | [documenso-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-upgrade-migration) | Manage Documenso API version upgrades and SDK migrations. Use when upgrading from v1 to v2 API, u... | jeremylongshore |
 | [documenso-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-upgrade-migration) | Manage Documenso API version upgrades and SDK migrations. Use when upgrading from v1 to v2 API, u... | jeremylongshore |
 | [documentation-templates](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/documentation-templates) | Documentation templates and structure guidelines. README, API docs, code comments, and AI-friendl... | davila7 |
+| [dora-metrics](https://github.com/athola/claude-night-market/tree/master/plugins/minister/skills/dora-metrics) | Compute DORA delivery-performance metrics from local git and GitHub API. Classify tier and surfac... | athola |
 | [dotnet-backend](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/dotnet-backend) | Build ASP.NET Core 8+ backend services with EF Core, auth, background jobs, and production API pa... | davila7 |
 | [dotnet-backend-patterns](https://github.com/wshobson/agents/tree/main/plugins/dotnet-contribution/skills/dotnet-backend-patterns) | Master C#/.NET backend development patterns for building robust APIs, MCP servers, and enterprise... | wshobson |
 | [dotnet-core-expert](https://github.com/Jeffallan/claude-skills/tree/main/skills/dotnet-core-expert) | Use when building .NET 8 applications with minimal APIs, clean architecture, or cloud-native micr... | Jeffallan |
@@ -1090,7 +1091,7 @@
 | [gamma-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-security-basics) | Implement security best practices for Gamma integration. Use when securing API keys, implementing... | jeremylongshore |
 | [gamma-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-upgrade-migration) | Upgrade Gamma SDK versions and migrate between API versions. Use when upgrading SDK packages, han... | jeremylongshore |
 | [gamma-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-upgrade-migration) | Upgrade Gamma SDK versions and migrate between API versions. Use when upgrading SDK packages, han... | jeremylongshore |
-| [gangtise-copilot](https://github.com/daymade/claude-code-skills/tree/main/gangtise-copilot) | One-stop installer and companion for the full Gangtise (岗底斯投研) OpenAPI skill suite — 19 official ... | daymade |
+| [gangtise-copilot](https://github.com/daymade/claude-code-skills/tree/main/gangtise-copilot) | Gangtise (岗底斯投研) OpenAPI skill suite installer and diagnostic tool. One-click install 19 official... | daymade |
 | [gemini-api-agent-platform](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/gemini-api-agent-platform) | Guides the usage of the Gemini API on Agent Platform with the Google Gen AI SDK for enterprise AI... | davila7 |
 | [gender-api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/gender-api-automation) | Automate Gender API tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
 | [genderapi-io-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/genderapi-io-automation) | Automate Genderapi IO tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
@@ -2654,7 +2655,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1297 skills*
+*1298 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -3166,6 +3167,7 @@
 | [gguf-quantization](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/optimization-gguf) | GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models... | davila7 |
 | [gguf-quantization](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/10-optimization/gguf) | GGUF format and llama.cpp quantization for efficient CPU/GPU inference. Use when deploying models... | zechenzhangAGI |
 | [git-platform](https://github.com/athola/claude-night-market/tree/master/plugins/leyline/skills/git-platform) | Git platform detection and cross-platform command mapping for GitHub, GitLab, and Bitbucket. | athola |
+| [github-contributor](https://github.com/daymade/claude-code-skills/tree/main/github-contributor) | End-to-end playbook for shipping high-quality pull requests to open-source projects you don't mai... | daymade |
 | [gitlab-ci-patterns](https://github.com/wshobson/agents/tree/main/plugins/cicd-automation/skills/gitlab-ci-patterns) | Build GitLab CI/CD pipelines with multi-stage workflows, caching, and distributed runners for sca... | wshobson |
 | [glean-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/glean-pack/skills/glean-debug-bundle) | Collect Glean diagnostic information for support including datasource config, indexing status, an... | jeremylongshore |
 | [glean-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/glean-pack/skills/glean-debug-bundle) | Collect Glean diagnostic information for support including datasource config, indexing status, an... | jeremylongshore |
