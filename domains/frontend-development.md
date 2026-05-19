@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*537 skills in this domain*
+*540 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -82,6 +82,7 @@
 | [backend-to-frontend-handoff-docs](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/enterprise-communication/backend-to-frontend-handoff-docs) | Create API handoff documentation for frontend developers. Use when backend work is complete and n... | davila7 |
 | [bb-browser](https://github.com/epiral/bb-browser/tree/main/skills/bb-browser) | 强大的信息获取与浏览器自动化工具。通过浏览器 + 用户登录态，获取公域和私域信息。可访问任意网页、内部系统、登录后页面，执行表单填写、信息提取、页面操作。支持 site 系统（36 平台 103... | epiral |
 | [bb-browser-openclaw](https://github.com/epiral/bb-browser/tree/main/skills/bb-browser-openclaw) | Turn any website into a CLI command. 36 platforms, 103 commands — Twitter, Reddit, GitHub, YouTub... | epiral |
+| [bids](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bids) | Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neurosc... | K-Dense-AI |
 | [bioservices](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bioservices) | Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (Un... | K-Dense-AI |
 | [bioservices](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/bioservices) | Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniP... | davila7 |
 | [brainstorming](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/brainstorming) | You MUST use this before any creative work - creating features, building components, adding funct... | davila7 |
@@ -174,7 +175,7 @@
 | [engineer-design-diagram](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/devops/engineer-design-diagram/skills/engineer-design-diagram) | Generate production-grade engineering design diagrams (architecture, sequence, delta, drift) as s... | jeremylongshore |
 | [error-boundary-creator](https://github.com/OneWave-AI/claude-skills/tree/main/error-boundary-creator) | Create error boundaries, error handling, and fallback UIs for React applications. Use when implem... | OneWave-AI |
 | [example-command](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/example-plugin/skills/example-command) | An example user-invoked skill that demonstrates frontmatter options and the skills/<name>/SKILL.m... | anthropics |
-| [feishu-doc-scraper](https://github.com/daymade/claude-code-skills/tree/main/feishu-doc-scraper) | Save Feishu Docs and Feishu Wiki pages as clean Markdown from a live authenticated browser sessio... | daymade |
+| [feishu-doc-scraper](https://github.com/daymade/claude-code-skills/tree/main/feishu-doc-scraper) | Extract Feishu (Lark) Docs, Wiki pages, Wiki collections/hubs, spreadsheets, and Minutes (妙记) tra... | daymade |
 | [figma-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/figma-pack/skills/figma-core-workflow-a) | Extract design tokens, colors, typography, and spacing from Figma files via REST API. Use when bu... | jeremylongshore |
 | [figma-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/figma-pack/skills/figma-core-workflow-a) | Extract design tokens, colors, typography, and spacing from Figma files via REST API. Use when bu... | jeremylongshore |
 | [figma-implement-design](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/figma-implement-design) | Translate Figma nodes into production-ready code with 1:1 visual fidelity using the Figma MCP wor... | davila7 |
@@ -409,6 +410,8 @@
 | [responsive-design](https://github.com/wshobson/agents/tree/main/plugins/ui-design/skills/responsive-design) | Implement modern responsive layouts using container queries, fluid typography, CSS Grid, and mobi... | wshobson |
 | [responsive-layout-builder](https://github.com/OneWave-AI/claude-skills/tree/main/responsive-layout-builder) | Build responsive layouts with CSS Grid, Flexbox, and container queries. Use when creating respons... | OneWave-AI |
 | [resume-formatter](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/career/resume-formatter) | Ensure ATS-friendly formatting and create clean, scannable layouts. Use when the user mentions re... | davila7 |
+| [root-level-skill-fixture](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/tests/fixtures/root-level-skill-plugin) | Minimal fixture skill for regression coverage of root-level SKILL.md discovery. Use when validati... | jeremylongshore |
+| [root-level-skill-fixture](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/tests/fixtures/root-level-skill-plugin) | Minimal fixture skill for regression coverage of root-level SKILL.md discovery. Use when validati... | jeremylongshore |
 | [running-e2e-tests](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/e2e-test-framework/skills/running-e2e-tests) | Execute end-to-end tests covering full user workflows across frontend and backend. Use when perfo... | jeremylongshore |
 | [running-e2e-tests](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing/e2e-test-framework/skills/running-e2e-tests) | Execute end-to-end tests covering full user workflows across frontend and backend. Use when perfo... | jeremylongshore |
 | [running-integration-tests](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/integration-test-runner/skills/running-integration-tests) | Execute integration tests validating component interactions and system integration. Use when perf... | jeremylongshore |

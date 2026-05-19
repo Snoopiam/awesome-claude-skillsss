@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*167 skills in this domain*
+*166 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -101,7 +101,6 @@
 | [figma-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/figma-pack/skills/figma-webhooks-events) | Implement Figma Webhooks V2 for real-time file, comment, and library events. Use when setting up ... | jeremylongshore |
 | [flyio-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/flyio-pack/skills/flyio-debug-bundle) | Collect Fly.io debug evidence for support tickets including machine status, logs, health checks, ... | jeremylongshore |
 | [flyio-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/flyio-pack/skills/flyio-debug-bundle) | Collect Fly.io debug evidence for support tickets including machine status, logs, health checks, ... | jeremylongshore |
-| [github-contributor](https://github.com/daymade/claude-code-skills/tree/main/github-contributor) | Strategic guide for becoming an effective GitHub contributor. Covers opportunity discovery, proje... | daymade |
 | [glean-enterprise-rbac](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/glean-pack/skills/glean-enterprise-rbac) | Map AD/Okta groups to Glean document permissions using allowedGroups. Trigger: "glean enterprise ... | jeremylongshore |
 | [glean-enterprise-rbac](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/glean-pack/skills/glean-enterprise-rbac) | Map AD/Okta groups to Glean document permissions using allowedGroups. Trigger: "glean enterprise ... | jeremylongshore |
 | [googledocs-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/googledocs-automation) | Automate Google Docs tasks via Rube MCP (Composio): create, edit, search, export, copy, and updat... | ComposioHQ |

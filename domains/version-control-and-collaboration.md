@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*542 skills in this domain*
+*543 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -233,6 +233,7 @@
 | [groq-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/groq-pack/skills/groq-sdk-patterns) | Apply production-ready Groq SDK patterns for TypeScript and Python. Use when implementing Groq in... | jeremylongshore |
 | [groq-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/groq-pack/skills/groq-sdk-patterns) | Apply production-ready Groq SDK patterns for TypeScript and Python. Use when implementing Groq in... | jeremylongshore |
 | [Gumroad Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/gumroad-automation) | Automate Gumroad product management, sales tracking, license verification, and webhook subscripti... | ComposioHQ |
+| [harden](https://github.com/athola/claude-night-market/tree/master/plugins/pensive/skills/harden) | Active codebase hardening with NIST/CWE-cited checks for Python and Rust. Composes existing revie... | athola |
 | [Harvest Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/harvest-automation) | Automate time tracking, project management, and invoicing workflows in Harvest -- log hours, mana... | ComposioHQ |
 | [haskell-pro](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/haskell-pro) | Expert Haskell engineer specializing in advanced type systems, pure | davila7 |
 | [helm](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/helm) | Head of product — orchestrate the product team, write briefs, plan initiatives, hand off to Apex. | jeremylongshore |

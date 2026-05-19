@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*793 skills in this domain*
+*791 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,7 +11,7 @@
 
 ## Table of Contents
 
-- [Data Pipelines](#data-pipelines) - 520 skills
+- [Data Pipelines](#data-pipelines) - 518 skills
 - [Analytics & Queries](#analytics-queries) - 210 skills
 - [Data Warehousing](#data-warehousing) - 43 skills
 - [Data Science](#data-science) - 13 skills
@@ -20,7 +20,7 @@
 
 <a name="data-pipelines"></a>
 ## Data Pipelines
-*520 skills*
+*518 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -448,9 +448,7 @@
 | [pytorch-fsdp](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp) | Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, ... | davila7 |
 | [pytorch-lightning](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pytorch-lightning) | Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configu... | K-Dense-AI |
 | [qa-expert](https://github.com/daymade/claude-code-skills/tree/main/qa-expert) | This skill should be used when establishing comprehensive QA testing processes for any software p... | daymade |
-| [qiangua-data-driven-perspective](https://github.com/voidborne-d/master-skill/tree/main/prototypes/xiaohongshu-ops-master/output/sub-skills/qiangua-data-driven) | 千瓜数据创始团队视角. 数据驱动派代表方法论 + 工具派. 调用此 skill 时, 用千瓜的认知框架做小红书数据 / 选题 / 投放决策. | voidborne-d |
 | [quality-gate](https://github.com/athola/claude-night-market/tree/master/plugins/egregore/skills/quality-gate) | Orchestrate egregore's QUALITY pipeline stage. | athola |
-| [rand-fishkin-moz-perspective](https://github.com/voidborne-d/master-skill/tree/main/prototypes/seo-master/output/sub-skills/rand-fishkin-moz) | Rand Fishkin (Moz 创始人 + SparkToro) 视角. SEO 长期主义 + 跨平台视野 + 受众洞察派. 调用此 skill 时, 用 Rand 框架做战略级 SEO 决策. | voidborne-d |
 | [ray-data](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/05-data-processing/ray-data) | Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/C... | zechenzhangAGI |
 | [recsys-pipeline-architect](https://github.com/mturac/recsys-pipeline-architect/tree/main) | Designs composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrato... | mturac |
 | [recsys-pipeline-architect](https://github.com/wshobson/agents/tree/main/plugins/machine-learning-ops/skills/recsys-pipeline-architect) | Design composable recommendation, ranking, and feed pipelines using the six-stage Source→Hydrator... | wshobson |
