@@ -2,8 +2,8 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4423 skills
-  - [APIs & REST](#apis-and-rest) - 2626 skills
+- [Backend Development](#backend-development) - 4424 skills
+  - [APIs & REST](#apis-and-rest) - 2627 skills
   - [Database Design](#database-design) - 1298 skills
   - [Request Handling](#request-handling) - 264 skills
   - [Web Frameworks](#web-frameworks) - 170 skills
@@ -46,11 +46,11 @@
 <a name="backend-development"></a>
 # Backend Development
 
-*4423 skills in this domain*
+*4424 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
-*2626 skills*
+*2627 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2182,6 +2182,7 @@
 | [sentry-migration-deep-dive](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/sentry-pack/skills/sentry-migration-deep-dive) | Migrate to Sentry from other error tracking tools like Rollbar, Bugsnag, or New Relic. Use when replacing an existing... | jeremylongshore |
 | [sentry-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/sentry-pack/skills/sentry-upgrade-migration) | Upgrade Sentry SDK versions and migrate breaking API changes. Use when upgrading from Sentry v7 to v8, migrating Pyth... | jeremylongshore |
 | [sentry-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/sentry-pack/skills/sentry-upgrade-migration) | Upgrade Sentry SDK versions and migrate breaking API changes. Use when upgrading from Sentry v7 to v8, migrating Pyth... | jeremylongshore |
+| [sequenzy-email-marketing](https://github.com/Sequenzy/skills/tree/main/skills/sequenzy-email-marketing) | Agent guide for operating Sequenzy. Use when Codex needs to authenticate, inspect identity, manage subscribers, creat... | Sequenzy |
 | [serpapi-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/serpapi-automation) | Automate Serpapi tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
 | [serpapi-ci-integration](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/serpapi-pack/skills/serpapi-ci-integration) | Set up CI/CD for SerpApi integrations with fixture-based testing. Use when automating SerpApi tests without consuming... | jeremylongshore |
 | [serpapi-ci-integration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/serpapi-pack/skills/serpapi-ci-integration) | Set up CI/CD for SerpApi integrations with fixture-based testing. Use when automating SerpApi tests without consuming... | jeremylongshore |
