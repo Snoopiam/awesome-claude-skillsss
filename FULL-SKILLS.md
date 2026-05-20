@@ -31,7 +31,7 @@
 - [Tools & Utilities](#tools-and-utilities) - 632 skills
 - [Version Control & Collaboration](#version-control-and-collaboration) - 543 skills
 - [Frontend Development](#frontend-development) - 540 skills
-- [Testing & Quality](#testing-and-quality) - 341 skills
+- [Testing & Quality](#testing-and-quality) - 343 skills
 - [Machine Learning](#machine-learning) - 324 skills
   - [Model Training](#model-training) - 201 skills
   - [Hyperparameter Tuning](#hyperparameter-tuning) - 71 skills
@@ -8731,7 +8731,7 @@
 <a name="testing-and-quality"></a>
 # Testing & Quality
 
-*341 skills in this domain*
+*343 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -8982,6 +8982,8 @@
 | [realphonevalidation-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/realphonevalidation-automation) | Automate Realphonevalidation tasks via Rube MCP (Composio). Always search tools first for current schemas. | ComposioHQ |
 | [relay-ship](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/relay-ship) | End-to-end ship workflow — merge base, run tests, review diff, bump version, commit, push, create PR. Use when asked ... | jeremylongshore |
 | [relay-ship](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/relay-ship) | End-to-end ship workflow — merge base, run tests, review diff, bump version, commit, push, create PR. Use when asked ... | jeremylongshore |
+| [run-automation-suite](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/kobiton-automate/skills/run-automation-suite) | Run local Appium test scripts against Kobiton devices. Guides you through app upload, device selection, script capabi... | jeremylongshore |
+| [run-automation-suite](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing/kobiton-automate/skills/run-automation-suite) | Run local Appium test scripts against Kobiton devices. Guides you through app upload, device selection, script capabi... | jeremylongshore |
 | [salesforce-local-dev-loop](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/salesforce-pack/skills/salesforce-local-dev-loop) | Configure Salesforce local development with scratch orgs, SFDX, and testing. Use when setting up a development enviro... | jeremylongshore |
 | [salesforce-local-dev-loop](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/salesforce-pack/skills/salesforce-local-dev-loop) | Configure Salesforce local development with scratch orgs, SFDX, and testing. Use when setting up a development enviro... | jeremylongshore |
 | [sast-configuration](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/security/sast-configuration) | Static Application Security Testing (SAST) tool setup, configuration, and custom rule creation for comprehensive secu... | davila7 |
