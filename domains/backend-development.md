@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4424 skills in this domain*
+*4434 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,7 +11,7 @@
 
 ## Table of Contents
 
-- [APIs & REST](#apis-rest) - 2627 skills
+- [APIs & REST](#apis-rest) - 2637 skills
 - [Database Design](#database-design) - 1298 skills
 - [Request Handling](#request-handling) - 264 skills
 - [Web Frameworks](#web-frameworks) - 170 skills
@@ -22,7 +22,7 @@
 
 <a name="apis-rest"></a>
 ## APIs & REST
-*2627 skills*
+*2637 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -1063,6 +1063,16 @@
 | [framer-upgrade-migration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/framer-pack/skills/framer-upgrade-migration) | Analyze, plan, and execute Framer SDK upgrades with breaking change detection. Use when upgrading... | jeremylongshore |
 | [fuzzing-apis](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/api-fuzzer/skills/fuzzing-apis) | Configure perform API fuzzing to discover edge cases, crashes, and security vulnerabilities. Use ... | jeremylongshore |
 | [fuzzing-apis](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/testing/api-fuzzer/skills/fuzzing-apis) | Configure perform API fuzzing to discover edge cases, crashes, and security vulnerabilities. Use ... | jeremylongshore |
+| [ga4-auth-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-auth-setup) | Configure auth for the GA4 Data API — OAuth user credentials for interactive use, or a service ac... | jeremylongshore |
+| [ga4-auth-setup](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-auth-setup) | Configure auth for the GA4 Data API — OAuth user credentials for interactive use, or a service ac... | jeremylongshore |
+| [ga4-bigquery-export](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-bigquery-export) | Wire GA4 → BigQuery for unsampled, queryable event-level data. Covers the one-time export setup, ... | jeremylongshore |
+| [ga4-bigquery-export](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-bigquery-export) | Wire GA4 → BigQuery for unsampled, queryable event-level data. Covers the one-time export setup, ... | jeremylongshore |
+| [ga4-common-reports](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-common-reports) | Copy-paste recipes for the 6-7 reports every site owner actually wants: DAU/MAU/WAU, retention co... | jeremylongshore |
+| [ga4-common-reports](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-common-reports) | Copy-paste recipes for the 6-7 reports every site owner actually wants: DAU/MAU/WAU, retention co... | jeremylongshore |
+| [ga4-data-api-query](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-data-api-query) | Build a runReport request against the GA4 Data API v1 — pick valid metric/dimension combinations,... | jeremylongshore |
+| [ga4-data-api-query](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-data-api-query) | Build a runReport request against the GA4 Data API v1 — pick valid metric/dimension combinations,... | jeremylongshore |
+| [ga4-realtime-api](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-realtime-api) | Pull current-session / active-user data from the GA4 Realtime endpoint — a separate API surface f... | jeremylongshore |
+| [ga4-realtime-api](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/ga4-pack/skills/ga4-realtime-api) | Pull current-session / active-user data from the GA4 Realtime endpoint — a separate API surface f... | jeremylongshore |
 | [gamma-common-errors](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-common-errors) | Debug and resolve common Gamma API errors. Use when encountering authentication failures, rate li... | jeremylongshore |
 | [gamma-common-errors](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-common-errors) | Debug and resolve common Gamma API errors. Use when encountering authentication failures, rate li... | jeremylongshore |
 | [gamma-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/gamma-pack/skills/gamma-core-workflow-a) | Generate presentations, documents, and webpages via Gamma API. Use when creating content from tex... | jeremylongshore |
