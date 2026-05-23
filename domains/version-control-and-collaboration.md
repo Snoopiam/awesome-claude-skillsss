@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*543 skills in this domain*
+*544 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -63,6 +63,7 @@
 | [budget-optimizer](https://github.com/OneWave-AI/claude-skills/tree/main/budget-optimizer) | Analyze spending patterns and find savings. 50/30/20 rule, subscription audit, debt payoff strate... | OneWave-AI |
 | [builder](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/pm-ai-partner/skills/builder) | Hands-on implementation partner for creating tools, scripts, dashboards, and prototypes. Use when... | jeremylongshore |
 | [builder](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/productivity/pm-ai-partner/skills/builder) | Hands-on implementation partner for creating tools, scripts, dashboards, and prototypes. Use when... | jeremylongshore |
+| [building-blog](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/web-development/building-blog) | Use when adding a blog to a Next.js + Sanity site, building a blog section from scratch, integrat... | davila7 |
 | [buzz](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/buzz) | PR & Community engineer — press pitches, social media, open source community, DevRel, and coordin... | jeremylongshore |
 | [buzz](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/buzz) | PR & Community engineer — press pitches, social media, open source community, DevRel, and coordin... | jeremylongshore |
 | [buzz-community](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/buzz-community) | Build and manage open source community — Discord/Slack structure, contributor onboarding, ambassa... | jeremylongshore |

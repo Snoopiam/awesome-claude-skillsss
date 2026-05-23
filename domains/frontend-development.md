@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*540 skills in this domain*
+*544 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -30,6 +30,7 @@
 | [algolia-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/algolia-pack/skills/algolia-security-basics) | Apply Algolia security best practices: API key scoping, secured API keys, frontend vs backend key... | jeremylongshore |
 | [algolia-security-basics](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/algolia-pack/skills/algolia-security-basics) | Apply Algolia security best practices: API key scoping, secured API keys, frontend vs backend key... | jeremylongshore |
 | [anchor-browser-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/anchor-browser-automation) | Automate Anchor Browser tasks via Rube MCP (Composio). Always search tools first for current sche... | ComposioHQ |
+| [android-cicd](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/android-cicd) | Automated Android CI/CD pipeline to Google Play — supports TWA, React Native, Flutter, and native... | davila7 |
 | [angular](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/angular) | Modern Angular (v20+) expert with deep knowledge of Signals, Standalone Components, Zoneless appl... | davila7 |
 | [angular-architect](https://github.com/Jeffallan/claude-skills/tree/main/skills/angular-architect) | Generates Angular 17+ standalone components, configures advanced routing with lazy loading and gu... | Jeffallan |
 | [angular-migration](https://github.com/wshobson/agents/tree/main/plugins/framework-migration/skills/angular-migration) | Migrate from AngularJS to Angular using hybrid mode, incremental component rewriting, and depende... | wshobson |
@@ -85,6 +86,7 @@
 | [bids](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bids) | Use this skill when working with Brain Imaging Data Structure (BIDS) datasets: organizing neurosc... | K-Dense-AI |
 | [bioservices](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/bioservices) | Unified Python interface to 40+ bioinformatics services. Use when querying multiple databases (Un... | K-Dense-AI |
 | [bioservices](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/bioservices) | Primary Python tool for 40+ bioinformatics services. Preferred for multi-database workflows: UniP... | davila7 |
+| [bleu](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/bleu) | Use this skill whenever a developer wants to turn an idea into a complete, production-ready, end-... | davila7 |
 | [brainstorming](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/brainstorming) | You MUST use this before any creative work - creating features, building components, adding funct... | davila7 |
 | [brainstorming](https://github.com/obra/superpowers/tree/main/skills/brainstorming) | You MUST use this before any creative work - creating features, building components, adding funct... | obra |
 | [brand-landingpage](https://github.com/wshobson/agents/tree/main/plugins/brand-landingpage/skills/brand-landingpage) | Brand-first landing page designer — runs a brand-identity interview (colors, typography, shape la... | wshobson |
@@ -345,6 +347,7 @@
 | [pptx](https://github.com/anthropics/skills/tree/main/skills/pptx) | Use this skill any time a .pptx file is involved in any way — as input, output, or both. This inc... | anthropics |
 | [pptx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pptx) | Use this skill any time a .pptx file is involved in any way — as input, output, or both. This inc... | davila7 |
 | [pptx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/pptx) | Presentation creation, editing, and analysis. When Claude needs to work with presentations (.pptx... | mrgoonie |
+| [pptx-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pptx-official) | Use this skill any time a .pptx file is involved in any way — as input, output, or both. This inc... | davila7 |
 | [pptx-posters](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pptx-posters) | Create research posters using HTML/CSS that can be exported to PDF or PPTX. Use this skill ONLY w... | K-Dense-AI |
 | [premium-web-design](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/creative-design/premium-web-design) | Create premium, Awwwards-quality website designs as React (.jsx) components that look like they w... | davila7 |
 | [presentation-design-enhancer](https://github.com/OneWave-AI/claude-skills/tree/main/presentation-design-enhancer) | Transform text-heavy slides into visual storytelling. Suggest layout improvements, icon usage, an... | OneWave-AI |
@@ -548,6 +551,7 @@
 | [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | K-Dense-AI |
 | [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | anthropics |
 | [xlsx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | davila7 |
+| [xlsx-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx-official) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | davila7 |
 | [zod-validation-expert](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/web-development/zod-validation-expert) | Expert in Zod — TypeScript-first schema validation. Covers parsing, custom errors, refinements, t... | davila7 |
 | [zustand-store-creator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/zustand-store-creator) | Create zustand store creator operations. Auto-activating skill for Frontend Development. Triggers... | jeremylongshore |
 | [zustand-store-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/zustand-store-creator) | Create zustand store creator operations. Auto-activating skill for Frontend Development. Triggers... | jeremylongshore |

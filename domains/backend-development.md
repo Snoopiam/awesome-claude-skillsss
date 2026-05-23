@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4435 skills in this domain*
+*4437 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [APIs & REST](#apis-rest) - 2637 skills
-- [Database Design](#database-design) - 1298 skills
+- [Database Design](#database-design) - 1300 skills
 - [Request Handling](#request-handling) - 264 skills
 - [Web Frameworks](#web-frameworks) - 171 skills
 - [Authentication](#authentication) - 21 skills
@@ -2666,7 +2666,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1298 skills*
+*1300 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2998,6 +2998,7 @@
 | [docx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/docx) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx... | davila7 |
 | [docx](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/docx) | Comprehensive document creation, editing, and analysis with support for tracked changes, comments... | mrgoonie |
 | [docx-format-replicator](https://github.com/iamzhihuix/happy-claude-skills/tree/main/skills/docx-format-replicator) | Extract formatting from existing Word documents and generate new documents with the same format b... | iamzhihuix |
+| [docx-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/docx-official) | Use this skill whenever the user wants to create, read, edit, or manipulate Word documents (.docx... | davila7 |
 | [domain-name-brainstormer](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLD... | ComposioHQ |
 | [domain-name-brainstormer](https://github.com/Prat011/awesome-llm-skills/tree/master/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLD... | Prat011 |
 | [domain-name-brainstormer](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/utilities/domain-name-brainstormer) | Generates creative domain name ideas for your project and checks availability across multiple TLD... | davila7 |
@@ -3507,6 +3508,7 @@
 | [pdf](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf) | Use this skill whenever the user wants to do anything with PDF files. This includes reading or ex... | davila7 |
 | [pdf](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/document-skills/pdf) | Comprehensive PDF manipulation toolkit for extracting text and tables, creating new PDFs, merging... | mrgoonie |
 | [PDF Processing Pro](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf-processing-pro) | Production-ready PDF processing with forms, tables, OCR, validation, and batch operations. Use wh... | davila7 |
+| [pdf-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/pdf-official) | Use this skill whenever the user wants to do anything with PDF files. This includes reading or ex... | davila7 |
 | [peer-review](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/peer-review) | Structured manuscript/grant review with checklist-based evaluation. Use when writing formal peer ... | K-Dense-AI |
 | [peft-fine-tuning](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/fine-tuning-peft) | Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning... | davila7 |
 | [peft-fine-tuning](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/03-fine-tuning/peft) | Parameter-efficient fine-tuning for LLMs using LoRA, QLoRA, and 25+ methods. Use when fine-tuning... | zechenzhangAGI |
