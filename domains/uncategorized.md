@@ -192,7 +192,7 @@
 | [podcast-studio](https://github.com/OneWave-AI/claude-skills/tree/main/podcast-studio) | Generate podcast scripts from text content. Use Tone.js and Howler.js for audio mixing. Create in... | OneWave-AI |
 | [powershell-windows](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/powershell-windows) | PowerShell Windows patterns. Critical pitfalls, operator syntax, error handling. | davila7 |
 | [quiz-maker](https://github.com/OneWave-AI/claude-skills/tree/main/quiz-maker) | Create multiple choice, true/false, fill-in-blank, matching quizzes. Auto-generate plausible dist... | OneWave-AI |
-| [qutip](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/qutip) | Quantum physics simulation library for open quantum systems. Use when studying master equations, ... | K-Dense-AI |
+| [qutip](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/qutip) | Quantum physics simulation library for open quantum systems. Use when studying master equations, ... | K-Dense-AI |
 | [report-orchestrator](https://github.com/sinaayyy/claude-obsidian-reporter/tree/main/.claude/skills/report-orchestrator) |  | sinaayyy |
 | [requirements-clarity](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/productivity/requirements-clarity) | Clarify ambiguous requirements through focused dialogue before implementation. Use when requireme... | davila7 |
 | [Root Cause Tracing](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/debugging/root-cause-tracing) | Systematically trace bugs backward through call stack to find original trigger | mrgoonie |
