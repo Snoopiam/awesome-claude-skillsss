@@ -21,15 +21,15 @@
   - [Infrastructure as Code](#infrastructure-as-code) - 6 skills
   - [Service Mesh](#service-mesh) - 4 skills
 - [Data & Analytics](#data-and-analytics) - 793 skills
-  - [Data Pipelines](#data-pipelines) - 517 skills
-  - [Analytics & Queries](#analytics-and-queries) - 215 skills
+  - [Data Pipelines](#data-pipelines) - 516 skills
+  - [Analytics & Queries](#analytics-and-queries) - 216 skills
   - [Data Warehousing](#data-warehousing) - 43 skills
   - [Data Science](#data-science) - 12 skills
   - [Business Intelligence](#business-intelligence) - 4 skills
   - [Time Series](#time-series) - 2 skills
 - [AI & LLM](#ai-and-llm) - 736 skills
 - [Tools & Utilities](#tools-and-utilities) - 632 skills
-- [Frontend Development](#frontend-development) - 547 skills
+- [Frontend Development](#frontend-development) - 548 skills
 - [Version Control & Collaboration](#version-control-and-collaboration) - 543 skills
 - [Testing & Quality](#testing-and-quality) - 345 skills
 - [Machine Learning](#machine-learning) - 327 skills
@@ -826,7 +826,7 @@
 | [error-handling-patterns](https://github.com/wshobson/agents/tree/main/plugins/developer-essentials/skills/error-handling-patterns) | Master error handling patterns across languages including exceptions, Result types, error propagation, and graceful d... | wshobson |
 | [error-mapping-helper](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/16-api-integration/error-mapping-helper) | Configure with error mapping helper operations. Auto-activating skill for API Integration. Triggers on: error mapping... | jeremylongshore |
 | [error-mapping-helper](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/16-api-integration/error-mapping-helper) | Configure with error mapping helper operations. Auto-activating skill for API Integration. Triggers on: error mapping... | jeremylongshore |
-| [esm](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/esm) | Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequenc... | K-Dense-AI |
+| [esm](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/esm) | Comprehensive toolkit for EvolutionaryScale protein language models including ESM3 (generative multimodal design acro... | K-Dense-AI |
 | [esm](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/esm) | Comprehensive toolkit for protein language models including ESM3 (generative multimodal protein design across sequenc... | davila7 |
 | [etag-handler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/15-api-development/etag-handler) | Manage etag handler operations. Auto-activating skill for API Development. Triggers on: etag handler, etag handler Pa... | jeremylongshore |
 | [etag-handler](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/15-api-development/etag-handler) | Manage etag handler operations. Auto-activating skill for API Development. Triggers on: etag handler, etag handler Pa... | jeremylongshore |
@@ -5029,7 +5029,7 @@
 | [yaml-config-validator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/01-devops-basics/yaml-config-validator) | Validate yaml config validator operations. Auto-activating skill for DevOps Basics. Triggers on: yaml config validato... | jeremylongshore |
 | [yaml-master](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/002-jeremy-yaml-master-agent/skills/yaml-master) | Execute proactive YAML intelligence: automatically activates when working with YAML files. Use when appropriate conte... | jeremylongshore |
 | [yaml-master](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/productivity/002-jeremy-yaml-master-agent/skills/yaml-master) | Execute proactive YAML intelligence: automatically activates when working with YAML files. Use when appropriate conte... | jeremylongshore |
-| [zarr-python](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/zarr-python) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatib... | K-Dense-AI |
+| [zarr-python](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/zarr-python) | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via fsspec, NumPy/Dask/... | K-Dense-AI |
 | [zarr-python](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/zarr-python) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/Dask/Xarray compatib... | davila7 |
 
 <a name="cicd"></a>
@@ -5443,7 +5443,7 @@
 
 <a name="data-pipelines"></a>
 ## Data Pipelines
-*517 skills*
+*516 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -5802,7 +5802,6 @@
 | [maintainx-data-handling](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/maintainx-pack/skills/maintainx-data-handling) | Data synchronization, ETL patterns, and data management for MaintainX. Use when syncing data between MaintainX and ot... | jeremylongshore |
 | [marketing-demand-acquisition](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/marketing-demand-acquisition) | Multi-channel demand generation, paid media optimization, SEO strategy, and partnership programs for Series A+ startu... | davila7 |
 | [matchms](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/matchms) | Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra, computing similarit... | K-Dense-AI |
-| [medchem](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/medchem) | Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexit... | K-Dense-AI |
 | [medchem](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/medchem) | Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structural alerts, complexit... | davila7 |
 | [metadata-extractor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/11-data-pipelines/metadata-extractor) | Process metadata extractor operations. Auto-activating skill for Data Pipelines. Triggers on: metadata extractor, met... | jeremylongshore |
 | [metadata-extractor](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/11-data-pipelines/metadata-extractor) | Process metadata extractor operations. Auto-activating skill for Data Pipelines. Triggers on: metadata extractor, met... | jeremylongshore |
@@ -5868,7 +5867,7 @@
 | [python-observability](https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-observability) | Python observability patterns including structured logging, metrics, and distributed tracing. Use when adding logging... | wshobson |
 | [python-pro](https://github.com/Jeffallan/claude-skills/tree/main/skills/python-pro) | Use when building Python 3.11+ applications requiring type safety, async programming, or robust error handling. Gener... | Jeffallan |
 | [pytorch-fsdp](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp) | Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, mixed precision, CPU... | davila7 |
-| [pytorch-lightning](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pytorch-lightning) | Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configure Trainers for mult... | K-Dense-AI |
+| [pytorch-lightning](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pytorch-lightning) | Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into LightningModules, configu... | K-Dense-AI |
 | [qa-expert](https://github.com/daymade/claude-code-skills/tree/main/qa-expert) | This skill should be used when establishing comprehensive QA testing processes for any software project. Use when cre... | daymade |
 | [quality-gate](https://github.com/athola/claude-night-market/tree/master/plugins/egregore/skills/quality-gate) | Orchestrates the QUALITY pipeline stage for egregore work items, running code review, unbloat, and test updates. Use ... | athola |
 | [ray-data](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/05-data-processing/ray-data) | Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/CSV/JSON/images. Inte... | zechenzhangAGI |
@@ -5967,7 +5966,7 @@
 
 <a name="analytics-and-queries"></a>
 ## Analytics & Queries
-*215 skills*
+*216 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -6098,6 +6097,7 @@
 | [market-sizing](https://github.com/OneWave-AI/claude-skills/tree/main/market-sizing) | TAM/SAM/SOM calculator with deep market research. Produces comprehensive market-sizing.md with top-down and bottom-up... | OneWave-AI |
 | [matchms](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/matchms) | Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), metadata harmonizati... | davila7 |
 | [matlab](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/matlab) | MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, and scientific computi... | K-Dense-AI |
+| [medchem](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/medchem) | Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS), structural alert c... | K-Dense-AI |
 | [metric-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/12-data-analytics/metric-calculator) | Configure and manage - Calculate metric calculator operations. Auto-activating skill for Data Analytics. Triggers on:... | jeremylongshore |
 | [metric-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/12-data-analytics/metric-calculator) | Configure and manage - Calculate metric calculator operations. Auto-activating skill for Data Analytics. Triggers on:... | jeremylongshore |
 | [mistral-observability](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/mistral-pack/skills/mistral-observability) | Set up comprehensive observability for Mistral AI with metrics, traces, and alerts. Use when implementing monitoring ... | jeremylongshore |
@@ -7663,7 +7663,7 @@
 <a name="frontend-development"></a>
 # Frontend Development
 
-*547 skills in this domain*
+*548 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -7922,6 +7922,7 @@
 | [lazy-loading-implementer](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/lazy-loading-implementer) | Execute lazy loading implementer operations. Auto-activating skill for Frontend Development. Triggers on: lazy loadin... | jeremylongshore |
 | [lens-dashboard](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/lens-dashboard) | Design and spec an analytical dashboard — define the question each chart answers, write the SQL queries, spec the lay... | jeremylongshore |
 | [lens-dashboard](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/lens-dashboard) | Design and spec an analytical dashboard — define the question each chart answers, write the SQL queries, spec the lay... | jeremylongshore |
+| [liteparse](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/liteparse) | Local document and PDF parsing with spatial text and bounding boxes. Use for extracting text from PDFs, DOCX, Office ... | K-Dense-AI |
 | [lokalise-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/lokalise-pack/skills/lokalise-reference-architecture) | Implement Lokalise reference architecture with best-practice project layout. Use when designing new Lokalise integrat... | jeremylongshore |
 | [lokalise-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/lokalise-pack/skills/lokalise-reference-architecture) | Implement Lokalise reference architecture with best-practice project layout. Use when designing new Lokalise integrat... | jeremylongshore |
 | [managing-snapshot-tests](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/snapshot-test-manager/skills/managing-snapshot-tests) | Create and validate component snapshots for UI regression testing. Use when performing specialized testing. Trigger w... | jeremylongshore |
@@ -8207,7 +8208,7 @@
 | [windsurf-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-architecture-variants) | Choose workspace architectures for different project scales in Windsurf. Use when deciding how to structure Windsurf ... | jeremylongshore |
 | [windsurf-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-performance-tuning) | Optimize Windsurf IDE performance: indexing speed, Cascade responsiveness, and memory usage. Use when Windsurf is slo... | jeremylongshore |
 | [windsurf-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-performance-tuning) | Optimize Windsurf IDE performance: indexing speed, Cascade responsiveness, and memory usage. Use when Windsurf is slo... | jeremylongshore |
-| [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants t... | K-Dense-AI |
+| [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/xlsx) | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the workbook file is the primary deliverabl... | K-Dense-AI |
 | [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants t... | anthropics |
 | [xlsx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants t... | davila7 |
 | [xlsx-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx-official) | Use this skill any time a spreadsheet file is the primary input or output. This means any task where the user wants t... | davila7 |
@@ -9112,7 +9113,7 @@
 | [web3-testing](https://github.com/wshobson/agents/tree/main/plugins/blockchain-web3/skills/web3-testing) | Test smart contracts comprehensively using Hardhat and Foundry with unit tests, integration tests, and mainnet forkin... | wshobson |
 | [webflow-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/webflow-pack/skills/webflow-debug-bundle) | Collect Webflow debug evidence for support tickets and troubleshooting. Gathers SDK version, token validation, rate l... | jeremylongshore |
 | [webflow-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/webflow-pack/skills/webflow-debug-bundle) | Collect Webflow debug evidence for support tickets and troubleshooting. Gathers SDK version, token validation, rate l... | jeremylongshore |
-| [what-if-oracle](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/what-if-oracle) | Run structured What-If scenario analysis with multi-branch possibility exploration. Use this skill when the user asks... | K-Dense-AI |
+| [what-if-oracle](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/what-if-oracle) | Run structured What-If scenario analysis with 4–6 branch possibility exploration (best, likely, worst, wild card, con... | K-Dense-AI |
 | [windsurf-hello-world](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-hello-world) | Create your first Windsurf Cascade interaction and Supercomplete experience. Use when starting with Windsurf, testing... | jeremylongshore |
 | [windsurf-hello-world](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-hello-world) | Create your first Windsurf Cascade interaction and Supercomplete experience. Use when starting with Windsurf, testing... | jeremylongshore |
 | [windsurf-test-generation](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/skill-databases/windsurf/skills/windsurf-test-generation) | Generate comprehensive test suites using Cascade. Activate when users mention "generate tests", "test coverage", "wri... | jeremylongshore |

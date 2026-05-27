@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*547 skills in this domain*
+*548 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -266,6 +266,7 @@
 | [lazy-loading-implementer](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/lazy-loading-implementer) | Execute lazy loading implementer operations. Auto-activating skill for Frontend Development. Trig... | jeremylongshore |
 | [lens-dashboard](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/lens-dashboard) | Design and spec an analytical dashboard — define the question each chart answers, write the SQL q... | jeremylongshore |
 | [lens-dashboard](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/lens-dashboard) | Design and spec an analytical dashboard — define the question each chart answers, write the SQL q... | jeremylongshore |
+| [liteparse](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/liteparse) | Local document and PDF parsing with spatial text and bounding boxes. Use for extracting text from... | K-Dense-AI |
 | [lokalise-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/lokalise-pack/skills/lokalise-reference-architecture) | Implement Lokalise reference architecture with best-practice project layout. Use when designing n... | jeremylongshore |
 | [lokalise-reference-architecture](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/lokalise-pack/skills/lokalise-reference-architecture) | Implement Lokalise reference architecture with best-practice project layout. Use when designing n... | jeremylongshore |
 | [managing-snapshot-tests](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/testing/snapshot-test-manager/skills/managing-snapshot-tests) | Create and validate component snapshots for UI regression testing. Use when performing specialize... | jeremylongshore |
@@ -551,7 +552,7 @@
 | [windsurf-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-architecture-variants) | Choose workspace architectures for different project scales in Windsurf. Use when deciding how to... | jeremylongshore |
 | [windsurf-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-performance-tuning) | Optimize Windsurf IDE performance: indexing speed, Cascade responsiveness, and memory usage. Use ... | jeremylongshore |
 | [windsurf-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/windsurf-pack/skills/windsurf-performance-tuning) | Optimize Windsurf IDE performance: indexing speed, Cascade responsiveness, and memory usage. Use ... | jeremylongshore |
-| [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | K-Dense-AI |
+| [xlsx](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/xlsx) | Create, edit, analyze, or convert Excel spreadsheets (.xlsx, .xlsm) where the workbook file is th... | K-Dense-AI |
 | [xlsx](https://github.com/anthropics/skills/tree/main/skills/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | anthropics |
 | [xlsx](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | davila7 |
 | [xlsx-official](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/document-processing/xlsx-official) | Use this skill any time a spreadsheet file is the primary input or output. This means any task wh... | davila7 |

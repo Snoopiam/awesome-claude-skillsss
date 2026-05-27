@@ -11,8 +11,8 @@
 
 ## Table of Contents
 
-- [Data Pipelines](#data-pipelines) - 517 skills
-- [Analytics & Queries](#analytics-queries) - 215 skills
+- [Data Pipelines](#data-pipelines) - 516 skills
+- [Analytics & Queries](#analytics-queries) - 216 skills
 - [Data Warehousing](#data-warehousing) - 43 skills
 - [Data Science](#data-science) - 12 skills
 - [Business Intelligence](#business-intelligence) - 4 skills
@@ -20,7 +20,7 @@
 
 <a name="data-pipelines"></a>
 ## Data Pipelines
-*517 skills*
+*516 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -379,7 +379,6 @@
 | [maintainx-data-handling](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/maintainx-pack/skills/maintainx-data-handling) | Data synchronization, ETL patterns, and data management for MaintainX. Use when syncing data betw... | jeremylongshore |
 | [marketing-demand-acquisition](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/business-marketing/marketing-demand-acquisition) | Multi-channel demand generation, paid media optimization, SEO strategy, and partnership programs ... | davila7 |
 | [matchms](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/matchms) | Spectral similarity and compound identification for metabolomics. Use for comparing mass spectra,... | K-Dense-AI |
-| [medchem](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/medchem) | Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structur... | K-Dense-AI |
 | [medchem](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/medchem) | Medicinal chemistry filters. Apply drug-likeness rules (Lipinski, Veber), PAINS filters, structur... | davila7 |
 | [metadata-extractor](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/11-data-pipelines/metadata-extractor) | Process metadata extractor operations. Auto-activating skill for Data Pipelines. Triggers on: met... | jeremylongshore |
 | [metadata-extractor](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/11-data-pipelines/metadata-extractor) | Process metadata extractor operations. Auto-activating skill for Data Pipelines. Triggers on: met... | jeremylongshore |
@@ -445,7 +444,7 @@
 | [python-observability](https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/python-observability) | Python observability patterns including structured logging, metrics, and distributed tracing. Use... | wshobson |
 | [python-pro](https://github.com/Jeffallan/claude-skills/tree/main/skills/python-pro) | Use when building Python 3.11+ applications requiring type safety, async programming, or robust e... | Jeffallan |
 | [pytorch-fsdp](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/distributed-training-pytorch-fsdp) | Expert guidance for Fully Sharded Data Parallel training with PyTorch FSDP - parameter sharding, ... | davila7 |
-| [pytorch-lightning](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pytorch-lightning) | Deep learning framework (PyTorch Lightning). Organize PyTorch code into LightningModules, configu... | K-Dense-AI |
+| [pytorch-lightning](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/pytorch-lightning) | Deep learning framework (PyTorch Lightning / lightning package). Organize PyTorch code into Light... | K-Dense-AI |
 | [qa-expert](https://github.com/daymade/claude-code-skills/tree/main/qa-expert) | This skill should be used when establishing comprehensive QA testing processes for any software p... | daymade |
 | [quality-gate](https://github.com/athola/claude-night-market/tree/master/plugins/egregore/skills/quality-gate) | Orchestrates the QUALITY pipeline stage for egregore work items, running code review, unbloat, an... | athola |
 | [ray-data](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/05-data-processing/ray-data) | Scalable data processing for ML workloads. Streaming execution across CPU/GPU, supports Parquet/C... | zechenzhangAGI |
@@ -544,7 +543,7 @@
 
 <a name="analytics-queries"></a>
 ## Analytics & Queries
-*215 skills*
+*216 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -675,6 +674,7 @@
 | [market-sizing](https://github.com/OneWave-AI/claude-skills/tree/main/market-sizing) | TAM/SAM/SOM calculator with deep market research. Produces comprehensive market-sizing.md with to... | OneWave-AI |
 | [matchms](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/matchms) | Mass spectrometry analysis. Process mzML/MGF/MSP, spectral similarity (cosine, modified cosine), ... | davila7 |
 | [matlab](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/matlab) | MATLAB and GNU Octave numerical computing for matrix operations, data analysis, visualization, an... | K-Dense-AI |
+| [medchem](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/medchem) | Medicinal chemistry filters for compound triage. Apply drug-likeness rules (Lipinski, Veber, CNS)... | K-Dense-AI |
 | [metric-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/12-data-analytics/metric-calculator) | Configure and manage - Calculate metric calculator operations. Auto-activating skill for Data Ana... | jeremylongshore |
 | [metric-calculator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/12-data-analytics/metric-calculator) | Configure and manage - Calculate metric calculator operations. Auto-activating skill for Data Ana... | jeremylongshore |
 | [mistral-observability](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/mistral-pack/skills/mistral-observability) | Set up comprehensive observability for Mistral AI with metrics, traces, and alerts. Use when impl... | jeremylongshore |

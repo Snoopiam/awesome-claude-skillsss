@@ -496,7 +496,7 @@
 | [yaml-config-validator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/01-devops-basics/yaml-config-validator) | Validate yaml config validator operations. Auto-activating skill for DevOps Basics. Triggers on: ... | jeremylongshore |
 | [yaml-master](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/002-jeremy-yaml-master-agent/skills/yaml-master) | Execute proactive YAML intelligence: automatically activates when working with YAML files. Use wh... | jeremylongshore |
 | [yaml-master](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/productivity/002-jeremy-yaml-master-agent/skills/yaml-master) | Execute proactive YAML intelligence: automatically activates when working with YAML files. Use wh... | jeremylongshore |
-| [zarr-python](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/zarr-python) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/... | K-Dense-AI |
+| [zarr-python](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/scientific-skills/zarr-python) | Chunked N-D arrays for cloud storage (Zarr-Python 3). Compressed arrays, parallel I/O, S3/GCS via... | K-Dense-AI |
 | [zarr-python](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/zarr-python) | Chunked N-D arrays for cloud storage. Compressed arrays, parallel I/O, S3/GCS integration, NumPy/... | davila7 |
 
 <a name="cicd"></a>
