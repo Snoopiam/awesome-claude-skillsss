@@ -11,8 +11,8 @@
 
 ## Table of Contents
 
-- [Data Pipelines](#data-pipelines) - 516 skills
-- [Analytics & Queries](#analytics-queries) - 216 skills
+- [Data Pipelines](#data-pipelines) - 515 skills
+- [Analytics & Queries](#analytics-queries) - 217 skills
 - [Data Warehousing](#data-warehousing) - 43 skills
 - [Data Science](#data-science) - 12 skills
 - [Business Intelligence](#business-intelligence) - 4 skills
@@ -20,7 +20,7 @@
 
 <a name="data-pipelines"></a>
 ## Data Pipelines
-*516 skills*
+*515 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -499,7 +499,6 @@
 | [test-data-builder](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/09-test-automation/test-data-builder) | Test Data Builder - Auto-activating skill for Test Automation. Triggers on: test data builder, te... | jeremylongshore |
 | [testing-quality-standards](https://github.com/athola/claude-night-market/tree/master/plugins/leyline/skills/testing-quality-standards) | Defines testing quality metrics, coverage thresholds, and anti-patterns. Use when establishing te... | athola |
 | [tiledbvcf](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/tiledbvcf) | Efficient storage and retrieval of genomic variant data using TileDB. Scalable VCF/BCF ingestion,... | K-Dense-AI |
-| [torch-geometric](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/torch-geometric) | Guide for building Graph Neural Networks with PyTorch Geometric (PyG). Use this skill whenever th... | K-Dense-AI |
 | [torchdrug](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/torchdrug) | PyTorch-native graph neural networks for molecules and proteins. Use when building custom GNN arc... | K-Dense-AI |
 | [torchdrug](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/torchdrug) | Graph-based drug discovery toolkit. Molecular property prediction (ADMET), protein modeling, know... | davila7 |
 | [touch-release](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/touch-release) | Set up mobile release pipeline — Fastlane, code signing, CI, beta distribution, versioning. Use w... | jeremylongshore |
@@ -543,7 +542,7 @@
 
 <a name="analytics-queries"></a>
 ## Analytics & Queries
-*216 skills*
+*217 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -745,6 +744,7 @@
 | [threejs](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/threejs) | Build 3D web apps with Three.js (WebGL/WebGPU). Use for 3D scenes, animations, custom shaders, PB... | mrgoonie |
 | [time-series-decomposer](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/12-data-analytics/time-series-decomposer) | Manage time series decomposer operations. Auto-activating skill for Data Analytics. Triggers on: ... | jeremylongshore |
 | [time-series-decomposer](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/12-data-analytics/time-series-decomposer) | Manage time series decomposer operations. Auto-activating skill for Data Analytics. Triggers on: ... | jeremylongshore |
+| [torch-geometric](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/torch-geometric) | PyTorch Geometric (PyG) for graph neural networks — node/link/graph classification, message passi... | K-Dense-AI |
 | [tracking-crypto-portfolio](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/crypto-portfolio-tracker/skills/tracking-crypto-portfolio) | Track cryptocurrency portfolio with real-time valuations, allocation analysis, and P&L tracking. ... | jeremylongshore |
 | [tracking-crypto-portfolio](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/crypto/crypto-portfolio-tracker/skills/tracking-crypto-portfolio) | Track cryptocurrency portfolio with real-time valuations, allocation analysis, and P&L tracking. ... | jeremylongshore |
 | [umap-learn](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/umap-learn) | UMAP dimensionality reduction. Fast nonlinear manifold learning for 2D/3D visualization, clusteri... | K-Dense-AI |

@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*543 skills in this domain*
+*544 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -498,6 +498,7 @@
 | [summon](https://github.com/athola/claude-night-market/tree/master/plugins/egregore/skills/summon) | Autonomous orchestrator for manifest work items through the development lifecycle. Use when runni... | athola |
 | [surge-activation](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/surge-activation) | Use when asked to improve activation, map the growth funnel, identify growth levers, design a ref... | jeremylongshore |
 | [surge-activation](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/surge-activation) | Use when asked to improve activation, map the growth funnel, identify growth levers, design a ref... | jeremylongshore |
+| [sympy](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/sympy) | Use when you need exact symbolic math in Python — algebra, calculus, equation solving, symbolic l... | K-Dense-AI |
 | [sync-profiles](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/claudebase/skills/sync-profiles) | Use when the user wants to list, create, switch, delete, compare, or inspect config sync profiles. | jeremylongshore |
 | [sync-profiles](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/productivity/claudebase/skills/sync-profiles) | Use when the user wants to list, create, switch, delete, compare, or inspect config sync profiles. | jeremylongshore |
 | [sync-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/claudebase/skills/sync-setup) | Use when the user wants to set up config sync for the first time, connect to GitHub, or re-initia... | jeremylongshore |

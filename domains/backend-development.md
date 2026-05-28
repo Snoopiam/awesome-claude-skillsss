@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4444 skills in this domain*
+*4443 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -11,10 +11,10 @@
 
 ## Table of Contents
 
-- [APIs & REST](#apis-rest) - 2637 skills
-- [Database Design](#database-design) - 1305 skills
+- [APIs & REST](#apis-rest) - 2638 skills
+- [Database Design](#database-design) - 1304 skills
 - [Request Handling](#request-handling) - 263 skills
-- [Web Frameworks](#web-frameworks) - 173 skills
+- [Web Frameworks](#web-frameworks) - 172 skills
 - [Authentication](#authentication) - 22 skills
 - [Message Queues](#message-queues) - 17 skills
 - [Microservices](#microservices) - 16 skills
@@ -22,7 +22,7 @@
 
 <a name="apis-rest"></a>
 ## APIs & REST
-*2637 skills*
+*2638 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -327,6 +327,7 @@
 | [assemblyai-install-auth](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/assemblyai-pack/skills/assemblyai-install-auth) | Install and configure AssemblyAI SDK authentication. Use when setting up a new AssemblyAI integra... | jeremylongshore |
 | [assemblyai-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/assemblyai-pack/skills/assemblyai-performance-tuning) | Optimize AssemblyAI API performance with caching, parallel processing, and model selection. Use w... | jeremylongshore |
 | [assemblyai-performance-tuning](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/assemblyai-pack/skills/assemblyai-performance-tuning) | Optimize AssemblyAI API performance with caching, parallel processing, and model selection. Use w... | jeremylongshore |
+| [astropy](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/astropy) | Core Python library for astronomy and astrophysics workflows that need Astropy APIs, including un... | K-Dense-AI |
 | [async-api-caller](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/16-api-integration/async-api-caller) | Configure async api caller operations. Auto-activating skill for API Integration. Triggers on: as... | jeremylongshore |
 | [async-api-caller](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/16-api-integration/async-api-caller) | Configure async api caller operations. Auto-activating skill for API Integration. Triggers on: as... | jeremylongshore |
 | [async-python-patterns](https://github.com/wshobson/agents/tree/main/plugins/python-development/skills/async-python-patterns) | Master Python asyncio, concurrent programming, and async/await patterns for high-performance appl... | wshobson |
@@ -2449,7 +2450,7 @@
 | [twinmind-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/twinmind-pack/skills/twinmind-sdk-patterns) | Apply production-ready TwinMind SDK patterns for TypeScript and Python. Use when implementing Twi... | jeremylongshore |
 | [twinmind-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/twinmind-pack/skills/twinmind-sdk-patterns) | Apply production-ready TwinMind SDK patterns for TypeScript and Python. Use when implementing Twi... | jeremylongshore |
 | [uniprot-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/uniprot-database) | Direct REST API access to UniProt. Protein searches, FASTA retrieval, ID mapping, Swiss-Prot/TrEM... | davila7 |
-| [usfiscaldata](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/usfiscaldata) | Query the U.S. Treasury Fiscal Data API for federal financial data including national debt, gover... | K-Dense-AI |
+| [usfiscaldata](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/usfiscaldata) | Query the U.S. Treasury Fiscal Data REST API for federal financial data. No API key required. Use... | K-Dense-AI |
 | [using-neon](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/database/using-neon) | Guides and best practices for working with Neon Serverless Postgres. Covers getting started, loca... | davila7 |
 | [uspto-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/uspto-database) | Access USPTO APIs for patent/trademark searches, examination history (PEDS), assignments, citatio... | davila7 |
 | [validating-api-responses](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/api-development/api-response-validator/skills/validating-api-responses) | Validate API responses against schemas to ensure contract compliance and data integrity. Use when... | jeremylongshore |
@@ -2666,7 +2667,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1305 skills*
+*1304 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2734,7 +2735,6 @@
 | [artillery-config-generator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/10-performance-testing/artillery-config-generator) | Generate artillery config generator operations. Auto-activating skill for Performance Testing. Tr... | jeremylongshore |
 | [assemblyai-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/assemblyai-pack/skills/assemblyai-debug-bundle) | Collect AssemblyAI debug evidence for support tickets and troubleshooting. Use when encountering ... | jeremylongshore |
 | [assemblyai-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/assemblyai-pack/skills/assemblyai-debug-bundle) | Collect AssemblyAI debug evidence for support tickets and troubleshooting. Use when encountering ... | jeremylongshore |
-| [astropy](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/astropy) | Comprehensive Python library for astronomy and astrophysics. This skill should be used when worki... | K-Dense-AI |
 | [astropy](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/astropy) | Comprehensive Python library for astronomy and astrophysics. This skill should be used when worki... | davila7 |
 | [async-python-patterns](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/development/async-python-patterns) | Comprehensive guidance for implementing asynchronous Python applications using asyncio, concurren... | davila7 |
 | [audiocraft-audio-generation](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/multimodal-audiocraft) | PyTorch library for audio generation including text-to-music (MusicGen) and text-to-sound (AudioG... | davila7 |
@@ -3226,7 +3226,7 @@
 | [hex-deploy-integration](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/hex-pack/skills/hex-deploy-integration) | Deploy Hex integrations to Vercel, Fly.io, and Cloud Run platforms. Use when deploying Hex-powere... | jeremylongshore |
 | [HeyGen Automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/heygen-automation) | Automate AI video generation, avatar browsing, template-based video creation, and video status tr... | ComposioHQ |
 | [highlight-reel-scripter](https://github.com/OneWave-AI/claude-skills/tree/main/highlight-reel-scripter) | Create shot lists for highlight videos. Timestamp key plays, music cue suggestions, pacing. Platf... | OneWave-AI |
-| [histolab](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/histolab) | Lightweight WSI tile extraction and preprocessing. Use for basic slide processing tissue detectio... | K-Dense-AI |
+| [histolab](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/histolab) | Lightweight WSI tile extraction and preprocessing. Use for basic slide processing, tissue detecti... | K-Dense-AI |
 | [hmdb-database](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/hmdb-database) | Access Human Metabolome Database (220K+ metabolites). Search by name/ID/structure, retrieve chemi... | davila7 |
 | [hooked-ux](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/design/wondelai-hooked-ux) | Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Invest... | jeremylongshore |
 | [hooked-ux](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/design/wondelai-hooked-ux) | Design habit-forming product loops using the Hook Model (Trigger, Action, Variable Reward, Invest... | jeremylongshore |
@@ -3899,7 +3899,7 @@
 | [transcript-fixer](https://github.com/daymade/claude-code-skills/tree/main/daymade-audio/transcript-fixer) | Corrects speech-to-text transcription errors using dictionary rules and AI-powered analysis. Buil... | daymade |
 | [transformer-lens-interpretability](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/ai-research/mechanistic-interpretability-transformer-lens) | Provides guidance for mechanistic interpretability research using TransformerLens to inspect and ... | davila7 |
 | [transformer-lens-interpretability](https://github.com/zechenzhangAGI/AI-research-SKILLs/tree/main/04-mechanistic-interpretability/transformer-lens) | Provides guidance for mechanistic interpretability research using TransformerLens to inspect and ... | zechenzhangAGI |
-| [transformers](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/transformers) | This skill should be used when working with pre-trained transformer models for natural language p... | K-Dense-AI |
+| [transformers](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/transformers) | Hugging Face Transformers for loading Hub models, running pipeline inference, text generation, an... | K-Dense-AI |
 | [transformers](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/transformers) | This skill should be used when working with pre-trained transformer models for natural language p... | davila7 |
 | [treatment-plans](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/treatment-plans) | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical... | K-Dense-AI |
 | [treatment-plans](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/treatment-plans) | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical... | davila7 |
@@ -4248,7 +4248,7 @@
 
 <a name="web-frameworks"></a>
 ## Web Frameworks
-*173 skills*
+*172 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -4400,7 +4400,6 @@
 | [supabase-known-pitfalls](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/supabase-pack/skills/supabase-known-pitfalls) | Avoid and fix the most common Supabase mistakes: exposing service_role key in client bundles, for... | jeremylongshore |
 | [supabase-known-pitfalls](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/supabase-pack/skills/supabase-known-pitfalls) | Avoid and fix the most common Supabase mistakes: exposing service_role key in client bundles, for... | jeremylongshore |
 | [swift-expert](https://github.com/Jeffallan/claude-skills/tree/main/skills/swift-expert) | Builds iOS/macOS/watchOS/tvOS applications, implements SwiftUI views and state management, design... | Jeffallan |
-| [sympy](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/sympy) | Use this skill when working with symbolic mathematics in Python. This skill should be used for sy... | K-Dense-AI |
 | [sympy](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/sympy) | Use this skill when working with symbolic mathematics in Python. This skill should be used for sy... | davila7 |
 | [touch-audit](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/skills/touch-audit) | Mobile audit — app size, startup time, crash reporting, store compliance, accessibility, offline ... | jeremylongshore |
 | [touch-audit](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-agency/tonone/skills/touch-audit) | Mobile audit — app size, startup time, crash reporting, store compliance, accessibility, offline ... | jeremylongshore |
