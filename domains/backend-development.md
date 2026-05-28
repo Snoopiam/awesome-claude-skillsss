@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4444 skills in this domain*
+*4445 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -14,7 +14,7 @@
 - [APIs & REST](#apis-rest) - 2638 skills
 - [Database Design](#database-design) - 1305 skills
 - [Request Handling](#request-handling) - 263 skills
-- [Web Frameworks](#web-frameworks) - 172 skills
+- [Web Frameworks](#web-frameworks) - 173 skills
 - [Authentication](#authentication) - 22 skills
 - [Message Queues](#message-queues) - 17 skills
 - [Microservices](#microservices) - 16 skills
@@ -4249,7 +4249,7 @@
 
 <a name="web-frameworks"></a>
 ## Web Frameworks
-*172 skills*
+*173 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -4276,6 +4276,7 @@
 | [background-worker-creator](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/06-backend-dev/background-worker-creator) | Create background worker creator operations. Auto-activating skill for Backend Development. Trigg... | jeremylongshore |
 | [bgpt-paper-search](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/bgpt-paper-search) | Search scientific papers and retrieve structured experimental data extracted from full-text studi... | K-Dense-AI |
 | [build-mcpb](https://github.com/anthropics/claude-plugins-official/tree/main/plugins/mcp-server-dev/skills/build-mcpb) | This skill should be used when the user wants to "package an MCP server", "bundle an MCP", "make ... | anthropics |
+| [bulk-rnaseq](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/bulk-rnaseq) | End-to-end bulk RNA-seq orchestrator — takes raw FASTQ reads through QC and trimming (FastQC, fas... | K-Dense-AI |
 | [canva-policy-guardrails](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/canva-pack/skills/canva-policy-guardrails) | Implement Canva Connect API lint rules, policy enforcement, and automated guardrails. Use when se... | jeremylongshore |
 | [canva-policy-guardrails](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/canva-pack/skills/canva-policy-guardrails) | Implement Canva Connect API lint rules, policy enforcement, and automated guardrails. Use when se... | jeremylongshore |
 | [cellxgene-census](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/cellxgene-census) | Query the CELLxGENE Census (61M+ cells) programmatically. Use when you need expression data acros... | K-Dense-AI |
