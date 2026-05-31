@@ -2,9 +2,9 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4453 skills
+- [Backend Development](#backend-development) - 4454 skills
   - [APIs & REST](#apis-and-rest) - 2643 skills
-  - [Database Design](#database-design) - 1308 skills
+  - [Database Design](#database-design) - 1309 skills
   - [Request Handling](#request-handling) - 263 skills
   - [Web Frameworks](#web-frameworks) - 173 skills
   - [Authentication](#authentication) - 22 skills
@@ -27,14 +27,14 @@
   - [Data Science](#data-science) - 12 skills
   - [Business Intelligence](#business-intelligence) - 4 skills
   - [Time Series](#time-series) - 2 skills
-- [AI & LLM](#ai-and-llm) - 736 skills
+- [AI & LLM](#ai-and-llm) - 737 skills
 - [Tools & Utilities](#tools-and-utilities) - 632 skills
 - [Frontend Development](#frontend-development) - 556 skills
 - [Version Control & Collaboration](#version-control-and-collaboration) - 546 skills
 - [Testing & Quality](#testing-and-quality) - 346 skills
-- [Machine Learning](#machine-learning) - 328 skills
+- [Machine Learning](#machine-learning) - 329 skills
   - [Model Training](#model-training) - 206 skills
-  - [Hyperparameter Tuning](#hyperparameter-tuning) - 70 skills
+  - [Hyperparameter Tuning](#hyperparameter-tuning) - 71 skills
   - [Model Evaluation](#model-evaluation) - 22 skills
   - [Feature Engineering](#feature-engineering) - 20 skills
   - [Model Deployment](#model-deployment) - 10 skills
@@ -46,7 +46,7 @@
 <a name="backend-development"></a>
 # Backend Development
 
-*4453 skills in this domain*
+*4454 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
@@ -2700,7 +2700,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1308 skills*
+*1309 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -3024,6 +3024,7 @@
 | [distributed-tracing](https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/distributed-tracing) | Implement distributed tracing with Jaeger and Tempo to track requests across microservices and identify performance b... | wshobson |
 | [dnanexus-integration](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/dnanexus-integration) | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, ... | K-Dense-AI |
 | [dnanexus-integration](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/dnanexus-integration) | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python SDK, run workflows, ... | davila7 |
+| [doc2math](https://github.com/thebrierfox/doc2math-skill/tree/main) | Convert any narrative document to a formal Mathematical Problem Specification (MPS) — activate when user provides a r... | thebrierfox |
 | [docs-seeker](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/docs-seeker) | Searching internet for technical documentation using llms.txt standard, GitHub repositories via Repomix, and parallel... | mrgoonie |
 | [documenso-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-debug-bundle) | Comprehensive debugging toolkit for Documenso integrations. Use when troubleshooting complex issues, gathering diagno... | jeremylongshore |
 | [documenso-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-debug-bundle) | Comprehensive debugging toolkit for Documenso integrations. Use when troubleshooting complex issues, gathering diagno... | jeremylongshore |
@@ -6288,7 +6289,7 @@
 <a name="ai-and-llm"></a>
 # AI & LLM
 
-*736 skills in this domain*
+*737 skills in this domain*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -6723,6 +6724,7 @@
 | [mistral-core-workflow-a](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/mistral-pack/skills/mistral-core-workflow-a) | Execute Mistral AI chat completions with streaming, multi-turn, and guardrails. Use when implementing chat interfaces... | jeremylongshore |
 | [mistral-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/mistral-pack/skills/mistral-sdk-patterns) | Apply production-ready Mistral AI SDK patterns for TypeScript and Python. Use when implementing Mistral integrations,... | jeremylongshore |
 | [mistral-sdk-patterns](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/mistral-pack/skills/mistral-sdk-patterns) | Apply production-ready Mistral AI SDK patterns for TypeScript and Python. Use when implementing Mistral integrations,... | jeremylongshore |
+| [moatmri](https://github.com/thebrierfox/moatmri-skill/tree/main) | AI disruption pressure analysis — activate when user asks where AI will break their business first, wants a competiti... | thebrierfox |
 | [modern-javascript-patterns](https://github.com/wshobson/agents/tree/main/plugins/javascript-typescript/skills/modern-javascript-patterns) | Master ES6+ features including async/await, destructuring, spread operators, arrow functions, promises, modules, iter... | wshobson |
 | [monitoring-cross-chain-bridges](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/crypto/cross-chain-bridge-monitor/skills/monitoring-cross-chain-bridges) | Monitor cross-chain bridge TVL, volume, fees, and transaction status across networks. Use when researching bridges, c... | jeremylongshore |
 | [monitoring-cross-chain-bridges](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/crypto/cross-chain-bridge-monitor/skills/monitoring-cross-chain-bridges) | Monitor cross-chain bridge TVL, volume, fees, and transaction status across networks. Use when researching bridges, c... | jeremylongshore |
@@ -9144,7 +9146,7 @@
 <a name="machine-learning"></a>
 # Machine Learning
 
-*328 skills in this domain*
+*329 skills in this domain*
 
 <a name="model-training"></a>
 ## Model Training
@@ -9361,7 +9363,7 @@
 
 <a name="hyperparameter-tuning"></a>
 ## Hyperparameter Tuning
-*70 skills*
+*71 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -9433,6 +9435,7 @@
 | [windsurf-code-completion](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/skill-databases/windsurf/skills/windsurf-code-completion) | Configure and optimize Supercomplete code suggestions. Activate when users mention "code completion", "autocomplete",... | jeremylongshore |
 | [windsurf-license-management](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/skill-databases/windsurf/skills/windsurf-license-management) | Manage Windsurf licenses and seat allocation. Activate when users mention "license management", "seat allocation", "b... | jeremylongshore |
 | [windsurf-license-management](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/skill-databases/windsurf/skills/windsurf-license-management) | Manage Windsurf licenses and seat allocation. Activate when users mention "license management", "seat allocation", "b... | jeremylongshore |
+| [yield-intelligence](https://github.com/thebrierfox/yield-intelligence-skill/tree/main) | Passive income portfolio analysis — activate when user asks about dividend yields, Treasury rates, REIT income, month... | thebrierfox |
 | [yt-packaging](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/productivity/youtube-strategy/skills/yt-packaging) | Create optimized YouTube titles and thumbnail concepts for maximum CTR. Use this skill whenever the user says "title ... | jeremylongshore |
 | [yt-packaging](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/productivity/youtube-strategy/skills/yt-packaging) | Create optimized YouTube titles and thumbnail concepts for maximum CTR. Use this skill whenever the user says "title ... | jeremylongshore |
 

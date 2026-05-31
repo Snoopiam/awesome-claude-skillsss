@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*4453 skills in this domain*
+*4454 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -12,7 +12,7 @@
 ## Table of Contents
 
 - [APIs & REST](#apis-rest) - 2643 skills
-- [Database Design](#database-design) - 1308 skills
+- [Database Design](#database-design) - 1309 skills
 - [Request Handling](#request-handling) - 263 skills
 - [Web Frameworks](#web-frameworks) - 173 skills
 - [Authentication](#authentication) - 22 skills
@@ -2672,7 +2672,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1308 skills*
+*1309 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2996,6 +2996,7 @@
 | [distributed-tracing](https://github.com/wshobson/agents/tree/main/plugins/observability-monitoring/skills/distributed-tracing) | Implement distributed tracing with Jaeger and Tempo to track requests across microservices and id... | wshobson |
 | [dnanexus-integration](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/dnanexus-integration) | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python ... | K-Dense-AI |
 | [dnanexus-integration](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/dnanexus-integration) | DNAnexus cloud genomics platform. Build apps/applets, manage data (upload/download), dxpy Python ... | davila7 |
+| [doc2math](https://github.com/thebrierfox/doc2math-skill/tree/main) | Convert any narrative document to a formal Mathematical Problem Specification (MPS) — activate wh... | thebrierfox |
 | [docs-seeker](https://github.com/mrgoonie/claudekit-skills/tree/main/.claude/skills/docs-seeker) | Searching internet for technical documentation using llms.txt standard, GitHub repositories via R... | mrgoonie |
 | [documenso-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-debug-bundle) | Comprehensive debugging toolkit for Documenso integrations. Use when troubleshooting complex issu... | jeremylongshore |
 | [documenso-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/documenso-pack/skills/documenso-debug-bundle) | Comprehensive debugging toolkit for Documenso integrations. Use when troubleshooting complex issu... | jeremylongshore |
