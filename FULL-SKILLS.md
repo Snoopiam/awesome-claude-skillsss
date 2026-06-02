@@ -2,8 +2,8 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4466 skills
-  - [APIs & REST](#apis-and-rest) - 2651 skills
+- [Backend Development](#backend-development) - 4467 skills
+  - [APIs & REST](#apis-and-rest) - 2652 skills
   - [Database Design](#database-design) - 1311 skills
   - [Request Handling](#request-handling) - 263 skills
   - [Web Frameworks](#web-frameworks) - 175 skills
@@ -46,11 +46,11 @@
 <a name="backend-development"></a>
 # Backend Development
 
-*4466 skills in this domain*
+*4467 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
-*2651 skills*
+*2652 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -2307,6 +2307,7 @@
 | [similarweb_digitalrank_api-automation](https://github.com/ComposioHQ/awesome-claude-skills/tree/master/composio-skills/similarweb_digitalrank_api-automation) | Automate SimilarWeb tasks via Rube MCP (Composio): website traffic, rankings, and digital market intelligence. Always... | ComposioHQ |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use when setting up Sno... | jeremylongshore |
 | [snowflake-webhooks-events](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/snowflake-pack/skills/snowflake-webhooks-events) | Implement Snowflake event-driven patterns with alerts, notifications, and external functions. Use when setting up Sno... | jeremylongshore |
+| [social-publishing](https://github.com/wshobson/agents/tree/main/plugins/social-publishing/skills/social-publishing) | Schedule and publish social media posts across 13 platforms (X, LinkedIn, Instagram, Facebook Pages, TikTok, Discord,... | wshobson |
 | [socialclaw](https://github.com/ndesv21/socialclaw/tree/main/.agents/skills/socialclaw) | Use when a user wants social media scheduling and publishing for AI agents on X, LinkedIn, Instagram, Facebook Pages,... | ndesv21 |
 | [sora](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/video/sora) | Use when the user asks to generate, remix, poll, list, download, or delete Sora videos via OpenAI’s video API using t... | davila7 |
 | [sorting-parameter-handler](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/15-api-development/sorting-parameter-handler) | Manage sorting parameter handler operations. Auto-activating skill for API Development. Triggers on: sorting paramete... | jeremylongshore |
