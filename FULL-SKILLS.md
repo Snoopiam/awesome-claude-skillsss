@@ -2,9 +2,9 @@
 
 ## Complete Contents
 
-- [Backend Development](#backend-development) - 4494 skills
+- [Backend Development](#backend-development) - 4495 skills
   - [APIs & REST](#apis-and-rest) - 2653 skills
-  - [Database Design](#database-design) - 1327 skills
+  - [Database Design](#database-design) - 1328 skills
   - [Request Handling](#request-handling) - 270 skills
   - [Web Frameworks](#web-frameworks) - 176 skills
   - [Authentication](#authentication) - 22 skills
@@ -46,7 +46,7 @@
 <a name="backend-development"></a>
 # Backend Development
 
-*4494 skills in this domain*
+*4495 skills in this domain*
 
 <a name="apis-and-rest"></a>
 ## APIs & REST
@@ -2710,7 +2710,7 @@
 
 <a name="database-design"></a>
 ## Database Design
-*1327 skills*
+*1328 skills*
 
 | Skill | Description | Author |
 | --- | --- | --- |
@@ -3971,6 +3971,7 @@
 | [treatment-plans](https://github.com/davila7/claude-code-templates/tree/main/cli-tool/components/skills/scientific/treatment-plans) | Generate concise (3-4 page), focused medical treatment plans in LaTeX/PDF format for all clinical specialties. Suppor... | davila7 |
 | [triage-display](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/mcp/x-bug-triage/skills/triage-display) | Internal process for the triage-summarizer agent. Defines the step-by-step procedure for formatting triage results as... | jeremylongshore |
 | [triage-display](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/mcp/x-bug-triage/skills/triage-display) | Internal process for the triage-summarizer agent. Defines the step-by-step procedure for formatting triage results as... | jeremylongshore |
+| [trl-training](https://github.com/huggingface/skills/tree/main/skills/trl-training) | Train and fine-tune transformer language models using TRL (Transformers Reinforcement Learning). Supports SFT, DPO, G... | huggingface |
 | [tuning-hyperparameters](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-ml/hyperparameter-tuner/skills/tuning-hyperparameters) | Optimize machine learning model hyperparameters using grid search, random search, or Bayesian optimization. Finds bes... | jeremylongshore |
 | [tuning-hyperparameters](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/ai-ml/hyperparameter-tuner/skills/tuning-hyperparameters) | Optimize machine learning model hyperparameters using grid search, random search, or Bayesian optimization. Finds bes... | jeremylongshore |
 | [twinmind-debug-bundle](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/twinmind-pack/skills/twinmind-debug-bundle) | Collect comprehensive diagnostic information for TwinMind issues. Use when preparing support requests, investigating ... | jeremylongshore |
