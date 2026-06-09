@@ -2,7 +2,7 @@
 
 [← Back to Main README](../README.md)
 
-*567 skills in this domain*
+*568 skills in this domain*
 
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-skills)](https://github.com/Chat2AnyLLM/awesome-claude-skills)
 [![GitHub stars](https://img.shields.io/github/stars/Chat2AnyLLM/awesome-claude-agents)](https://github.com/Chat2AnyLLM/awesome-claude-agents)
@@ -339,6 +339,7 @@
 | [perplexity-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/saas-packs/perplexity-pack/skills/perplexity-architecture-variants) | Choose and implement Perplexity architecture blueprints for different scales: direct search widge... | jeremylongshore |
 | [perplexity-architecture-variants](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/plugins/saas-packs/perplexity-pack/skills/perplexity-architecture-variants) | Choose and implement Perplexity architecture blueprints for different scales: direct search widge... | jeremylongshore |
 | [php-pro](https://github.com/Jeffallan/claude-skills/tree/main/skills/php-pro) | Use when building PHP applications with modern PHP 8.3+ features, Laravel, or Symfony frameworks.... | Jeffallan |
+| [pi-agent](https://github.com/K-Dense-AI/claude-scientific-skills/tree/main/skills/pi-agent) | Build with and use Pi, the minimal terminal coding harness. Use for installing Pi, configuring pr... | K-Dense-AI |
 | [pinia-store-setup](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/skills/05-frontend-dev/pinia-store-setup) | Configure pinia store setup operations. Auto-activating skill for Frontend Development. Triggers ... | jeremylongshore |
 | [pinia-store-setup](https://github.com/jeremylongshore/claude-code-plugins-plus-skills/tree/main/skills/05-frontend-dev/pinia-store-setup) | Configure pinia store setup operations. Auto-activating skill for Frontend Development. Triggers ... | jeremylongshore |
 | [pitch-landing](https://github.com/jeremylongshore/claude-code-plugins-plus/tree/main/plugins/ai-agency/tonone/bundle/marketing-team/skills/pitch-landing) | Use when asked to structure a landing page for positioning, plan a conversion-optimized page layo... | jeremylongshore |
